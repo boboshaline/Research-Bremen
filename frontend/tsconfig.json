@@ -6,6 +6,7 @@
     { "path": "./tsconfig.node.json" }
   ],
   "compilerOptions": {
+    "types":["node"],
     "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths":{
