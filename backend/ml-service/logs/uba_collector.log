@@ -1,0 +1,41 @@
+2026-06-25 12:40:47,883 [INFO] =======================================================
+2026-06-25 12:40:47,883 [INFO] UBA Germany collection started
+2026-06-25 12:40:48,146 [WARNING] [UBA Bremen] No PM2.5 data returned
+2026-06-25 12:40:48,285 [WARNING] [UBA Bremen] No PM10 data returned
+2026-06-25 12:40:48,285 [WARNING] [UBA Bremen] No data retrieved — UBA may be updating. Will retry next cycle.
+2026-06-26 13:37:08,666 [INFO] =======================================================
+2026-06-26 13:37:08,666 [INFO] UBA Germany collection started
+2026-06-26 13:37:08,906 [WARNING] [UBA Bremen] No PM2.5 data returned
+2026-06-26 13:37:09,043 [WARNING] [UBA Bremen] No PM10 data returned
+2026-06-26 13:37:09,043 [WARNING] [UBA Bremen] No data retrieved — UBA may be updating. Will retry next cycle.
+2026-06-26 13:49:32,237 [INFO] =======================================================
+2026-06-26 13:49:32,237 [INFO] UBA Germany collection started
+2026-06-26 13:49:32,238 [INFO] [UBA] Trying station 616 for PM2.5
+2026-06-26 13:49:32,373 [WARNING] [UBA] Station 616 returned no PM2.5 data
+2026-06-26 13:49:32,374 [INFO] [UBA] Trying station 617 for PM2.5
+2026-06-26 13:49:32,514 [WARNING] [UBA] Station 617 returned no PM2.5 data
+2026-06-26 13:49:32,515 [INFO] [UBA] Trying station 619 for PM2.5
+2026-06-26 13:49:32,655 [WARNING] [UBA] Station 619 returned no PM2.5 data
+2026-06-26 13:49:32,656 [INFO] [UBA] Trying station 627 for PM2.5
+2026-06-26 13:49:32,840 [WARNING] [UBA] Station 627 returned no PM2.5 data
+2026-06-26 13:49:32,841 [INFO] [UBA] Trying station 621 for PM2.5
+2026-06-26 13:49:33,049 [WARNING] [UBA] Station 621 returned no PM2.5 data
+2026-06-26 13:49:33,049 [INFO] [UBA] Trying station 628 for PM2.5
+2026-06-26 13:49:33,216 [WARNING] [UBA] Station 628 returned no PM2.5 data
+2026-06-26 13:49:33,217 [INFO] [UBA] Trying station 616 for PM10
+2026-06-26 13:49:33,356 [INFO] [UBA] Station 616 PM10 = 16.0 µg/m³ at 2026-06-25 11:00:00
+2026-06-26 13:49:33,357 [INFO] [UBA] Got PM10 from station 616
+2026-06-26 13:49:34,290 [INFO] [DB] UBA inserted: PM2.5=None  PM10=16.0
+2026-06-26 13:49:34,292 [INFO] UBA collection complete
+2026-06-26 13:49:34,292 [INFO] =======================================================
+2026-06-26 13:55:44,524 [INFO] =======================================================
+2026-06-26 13:55:44,524 [INFO] UBA Germany collection started
+2026-06-26 13:55:44,524 [INFO] [UBA] Trying station 616 for PM2.5
+2026-06-26 13:55:44,692 [INFO] [UBA] Station 616 PM2.5 (scope=2) = 11.0 µg/m³ at 2026-06-26 09:00:00
+2026-06-26 13:55:44,693 [INFO] [UBA] PM2.5 = 11.0 µg/m³ (station=616, scope=2)
+2026-06-26 13:55:44,693 [INFO] [UBA] Trying station 616 for PM10
+2026-06-26 13:55:44,858 [INFO] [UBA] Station 616 PM10 (scope=1) = 16.0 µg/m³ at 2026-06-25 11:00:00
+2026-06-26 13:55:44,860 [INFO] [UBA] PM10 = 16.0 µg/m³ (station=616, scope=1)
+2026-06-26 13:55:45,958 [INFO] [DB] UBA inserted: PM2.5=11.0  PM10=16.0
+2026-06-26 13:55:45,959 [INFO] UBA collection complete
+2026-06-26 13:55:45,959 [INFO] =======================================================

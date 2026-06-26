@@ -1,0 +1,882 @@
+2026-06-25 13:26:20,884 [INFO] 
+=======================================================
+2026-06-25 13:26:20,884 [INFO] Preprocessing pipeline started: 2026-06-25 10:26 UTC
+2026-06-25 13:26:21,990 [ERROR] Failed to load data: syntax error at or near "FROM"
+LINE 11:         FROM sensor_data
+                 ^
+
+2026-06-25 13:26:22,000 [WARNING] No data found — is the collector running?
+2026-06-25 13:34:38,185 [INFO] 
+=======================================================
+2026-06-25 13:34:38,185 [INFO] Preprocessing pipeline started: 2026-06-25 10:34 UTC
+2026-06-25 13:34:39,041 [ERROR] Failed to load data: column "timestamp" does not exist
+LINE 12:         WHERE timestamp >= NOW() - INTERVAL '48 hours'
+                       ^
+
+2026-06-25 13:34:39,043 [WARNING] No data found — is the collector running?
+2026-06-25 13:35:41,912 [INFO] 
+=======================================================
+2026-06-25 13:35:41,912 [INFO] Preprocessing pipeline started: 2026-06-25 10:35 UTC
+2026-06-25 13:35:42,994 [INFO] Loaded 869 raw readings from last 48 hours
+2026-06-25 13:35:42,997 [INFO] Sources present: ['airqo-lagos-ng', 'airqo-nairobi-ke', 'openaq-bremen-de', 'openaq-lagos-ng', 'openaq-nairobi-ke', 'openmeteo-bremen-de', 'openmeteo-lagos-ng', 'openmeteo-nairobi-ke']
+2026-06-25 13:41:14,184 [INFO] 
+=======================================================
+2026-06-25 13:41:14,184 [INFO] Preprocessing pipeline started: 2026-06-25 10:41 UTC
+2026-06-25 13:41:15,808 [INFO] Loaded 869 raw readings from last 48 hours
+2026-06-25 13:41:15,809 [INFO] Sources present: ['airqo-lagos-ng', 'airqo-nairobi-ke', 'openaq-bremen-de', 'openaq-lagos-ng', 'openaq-nairobi-ke', 'openmeteo-bremen-de', 'openmeteo-lagos-ng', 'openmeteo-nairobi-ke']
+2026-06-25 13:41:42,475 [INFO] 
+=======================================================
+2026-06-25 13:41:42,475 [INFO] Preprocessing pipeline started: 2026-06-25 10:41 UTC
+2026-06-25 13:41:43,626 [INFO] Loaded 869 raw readings from last 48 hours
+2026-06-25 13:41:43,627 [INFO] Sources present: ['airqo-lagos-ng', 'airqo-nairobi-ke', 'openaq-bremen-de', 'openaq-lagos-ng', 'openaq-nairobi-ke', 'openmeteo-bremen-de', 'openmeteo-lagos-ng', 'openmeteo-nairobi-ke']
+2026-06-25 13:46:04,395 [INFO] 
+=======================================================
+2026-06-25 13:46:04,395 [INFO] Preprocessing pipeline started: 2026-06-25 10:46 UTC
+2026-06-25 13:46:05,584 [INFO] Loaded 869 raw readings from last 48 hours
+2026-06-25 13:46:05,584 [INFO] Sources present: ['airqo-lagos-ng', 'airqo-nairobi-ke', 'openaq-bremen-de', 'openaq-lagos-ng', 'openaq-nairobi-ke', 'openmeteo-bremen-de', 'openmeteo-lagos-ng', 'openmeteo-nairobi-ke']
+2026-06-25 13:46:05,586 [INFO] 
+Preprocessing: ('airqo-lagos-ng',) (1 rows)
+2026-06-25 13:46:05,606 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:05,608 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:05,610 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('airqo-lagos-ng',)
+  Total rows: 1
+  PM2.5 missing : 1 (100.0%)
+  PM10  missing : 1 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:46:05,611 [INFO] 
+Preprocessing: ('airqo-nairobi-ke',) (1 rows)
+2026-06-25 13:46:05,616 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:05,617 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:05,618 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('airqo-nairobi-ke',)
+  Total rows: 1
+  PM2.5 missing : 1 (100.0%)
+  PM10  missing : 1 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:46:05,618 [INFO] 
+Preprocessing: ('openaq-bremen-de',) (1 rows)
+2026-06-25 13:46:05,622 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:05,624 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:05,625 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openaq-bremen-de',)
+  Total rows: 1
+  PM2.5 missing : 1 (100.0%)
+  PM10  missing : 1 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:46:05,625 [INFO] 
+Preprocessing: ('openaq-lagos-ng',) (1 rows)
+2026-06-25 13:46:05,628 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:05,629 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:05,630 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openaq-lagos-ng',)
+  Total rows: 1
+  PM2.5 missing : 1 (100.0%)
+  PM10  missing : 1 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:46:05,631 [INFO] 
+Preprocessing: ('openaq-nairobi-ke',) (1 rows)
+2026-06-25 13:46:05,634 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:05,635 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:05,636 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openaq-nairobi-ke',)
+  Total rows: 1
+  PM2.5 missing : 1 (100.0%)
+  PM10  missing : 1 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:46:05,636 [INFO] 
+Preprocessing: ('openmeteo-bremen-de',) (288 rows)
+2026-06-25 13:46:05,642 [INFO] Imputation: 5 values filled, 37 remain (window=6)
+2026-06-25 13:46:05,644 [INFO] Imputation: 5 values filled, 37 remain (window=6)
+2026-06-25 13:46:05,646 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openmeteo-bremen-de',)
+  Total rows: 288
+  PM2.5 missing : 42 (14.6%)
+  PM10  missing : 42 (14.6%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:46:05,646 [INFO] 
+Preprocessing: ('openmeteo-lagos-ng',) (288 rows)
+2026-06-25 13:46:05,648 [INFO] Z-score outliers detected: 6 (threshold=3.0)
+2026-06-25 13:46:05,650 [INFO] Z-score outliers detected: 6 (threshold=3.0)
+2026-06-25 13:46:05,652 [INFO] Imputation: 10 values filled, 40 remain (window=6)
+2026-06-25 13:46:05,653 [INFO] Imputation: 10 values filled, 40 remain (window=6)
+2026-06-25 13:46:05,654 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openmeteo-lagos-ng',)
+  Total rows: 288
+  PM2.5 missing : 50 (17.4%)
+  PM10  missing : 50 (17.4%)
+  PM2.5 outliers: 6
+  PM10  outliers: 6
+─────────────────────────────────────────────
+2026-06-25 13:46:05,654 [INFO] 
+Preprocessing: ('openmeteo-nairobi-ke',) (288 rows)
+2026-06-25 13:46:05,658 [INFO] Imputation: 5 values filled, 35 remain (window=6)
+2026-06-25 13:46:05,660 [INFO] Imputation: 5 values filled, 35 remain (window=6)
+2026-06-25 13:46:05,661 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openmeteo-nairobi-ke',)
+  Total rows: 288
+  PM2.5 missing : 40 (13.9%)
+  PM10  missing : 40 (13.9%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:46:05,661 [INFO] 
+=======================================================
+2026-06-25 13:46:05,661 [INFO] TRIANGULATION COMPARISON
+2026-06-25 13:46:05,662 [INFO] =======================================================
+2026-06-25 13:46:05,662 [INFO] 
+City: Bremen
+2026-06-25 13:46:05,662 [INFO]   Mean PM2.5    Mean PM10
+2026-06-25 13:46:05,662 [INFO] ----------------------------------------------
+2026-06-25 13:46:44,350 [INFO] 
+=======================================================
+2026-06-25 13:46:44,350 [INFO] Preprocessing pipeline started: 2026-06-25 10:46 UTC
+2026-06-25 13:46:46,248 [INFO] Loaded 869 raw readings from last 48 hours
+2026-06-25 13:46:46,249 [INFO] Sources present: ['airqo-lagos-ng', 'airqo-nairobi-ke', 'openaq-bremen-de', 'openaq-lagos-ng', 'openaq-nairobi-ke', 'openmeteo-bremen-de', 'openmeteo-lagos-ng', 'openmeteo-nairobi-ke']
+2026-06-25 13:46:46,251 [INFO] 
+Preprocessing: ('airqo-lagos-ng',) (1 rows)
+2026-06-25 13:46:46,257 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:46,258 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:46,260 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('airqo-lagos-ng',)
+  Total rows: 1
+  PM2.5 missing : 1 (100.0%)
+  PM10  missing : 1 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:46:46,261 [INFO] 
+Preprocessing: ('airqo-nairobi-ke',) (1 rows)
+2026-06-25 13:46:46,266 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:46,268 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:46,270 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('airqo-nairobi-ke',)
+  Total rows: 1
+  PM2.5 missing : 1 (100.0%)
+  PM10  missing : 1 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:46:46,270 [INFO] 
+Preprocessing: ('openaq-bremen-de',) (1 rows)
+2026-06-25 13:46:46,273 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:46,275 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:46,277 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openaq-bremen-de',)
+  Total rows: 1
+  PM2.5 missing : 1 (100.0%)
+  PM10  missing : 1 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:46:46,277 [INFO] 
+Preprocessing: ('openaq-lagos-ng',) (1 rows)
+2026-06-25 13:46:46,282 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:46,283 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:46,284 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openaq-lagos-ng',)
+  Total rows: 1
+  PM2.5 missing : 1 (100.0%)
+  PM10  missing : 1 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:46:46,284 [INFO] 
+Preprocessing: ('openaq-nairobi-ke',) (1 rows)
+2026-06-25 13:46:46,287 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:46,288 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:46:46,289 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openaq-nairobi-ke',)
+  Total rows: 1
+  PM2.5 missing : 1 (100.0%)
+  PM10  missing : 1 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:46:46,289 [INFO] 
+Preprocessing: ('openmeteo-bremen-de',) (288 rows)
+2026-06-25 13:46:46,294 [INFO] Imputation: 5 values filled, 37 remain (window=6)
+2026-06-25 13:46:46,295 [INFO] Imputation: 5 values filled, 37 remain (window=6)
+2026-06-25 13:46:46,296 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openmeteo-bremen-de',)
+  Total rows: 288
+  PM2.5 missing : 42 (14.6%)
+  PM10  missing : 42 (14.6%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:46:46,296 [INFO] 
+Preprocessing: ('openmeteo-lagos-ng',) (288 rows)
+2026-06-25 13:46:46,298 [INFO] Z-score outliers detected: 6 (threshold=3.0)
+2026-06-25 13:46:46,299 [INFO] Z-score outliers detected: 6 (threshold=3.0)
+2026-06-25 13:46:46,302 [INFO] Imputation: 10 values filled, 40 remain (window=6)
+2026-06-25 13:46:46,303 [INFO] Imputation: 10 values filled, 40 remain (window=6)
+2026-06-25 13:46:46,304 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openmeteo-lagos-ng',)
+  Total rows: 288
+  PM2.5 missing : 50 (17.4%)
+  PM10  missing : 50 (17.4%)
+  PM2.5 outliers: 6
+  PM10  outliers: 6
+─────────────────────────────────────────────
+2026-06-25 13:46:46,304 [INFO] 
+Preprocessing: ('openmeteo-nairobi-ke',) (288 rows)
+2026-06-25 13:46:46,309 [INFO] Imputation: 5 values filled, 35 remain (window=6)
+2026-06-25 13:46:46,311 [INFO] Imputation: 5 values filled, 35 remain (window=6)
+2026-06-25 13:46:46,313 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openmeteo-nairobi-ke',)
+  Total rows: 288
+  PM2.5 missing : 40 (13.9%)
+  PM10  missing : 40 (13.9%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:46:46,313 [INFO] 
+=======================================================
+2026-06-25 13:46:46,313 [INFO] TRIANGULATION COMPARISON
+2026-06-25 13:46:46,313 [INFO] =======================================================
+2026-06-25 13:46:46,313 [INFO] 
+City: Bremen
+2026-06-25 13:46:46,313 [INFO]   Mean PM2.5    Mean PM10
+2026-06-25 13:46:46,313 [INFO] ----------------------------------------------
+2026-06-25 13:46:46,314 [INFO]      No data      No data
+2026-06-25 13:46:46,314 [INFO]      No data      No data
+2026-06-25 13:46:46,314 [INFO]      No data      No data
+2026-06-25 13:46:46,315 [INFO]      No data      No data
+2026-06-25 13:46:46,315 [INFO]      No data      No data
+2026-06-25 13:46:46,315 [INFO]        10.25        15.64
+2026-06-25 13:46:46,316 [INFO]        18.74        22.20
+2026-06-25 13:46:46,316 [INFO]        20.47        23.36
+2026-06-25 13:46:46,316 [INFO] 
+City: Nairobi
+2026-06-25 13:46:46,316 [INFO]   Mean PM2.5    Mean PM10
+2026-06-25 13:46:46,316 [INFO] ----------------------------------------------
+2026-06-25 13:46:46,317 [INFO]      No data      No data
+2026-06-25 13:46:46,317 [INFO]      No data      No data
+2026-06-25 13:46:46,317 [INFO]      No data      No data
+2026-06-25 13:46:46,318 [INFO]      No data      No data
+2026-06-25 13:46:46,318 [INFO]      No data      No data
+2026-06-25 13:46:46,318 [INFO]        10.25        15.64
+2026-06-25 13:46:46,319 [INFO]        18.74        22.20
+2026-06-25 13:46:46,319 [INFO]        20.47        23.36
+2026-06-25 13:46:46,319 [INFO] 
+City: Lagos
+2026-06-25 13:46:46,319 [INFO]   Mean PM2.5    Mean PM10
+2026-06-25 13:46:46,319 [INFO] ----------------------------------------------
+2026-06-25 13:46:46,320 [INFO]      No data      No data
+2026-06-25 13:46:46,320 [INFO]      No data      No data
+2026-06-25 13:46:46,320 [INFO]      No data      No data
+2026-06-25 13:46:46,321 [INFO]      No data      No data
+2026-06-25 13:46:46,321 [INFO]      No data      No data
+2026-06-25 13:46:46,321 [INFO]        10.25        15.64
+2026-06-25 13:46:46,321 [INFO]        18.74        22.20
+2026-06-25 13:46:46,322 [INFO]        20.47        23.36
+2026-06-25 13:46:46,322 [INFO] =======================================================
+2026-06-25 13:46:46,322 [INFO] 
+Preprocessing complete. Processed 8 city/source groups.
+2026-06-25 13:59:35,911 [INFO] 
+=======================================================
+2026-06-25 13:59:35,911 [INFO] Preprocessing pipeline started: 2026-06-25 10:59 UTC
+2026-06-25 13:59:37,856 [INFO] Loaded 869 raw readings from last 48 hours
+2026-06-25 13:59:37,856 [INFO] Sources present: ['airqo-lagos-ng', 'airqo-nairobi-ke', 'openaq-bremen-de', 'openaq-lagos-ng', 'openaq-nairobi-ke', 'openmeteo-bremen-de', 'openmeteo-lagos-ng', 'openmeteo-nairobi-ke']
+2026-06-25 13:59:37,858 [INFO] 
+Preprocessing: ('airqo-lagos-ng',) (1 rows)
+2026-06-25 13:59:37,863 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:59:37,865 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:59:37,866 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('airqo-lagos-ng',)
+  Total rows: 1
+  PM2.5 missing : 1 (100.0%)
+  PM10  missing : 1 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:59:37,867 [INFO] 
+Preprocessing: ('airqo-nairobi-ke',) (1 rows)
+2026-06-25 13:59:37,873 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:59:37,874 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:59:37,875 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('airqo-nairobi-ke',)
+  Total rows: 1
+  PM2.5 missing : 1 (100.0%)
+  PM10  missing : 1 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:59:37,875 [INFO] 
+Preprocessing: ('openaq-bremen-de',) (1 rows)
+2026-06-25 13:59:37,879 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:59:37,880 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:59:37,881 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openaq-bremen-de',)
+  Total rows: 1
+  PM2.5 missing : 1 (100.0%)
+  PM10  missing : 1 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:59:37,881 [INFO] 
+Preprocessing: ('openaq-lagos-ng',) (1 rows)
+2026-06-25 13:59:37,884 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:59:37,885 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:59:37,886 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openaq-lagos-ng',)
+  Total rows: 1
+  PM2.5 missing : 1 (100.0%)
+  PM10  missing : 1 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:59:37,887 [INFO] 
+Preprocessing: ('openaq-nairobi-ke',) (1 rows)
+2026-06-25 13:59:37,890 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:59:37,891 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-25 13:59:37,892 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openaq-nairobi-ke',)
+  Total rows: 1
+  PM2.5 missing : 1 (100.0%)
+  PM10  missing : 1 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:59:37,892 [INFO] 
+Preprocessing: ('openmeteo-bremen-de',) (288 rows)
+2026-06-25 13:59:37,898 [INFO] Imputation: 5 values filled, 37 remain (window=6)
+2026-06-25 13:59:37,900 [INFO] Imputation: 5 values filled, 37 remain (window=6)
+2026-06-25 13:59:37,901 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openmeteo-bremen-de',)
+  Total rows: 288
+  PM2.5 missing : 42 (14.6%)
+  PM10  missing : 42 (14.6%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:59:37,901 [INFO] 
+Preprocessing: ('openmeteo-lagos-ng',) (288 rows)
+2026-06-25 13:59:37,904 [INFO] Z-score outliers detected: 6 (threshold=3.0)
+2026-06-25 13:59:37,906 [INFO] Z-score outliers detected: 6 (threshold=3.0)
+2026-06-25 13:59:37,907 [INFO] Imputation: 10 values filled, 40 remain (window=6)
+2026-06-25 13:59:37,909 [INFO] Imputation: 10 values filled, 40 remain (window=6)
+2026-06-25 13:59:37,910 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openmeteo-lagos-ng',)
+  Total rows: 288
+  PM2.5 missing : 50 (17.4%)
+  PM10  missing : 50 (17.4%)
+  PM2.5 outliers: 6
+  PM10  outliers: 6
+─────────────────────────────────────────────
+2026-06-25 13:59:37,910 [INFO] 
+Preprocessing: ('openmeteo-nairobi-ke',) (288 rows)
+2026-06-25 13:59:37,915 [INFO] Imputation: 5 values filled, 35 remain (window=6)
+2026-06-25 13:59:37,916 [INFO] Imputation: 5 values filled, 35 remain (window=6)
+2026-06-25 13:59:37,918 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openmeteo-nairobi-ke',)
+  Total rows: 288
+  PM2.5 missing : 40 (13.9%)
+  PM10  missing : 40 (13.9%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-25 13:59:37,918 [INFO] 
+=======================================================
+2026-06-25 13:59:37,918 [INFO] TRIANGULATION COMPARISON
+2026-06-25 13:59:37,918 [INFO] =======================================================
+2026-06-25 13:59:37,918 [INFO]   Mean PM2.5    Mean PM10
+2026-06-25 13:59:37,918 [INFO] ----------------------------------------------
+2026-06-25 13:59:37,919 [INFO]      No data      No data
+2026-06-25 13:59:37,919 [INFO]   Mean PM2.5    Mean PM10
+2026-06-25 13:59:37,919 [INFO] ----------------------------------------------
+2026-06-25 13:59:37,920 [INFO]      No data      No data
+2026-06-25 13:59:37,920 [INFO]   Mean PM2.5    Mean PM10
+2026-06-25 13:59:37,920 [INFO] ----------------------------------------------
+2026-06-25 13:59:37,921 [INFO]      No data      No data
+2026-06-25 13:59:37,921 [INFO]   Mean PM2.5    Mean PM10
+2026-06-25 13:59:37,921 [INFO] ----------------------------------------------
+2026-06-25 13:59:37,921 [INFO]      No data      No data
+2026-06-25 13:59:37,921 [INFO]   Mean PM2.5    Mean PM10
+2026-06-25 13:59:37,921 [INFO] ----------------------------------------------
+2026-06-25 13:59:37,922 [INFO]      No data      No data
+2026-06-25 13:59:37,922 [INFO]   Mean PM2.5    Mean PM10
+2026-06-25 13:59:37,922 [INFO] ----------------------------------------------
+2026-06-25 13:59:37,922 [INFO]        10.25        15.64
+2026-06-25 13:59:37,922 [INFO]   Mean PM2.5    Mean PM10
+2026-06-25 13:59:37,922 [INFO] ----------------------------------------------
+2026-06-25 13:59:37,922 [INFO]        18.74        22.20
+2026-06-25 13:59:37,923 [INFO]   Mean PM2.5    Mean PM10
+2026-06-25 13:59:37,923 [INFO] ----------------------------------------------
+2026-06-25 13:59:37,923 [INFO]        20.47        23.36
+2026-06-25 13:59:37,923 [INFO] =======================================================
+2026-06-25 13:59:37,923 [INFO] 
+Preprocessing complete. Processed 8 city/source groups.
+2026-06-26 14:07:12,916 [INFO] 
+=======================================================
+2026-06-26 14:07:12,917 [INFO] Preprocessing pipeline started: 2026-06-26 11:07 UTC
+2026-06-26 14:07:14,133 [INFO] Loaded 870 raw readings from last 48 hours
+2026-06-26 14:07:14,139 [INFO] Sources present: ['airqo-accra-gh', 'airqo-lagos-ng', 'airqo-nairobi-ke', 'airqo-uganda-ug', 'openaq-accra-gh', 'openaq-bremen-de', 'openaq-kampala-ug', 'openaq-lagos-ng', 'openaq-nairobi-ke', 'openmeteo-bremen-de', 'openmeteo-lagos-ng', 'openmeteo-nairobi-ke', 'uba-bremen-reference']
+2026-06-26 14:07:14,147 [INFO] 
+Preprocessing: ('airqo-accra-gh',) (3 rows)
+2026-06-26 14:07:14,152 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-26 14:07:14,153 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-26 14:07:14,155 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('airqo-accra-gh',)
+  Total rows: 3
+  PM2.5 missing : 1 (33.3%)
+  PM10  missing : 1 (33.3%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:07:14,155 [INFO] 
+Preprocessing: ('airqo-lagos-ng',) (20 rows)
+2026-06-26 14:07:14,161 [INFO] Imputation: 2 values filled, 11 remain (window=6)
+2026-06-26 14:07:14,165 [INFO] Imputation: 2 values filled, 11 remain (window=6)
+2026-06-26 14:07:14,166 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('airqo-lagos-ng',)
+  Total rows: 20
+  PM2.5 missing : 13 (65.0%)
+  PM10  missing : 13 (65.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:07:14,167 [INFO] 
+Preprocessing: ('airqo-nairobi-ke',) (20 rows)
+2026-06-26 14:07:14,172 [INFO] Imputation: 5 values filled, 11 remain (window=6)
+2026-06-26 14:07:14,174 [INFO] Imputation: 5 values filled, 11 remain (window=6)
+2026-06-26 14:07:14,176 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('airqo-nairobi-ke',)
+  Total rows: 20
+  PM2.5 missing : 16 (80.0%)
+  PM10  missing : 16 (80.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:07:14,176 [INFO] 
+Preprocessing: ('airqo-uganda-ug',) (3 rows)
+2026-06-26 14:07:14,179 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-26 14:07:14,181 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-26 14:07:14,182 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('airqo-uganda-ug',)
+  Total rows: 3
+  PM2.5 missing : 1 (33.3%)
+  PM10  missing : 1 (33.3%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:07:14,182 [INFO] 
+Preprocessing: ('openaq-accra-gh',) (3 rows)
+2026-06-26 14:07:14,185 [INFO] Imputation: 0 values filled, 3 remain (window=6)
+2026-06-26 14:07:14,186 [INFO] Imputation: 0 values filled, 3 remain (window=6)
+2026-06-26 14:07:14,187 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openaq-accra-gh',)
+  Total rows: 3
+  PM2.5 missing : 3 (100.0%)
+  PM10  missing : 3 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:07:14,188 [INFO] 
+Preprocessing: ('openaq-bremen-de',) (8 rows)
+2026-06-26 14:07:14,192 [INFO] Imputation: 0 values filled, 4 remain (window=6)
+2026-06-26 14:07:14,194 [INFO] Imputation: 0 values filled, 4 remain (window=6)
+2026-06-26 14:07:14,196 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openaq-bremen-de',)
+  Total rows: 8
+  PM2.5 missing : 4 (50.0%)
+  PM10  missing : 4 (50.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:07:14,197 [INFO] 
+Preprocessing: ('openaq-kampala-ug',) (3 rows)
+2026-06-26 14:07:14,201 [INFO] Imputation: 0 values filled, 3 remain (window=6)
+2026-06-26 14:07:14,203 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openaq-kampala-ug',)
+  Total rows: 3
+  PM2.5 missing : 0 (0.0%)
+  PM10  missing : 3 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:07:14,203 [INFO] 
+Preprocessing: ('openaq-lagos-ng',) (8 rows)
+2026-06-26 14:07:14,209 [INFO] Imputation: 0 values filled, 4 remain (window=6)
+2026-06-26 14:07:14,211 [INFO] Imputation: 0 values filled, 8 remain (window=6)
+2026-06-26 14:07:14,212 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openaq-lagos-ng',)
+  Total rows: 8
+  PM2.5 missing : 4 (50.0%)
+  PM10  missing : 8 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:07:14,212 [INFO] 
+Preprocessing: ('openaq-nairobi-ke',) (8 rows)
+2026-06-26 14:07:14,215 [INFO] Imputation: 0 values filled, 4 remain (window=6)
+2026-06-26 14:07:14,216 [INFO] Imputation: 0 values filled, 4 remain (window=6)
+2026-06-26 14:07:14,217 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openaq-nairobi-ke',)
+  Total rows: 8
+  PM2.5 missing : 4 (50.0%)
+  PM10  missing : 4 (50.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:07:14,218 [INFO] 
+Preprocessing: ('openmeteo-bremen-de',) (264 rows)
+2026-06-26 14:07:14,222 [INFO] Imputation: 5 values filled, 37 remain (window=6)
+2026-06-26 14:07:14,223 [INFO] Imputation: 5 values filled, 37 remain (window=6)
+2026-06-26 14:07:14,224 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openmeteo-bremen-de',)
+  Total rows: 264
+  PM2.5 missing : 42 (15.9%)
+  PM10  missing : 42 (15.9%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:07:14,225 [INFO] 
+Preprocessing: ('openmeteo-lagos-ng',) (264 rows)
+2026-06-26 14:07:14,229 [INFO] Z-score outliers detected: 6 (threshold=3.0)
+2026-06-26 14:07:14,231 [INFO] Z-score outliers detected: 6 (threshold=3.0)
+2026-06-26 14:07:14,233 [INFO] Imputation: 10 values filled, 40 remain (window=6)
+2026-06-26 14:07:14,235 [INFO] Imputation: 10 values filled, 40 remain (window=6)
+2026-06-26 14:07:14,237 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openmeteo-lagos-ng',)
+  Total rows: 264
+  PM2.5 missing : 50 (18.9%)
+  PM10  missing : 50 (18.9%)
+  PM2.5 outliers: 6
+  PM10  outliers: 6
+─────────────────────────────────────────────
+2026-06-26 14:07:14,237 [INFO] 
+Preprocessing: ('openmeteo-nairobi-ke',) (264 rows)
+2026-06-26 14:07:14,243 [INFO] Imputation: 5 values filled, 35 remain (window=6)
+2026-06-26 14:07:14,244 [INFO] Imputation: 5 values filled, 35 remain (window=6)
+2026-06-26 14:07:14,245 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('openmeteo-nairobi-ke',)
+  Total rows: 264
+  PM2.5 missing : 40 (15.2%)
+  PM10  missing : 40 (15.2%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:07:14,245 [INFO] 
+Preprocessing: ('uba-bremen-reference',) (2 rows)
+2026-06-26 14:07:14,248 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-26 14:07:14,250 [INFO] 
+─────────────────────────────────────────────
+  Group     : ('uba-bremen-reference',)
+  Total rows: 2
+  PM2.5 missing : 1 (50.0%)
+  PM10  missing : 0 (0.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:07:14,250 [INFO] 
+=======================================================
+2026-06-26 14:07:14,250 [INFO] TRIANGULATION COMPARISON
+2026-06-26 14:07:14,250 [INFO] =======================================================
+2026-06-26 14:07:14,250 [INFO]   Mean PM2.5    Mean PM10
+2026-06-26 14:07:14,250 [INFO] ----------------------------------------------
+2026-06-26 14:07:14,251 [INFO]        23.48        31.14
+2026-06-26 14:07:14,251 [INFO]   Mean PM2.5    Mean PM10
+2026-06-26 14:07:14,251 [INFO] ----------------------------------------------
+2026-06-26 14:07:14,251 [INFO]        30.27        37.42
+2026-06-26 14:07:14,251 [INFO]   Mean PM2.5    Mean PM10
+2026-06-26 14:07:14,251 [INFO] ----------------------------------------------
+2026-06-26 14:07:14,252 [INFO]        22.07        25.81
+2026-06-26 14:07:14,252 [INFO]   Mean PM2.5    Mean PM10
+2026-06-26 14:07:14,252 [INFO] ----------------------------------------------
+2026-06-26 14:07:14,252 [INFO]        38.32        45.02
+2026-06-26 14:07:14,252 [INFO]   Mean PM2.5    Mean PM10
+2026-06-26 14:07:14,252 [INFO] ----------------------------------------------
+2026-06-26 14:07:14,253 [INFO]      No data      No data
+2026-06-26 14:07:14,253 [INFO]   Mean PM2.5    Mean PM10
+2026-06-26 14:07:14,253 [INFO] ----------------------------------------------
+2026-06-26 14:07:14,253 [INFO]        21.36        17.21
+2026-06-26 14:07:14,253 [INFO]   Mean PM2.5    Mean PM10
+2026-06-26 14:07:14,253 [INFO] ----------------------------------------------
+2026-06-26 14:07:14,253 [INFO]        44.10      No data
+2026-06-26 14:07:14,254 [INFO]   Mean PM2.5    Mean PM10
+2026-06-26 14:07:14,254 [INFO] ----------------------------------------------
+2026-06-26 14:07:14,254 [INFO]        32.40      No data
+2026-06-26 14:07:14,254 [INFO]   Mean PM2.5    Mean PM10
+2026-06-26 14:07:14,254 [INFO] ----------------------------------------------
+2026-06-26 14:07:14,254 [INFO]         5.20         8.00
+2026-06-26 14:07:14,254 [INFO]   Mean PM2.5    Mean PM10
+2026-06-26 14:07:14,255 [INFO] ----------------------------------------------
+2026-06-26 14:07:14,255 [INFO]        10.56        16.18
+2026-06-26 14:07:14,255 [INFO]   Mean PM2.5    Mean PM10
+2026-06-26 14:07:14,255 [INFO] ----------------------------------------------
+2026-06-26 14:07:14,255 [INFO]        18.75        22.28
+2026-06-26 14:07:14,255 [INFO]   Mean PM2.5    Mean PM10
+2026-06-26 14:07:14,255 [INFO] ----------------------------------------------
+2026-06-26 14:07:14,256 [INFO]        19.59        22.06
+2026-06-26 14:07:14,256 [INFO]   Mean PM2.5    Mean PM10
+2026-06-26 14:07:14,256 [INFO] ----------------------------------------------
+2026-06-26 14:07:14,256 [INFO]        11.00        16.00
+2026-06-26 14:07:14,256 [INFO] =======================================================
+2026-06-26 14:07:14,256 [INFO] 
+Preprocessing complete. Processed 13 city/source groups.
+2026-06-26 14:23:18,531 [INFO] 
+=======================================================
+2026-06-26 14:23:18,531 [INFO] Preprocessing pipeline started: 2026-06-26 11:23 UTC
+2026-06-26 14:23:20,386 [INFO] Loaded 366 raw readings from last 48 hours (future rows excluded)
+2026-06-26 14:23:20,388 [INFO] Sources present: ['airqo-accra-gh', 'airqo-lagos-ng', 'airqo-nairobi-ke', 'airqo-uganda-ug', 'openaq-accra-gh', 'openaq-bremen-de', 'openaq-kampala-ug', 'openaq-lagos-ng', 'openaq-nairobi-ke', 'openmeteo-bremen-de', 'openmeteo-lagos-ng', 'openmeteo-nairobi-ke', 'uba-bremen-reference']
+2026-06-26 14:23:20,390 [INFO] 
+Preprocessing: airqo-accra-gh (3 rows)
+2026-06-26 14:23:20,399 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-26 14:23:20,400 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-26 14:23:20,401 [INFO] 
+─────────────────────────────────────────────
+  Group     : airqo-accra-gh
+  Total rows: 3
+  PM2.5 missing : 1 (33.3%)
+  PM10  missing : 1 (33.3%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:23:20,402 [INFO] 
+Preprocessing: airqo-lagos-ng (20 rows)
+2026-06-26 14:23:20,409 [INFO] Imputation: 2 values filled, 11 remain (window=6)
+2026-06-26 14:23:20,410 [INFO] Imputation: 2 values filled, 11 remain (window=6)
+2026-06-26 14:23:20,411 [INFO] 
+─────────────────────────────────────────────
+  Group     : airqo-lagos-ng
+  Total rows: 20
+  PM2.5 missing : 13 (65.0%)
+  PM10  missing : 13 (65.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:23:20,411 [INFO] 
+Preprocessing: airqo-nairobi-ke (20 rows)
+2026-06-26 14:23:20,421 [INFO] Imputation: 5 values filled, 11 remain (window=6)
+2026-06-26 14:23:20,423 [INFO] Imputation: 5 values filled, 11 remain (window=6)
+2026-06-26 14:23:20,424 [INFO] 
+─────────────────────────────────────────────
+  Group     : airqo-nairobi-ke
+  Total rows: 20
+  PM2.5 missing : 16 (80.0%)
+  PM10  missing : 16 (80.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:23:20,424 [INFO] 
+Preprocessing: airqo-uganda-ug (3 rows)
+2026-06-26 14:23:20,428 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-26 14:23:20,429 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-26 14:23:20,430 [INFO] 
+─────────────────────────────────────────────
+  Group     : airqo-uganda-ug
+  Total rows: 3
+  PM2.5 missing : 1 (33.3%)
+  PM10  missing : 1 (33.3%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:23:20,430 [INFO] 
+Preprocessing: openaq-accra-gh (3 rows)
+2026-06-26 14:23:20,436 [INFO] Imputation: 0 values filled, 3 remain (window=6)
+2026-06-26 14:23:20,438 [INFO] Imputation: 0 values filled, 3 remain (window=6)
+2026-06-26 14:23:20,439 [INFO] 
+─────────────────────────────────────────────
+  Group     : openaq-accra-gh
+  Total rows: 3
+  PM2.5 missing : 3 (100.0%)
+  PM10  missing : 3 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:23:20,439 [INFO] 
+Preprocessing: openaq-bremen-de (8 rows)
+2026-06-26 14:23:20,445 [INFO] Imputation: 0 values filled, 4 remain (window=6)
+2026-06-26 14:23:20,447 [INFO] Imputation: 0 values filled, 4 remain (window=6)
+2026-06-26 14:23:20,449 [INFO] 
+─────────────────────────────────────────────
+  Group     : openaq-bremen-de
+  Total rows: 8
+  PM2.5 missing : 4 (50.0%)
+  PM10  missing : 4 (50.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:23:20,449 [INFO] 
+Preprocessing: openaq-kampala-ug (3 rows)
+2026-06-26 14:23:20,457 [INFO] Imputation: 0 values filled, 3 remain (window=6)
+2026-06-26 14:23:20,458 [INFO] 
+─────────────────────────────────────────────
+  Group     : openaq-kampala-ug
+  Total rows: 3
+  PM2.5 missing : 0 (0.0%)
+  PM10  missing : 3 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:23:20,458 [INFO] 
+Preprocessing: openaq-lagos-ng (8 rows)
+2026-06-26 14:23:20,463 [INFO] Imputation: 0 values filled, 4 remain (window=6)
+2026-06-26 14:23:20,464 [INFO] Imputation: 0 values filled, 8 remain (window=6)
+2026-06-26 14:23:20,465 [INFO] 
+─────────────────────────────────────────────
+  Group     : openaq-lagos-ng
+  Total rows: 8
+  PM2.5 missing : 4 (50.0%)
+  PM10  missing : 8 (100.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:23:20,465 [INFO] 
+Preprocessing: openaq-nairobi-ke (8 rows)
+2026-06-26 14:23:20,473 [INFO] Imputation: 0 values filled, 4 remain (window=6)
+2026-06-26 14:23:20,474 [INFO] Imputation: 0 values filled, 4 remain (window=6)
+2026-06-26 14:23:20,475 [INFO] 
+─────────────────────────────────────────────
+  Group     : openaq-nairobi-ke
+  Total rows: 8
+  PM2.5 missing : 4 (50.0%)
+  PM10  missing : 4 (50.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:23:20,476 [INFO] 
+Preprocessing: openmeteo-bremen-de (96 rows)
+2026-06-26 14:23:20,480 [WARNING] openmeteo-bremen-de: removed 48 duplicate (time, device_id) rows
+2026-06-26 14:23:20,482 [INFO] Rolling Z-score outliers detected: 2 (window=24, threshold=3.0)
+2026-06-26 14:23:20,487 [INFO] Imputation: 2 values filled, 0 remain (window=6)
+2026-06-26 14:23:20,489 [INFO] 
+─────────────────────────────────────────────
+  Group     : openmeteo-bremen-de
+  Total rows: 48
+  PM2.5 missing : 2 (4.2%)
+  PM10  missing : 0 (0.0%)
+  PM2.5 outliers: 2
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:23:20,489 [INFO] 
+Preprocessing: openmeteo-lagos-ng (96 rows)
+2026-06-26 14:23:20,491 [WARNING] openmeteo-lagos-ng: removed 48 duplicate (time, device_id) rows
+2026-06-26 14:23:20,496 [INFO] 
+─────────────────────────────────────────────
+  Group     : openmeteo-lagos-ng
+  Total rows: 48
+  PM2.5 missing : 0 (0.0%)
+  PM10  missing : 0 (0.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:23:20,496 [INFO] 
+Preprocessing: openmeteo-nairobi-ke (96 rows)
+2026-06-26 14:23:20,498 [WARNING] openmeteo-nairobi-ke: removed 48 duplicate (time, device_id) rows
+2026-06-26 14:23:20,503 [INFO] 
+─────────────────────────────────────────────
+  Group     : openmeteo-nairobi-ke
+  Total rows: 48
+  PM2.5 missing : 0 (0.0%)
+  PM10  missing : 0 (0.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:23:20,504 [INFO] 
+Preprocessing: uba-bremen-reference (2 rows)
+2026-06-26 14:23:20,511 [INFO] Imputation: 0 values filled, 1 remain (window=6)
+2026-06-26 14:23:20,513 [INFO] 
+─────────────────────────────────────────────
+  Group     : uba-bremen-reference
+  Total rows: 2
+  PM2.5 missing : 1 (50.0%)
+  PM10  missing : 0 (0.0%)
+  PM2.5 outliers: 0
+  PM10  outliers: 0
+─────────────────────────────────────────────
+2026-06-26 14:23:20,513 [INFO] 
+=================================================================
+2026-06-26 14:23:20,513 [INFO] TRIANGULATION COMPARISON
+2026-06-26 14:23:20,513 [INFO] =================================================================
+2026-06-26 14:23:20,513 [INFO] 
+City: ACCRA
+2026-06-26 14:23:20,513 [INFO]   Source                            PM2.5     PM10   Rows
+2026-06-26 14:23:20,513 [INFO]   ────────────────────────────────────────────────────────
+2026-06-26 14:23:20,514 [INFO]   airqo-accra-gh                    23.48    31.14      3
+2026-06-26 14:23:20,514 [INFO]   openaq-accra-gh                 No data  No data      3
+2026-06-26 14:23:20,514 [INFO] 
+City: BREMEN
+2026-06-26 14:23:20,514 [INFO]   Source                            PM2.5     PM10   Rows
+2026-06-26 14:23:20,514 [INFO]   ────────────────────────────────────────────────────────
+2026-06-26 14:23:20,515 [INFO]   openaq-bremen-de                  21.36    17.21      8  (+94% vs UBA)
+2026-06-26 14:23:20,515 [INFO]   openmeteo-bremen-de                7.80    13.01     48  (-29% vs UBA)
+2026-06-26 14:23:20,515 [INFO]   uba-bremen-reference              11.00    16.00      2
+2026-06-26 14:23:20,515 [INFO] 
+City: KAMPALA
+2026-06-26 14:23:20,515 [INFO]   Source                            PM2.5     PM10   Rows
+2026-06-26 14:23:20,515 [INFO]   ────────────────────────────────────────────────────────
+2026-06-26 14:23:20,516 [INFO]   openaq-kampala-ug                 44.10  No data      3
+2026-06-26 14:23:20,516 [INFO] 
+City: LAGOS
+2026-06-26 14:23:20,516 [INFO]   Source                            PM2.5     PM10   Rows
+2026-06-26 14:23:20,516 [INFO]   ────────────────────────────────────────────────────────
+2026-06-26 14:23:20,517 [INFO]   airqo-lagos-ng                    30.27    37.42     20
+2026-06-26 14:23:20,517 [INFO]   openaq-lagos-ng                   32.40  No data      8
+2026-06-26 14:23:20,517 [INFO]   openmeteo-lagos-ng                28.34    31.62     48
+2026-06-26 14:23:20,517 [INFO] 
+City: NAIROBI
+2026-06-26 14:23:20,517 [INFO]   Source                            PM2.5     PM10   Rows
+2026-06-26 14:23:20,517 [INFO]   ────────────────────────────────────────────────────────
+2026-06-26 14:23:20,518 [INFO]   airqo-nairobi-ke                  22.07    25.81     20
+2026-06-26 14:23:20,518 [INFO]   openaq-nairobi-ke                  5.20     8.00      8
+2026-06-26 14:23:20,518 [INFO]   openmeteo-nairobi-ke              20.07    23.39     48
+2026-06-26 14:23:20,518 [INFO] 
+City: UGANDA
+2026-06-26 14:23:20,518 [INFO]   Source                            PM2.5     PM10   Rows
+2026-06-26 14:23:20,519 [INFO]   ────────────────────────────────────────────────────────
+2026-06-26 14:23:20,519 [INFO]   airqo-uganda-ug                   38.32    45.02      3
+2026-06-26 14:23:20,519 [INFO] 
+=================================================================
+2026-06-26 14:23:20,519 [INFO] 
+Preprocessing complete. Processed 13 city/source groups.

@@ -1,0 +1,420 @@
+2026-06-25 12:35:39,087 [ERROR] 
+==================================================
+OpenAQ API key not configured.
+Get your FREE key at: explore.openaq.org
+Then add to your .env file:
+  OPENAQ_API_KEY=your_key_here
+==================================================
+2026-06-25 12:37:22,781 [INFO] =======================================================
+2026-06-25 12:37:22,781 [INFO] OpenAQ v3 collection started: 2026-06-25 09:37 UTC
+2026-06-25 12:37:22,781 [INFO] 
+Processing: Bremen (DE) — role: developed_benchmark
+2026-06-25 12:37:23,245 [ERROR] [Bremen] HTTP error: 422 Client Error: Unprocessable Entity for url: https://api.openaq.org/v3/locations?bbox=8.48%2C52.98%2C9.12%2C53.22&parameters=pm25&parameters=pm10&limit=50&order_by=lastUpdated&sort_order=desc
+2026-06-25 12:38:00,325 [INFO] =======================================================
+2026-06-25 12:38:00,325 [INFO] OpenAQ v3 collection started: 2026-06-25 09:38 UTC
+2026-06-25 12:38:00,325 [INFO] 
+Processing: Bremen (DE) — role: developed_benchmark
+2026-06-25 12:38:00,770 [ERROR] [Bremen] HTTP error: 422 Client Error: Unprocessable Entity for url: https://api.openaq.org/v3/locations?bbox=8.48%2C52.98%2C9.12%2C53.22&parameters=pm25&parameters=pm10&limit=50&order_by=lastUpdated&sort_order=desc
+2026-06-25 12:38:01,703 [ERROR] [DB] Insert failed for openaq-bremen-de: relation "sensor_readings" does not exist
+LINE 2:         INSERT INTO sensor_readings
+                            ^
+
+2026-06-25 12:38:01,704 [INFO] 
+Processing: Nairobi (KE) — role: developing_sparse
+2026-06-25 12:38:02,206 [ERROR] [Nairobi] HTTP error: 422 Client Error: Unprocessable Entity for url: https://api.openaq.org/v3/locations?bbox=36.65%2C-1.45%2C37.10%2C-1.16&parameters=pm25&parameters=pm10&limit=50&order_by=lastUpdated&sort_order=desc
+2026-06-25 12:38:03,124 [ERROR] [DB] Insert failed for openaq-nairobi-ke: relation "sensor_readings" does not exist
+LINE 2:         INSERT INTO sensor_readings
+                            ^
+
+2026-06-25 12:38:03,124 [INFO] 
+Processing: Lagos (NG) — role: developing_sparse
+2026-06-25 12:38:03,536 [ERROR] [Lagos] HTTP error: 422 Client Error: Unprocessable Entity for url: https://api.openaq.org/v3/locations?bbox=3.10%2C6.35%2C3.55%2C6.70&parameters=pm25&parameters=pm10&limit=50&order_by=lastUpdated&sort_order=desc
+2026-06-25 12:38:04,968 [ERROR] [DB] Insert failed for openaq-lagos-ng: relation "sensor_readings" does not exist
+LINE 2:         INSERT INTO sensor_readings
+                            ^
+
+2026-06-25 12:38:04,969 [INFO] 
+=======================================================
+2026-06-25 12:38:04,970 [INFO] COLLECTION SUMMARY — OpenAQ v3
+2026-06-25 12:38:04,970 [INFO] =======================================================
+2026-06-25 12:38:04,970 [INFO] City           Stations    PM2.5     PM10
+2026-06-25 12:38:04,971 [INFO] ------------------------------------------
+2026-06-25 12:38:04,971 [INFO] Bremen                0     NULL     NULL
+2026-06-25 12:38:04,972 [INFO] Nairobi               0     NULL     NULL
+2026-06-25 12:38:04,972 [INFO] Lagos                 0     NULL     NULL
+2026-06-25 12:38:04,972 [INFO] =======================================================
+2026-06-25 12:38:34,284 [INFO] =======================================================
+2026-06-25 12:38:34,284 [INFO] OpenAQ v3 collection started: 2026-06-25 09:38 UTC
+2026-06-25 12:38:34,284 [INFO] 
+Processing: Bremen (DE) — role: developed_benchmark
+2026-06-25 12:38:34,718 [ERROR] [Bremen] HTTP error: 422 Client Error: Unprocessable Entity for url: https://api.openaq.org/v3/locations?bbox=8.48%2C52.98%2C9.12%2C53.22&parameters=pm25&parameters=pm10&limit=50&order_by=lastUpdated&sort_order=desc
+2026-06-25 12:38:35,682 [INFO] [DB] Inserted openaq-bremen-de: ✗ NULL (gap recorded)
+2026-06-25 12:38:35,683 [INFO] 
+Processing: Nairobi (KE) — role: developing_sparse
+2026-06-25 12:38:36,100 [ERROR] [Nairobi] HTTP error: 422 Client Error: Unprocessable Entity for url: https://api.openaq.org/v3/locations?bbox=36.65%2C-1.45%2C37.10%2C-1.16&parameters=pm25&parameters=pm10&limit=50&order_by=lastUpdated&sort_order=desc
+2026-06-25 12:38:37,525 [INFO] [DB] Inserted openaq-nairobi-ke: ✗ NULL (gap recorded)
+2026-06-25 12:38:37,526 [INFO] 
+Processing: Lagos (NG) — role: developing_sparse
+2026-06-25 12:38:37,943 [ERROR] [Lagos] HTTP error: 422 Client Error: Unprocessable Entity for url: https://api.openaq.org/v3/locations?bbox=3.10%2C6.35%2C3.55%2C6.70&parameters=pm25&parameters=pm10&limit=50&order_by=lastUpdated&sort_order=desc
+2026-06-25 12:38:39,124 [INFO] [DB] Inserted openaq-lagos-ng: ✗ NULL (gap recorded)
+2026-06-25 12:38:39,125 [INFO] 
+=======================================================
+2026-06-25 12:38:39,125 [INFO] COLLECTION SUMMARY — OpenAQ v3
+2026-06-25 12:38:39,125 [INFO] =======================================================
+2026-06-25 12:38:39,125 [INFO] City           Stations    PM2.5     PM10
+2026-06-25 12:38:39,125 [INFO] ------------------------------------------
+2026-06-25 12:38:39,126 [INFO] Bremen                0     NULL     NULL
+2026-06-25 12:38:39,126 [INFO] Nairobi               0     NULL     NULL
+2026-06-25 12:38:39,126 [INFO] Lagos                 0     NULL     NULL
+2026-06-25 12:38:39,126 [INFO] =======================================================
+2026-06-26 12:36:40,622 [INFO] =======================================================
+2026-06-26 12:36:40,623 [INFO] OpenAQ v3 collection started: 2026-06-26 09:36 UTC
+2026-06-26 12:36:40,623 [INFO] 
+Processing: Bremen (DE) — role: developed_benchmark
+2026-06-26 12:36:40,888 [ERROR] [Bremen] HTTP error: 422 Client Error: Unprocessable Entity for url: https://api.openaq.org/v3/locations?bbox=8.48%2C52.98%2C9.12%2C53.22&parameters=pm25&parameters=pm10&limit=50&order_by=lastUpdated&sort_order=desc
+2026-06-26 12:36:41,987 [INFO] [DB] Inserted openaq-bremen-de: ✗ NULL (gap recorded)
+2026-06-26 12:36:41,988 [INFO] 
+Processing: Nairobi (KE) — role: developing_sparse
+2026-06-26 12:36:42,281 [ERROR] [Nairobi] HTTP error: 422 Client Error: Unprocessable Entity for url: https://api.openaq.org/v3/locations?bbox=36.65%2C-1.45%2C37.10%2C-1.16&parameters=pm25&parameters=pm10&limit=50&order_by=lastUpdated&sort_order=desc
+2026-06-26 12:36:43,559 [INFO] [DB] Inserted openaq-nairobi-ke: ✗ NULL (gap recorded)
+2026-06-26 12:36:43,560 [INFO] 
+Processing: Lagos (NG) — role: developing_sparse
+2026-06-26 12:36:44,023 [ERROR] [Lagos] HTTP error: 422 Client Error: Unprocessable Entity for url: https://api.openaq.org/v3/locations?bbox=3.10%2C6.35%2C3.55%2C6.70&parameters=pm25&parameters=pm10&limit=50&order_by=lastUpdated&sort_order=desc
+2026-06-26 12:36:44,958 [INFO] [DB] Inserted openaq-lagos-ng: ✗ NULL (gap recorded)
+2026-06-26 12:36:44,959 [INFO] 
+=======================================================
+2026-06-26 12:36:44,959 [INFO] COLLECTION SUMMARY — OpenAQ v3
+2026-06-26 12:36:44,960 [INFO] =======================================================
+2026-06-26 12:36:44,960 [INFO] City           Stations    PM2.5     PM10
+2026-06-26 12:36:44,960 [INFO] ------------------------------------------
+2026-06-26 12:36:44,961 [INFO] Bremen                0     NULL     NULL
+2026-06-26 12:36:44,961 [INFO] Nairobi               0     NULL     NULL
+2026-06-26 12:36:44,961 [INFO] Lagos                 0     NULL     NULL
+2026-06-26 12:36:44,961 [INFO] =======================================================
+2026-06-26 12:46:08,369 [INFO] =======================================================
+2026-06-26 12:46:08,369 [INFO] OpenAQ v3 collection started: 2026-06-26 09:46 UTC
+2026-06-26 12:46:08,369 [INFO] 
+Processing: Bremen (DE) — role: developed_benchmark
+2026-06-26 12:46:08,909 [INFO] [Bremen] OpenAQ stations found: 11
+2026-06-26 12:46:08,910 [INFO] [Bremen] Using station: 'Bremen-Hasenbüren' (id=3155)
+2026-06-26 12:46:09,308 [INFO] [Bremen] OpenAQ reading: PM2.5=None µg/m³  PM10=None µg/m³
+2026-06-26 12:46:10,274 [INFO] [DB] Inserted openaq-bremen-de: ✗ NULL (gap recorded)
+2026-06-26 12:46:10,275 [INFO] 
+Processing: Nairobi (KE) — role: developing_sparse
+2026-06-26 12:46:10,826 [INFO] [Nairobi] OpenAQ stations found: 16
+2026-06-26 12:46:10,827 [INFO] [Nairobi] Using station: 'Nairobi CBD' (id=5994)
+2026-06-26 12:46:11,123 [INFO] [Nairobi] OpenAQ reading: PM2.5=None µg/m³  PM10=None µg/m³
+2026-06-26 12:46:12,139 [INFO] [DB] Inserted openaq-nairobi-ke: ✗ NULL (gap recorded)
+2026-06-26 12:46:12,140 [INFO] 
+Processing: Lagos (NG) — role: developing_sparse
+2026-06-26 12:46:12,482 [INFO] [Lagos] OpenAQ stations found: 20
+2026-06-26 12:46:12,482 [INFO] [Lagos] Using station: 'Lagos' (id=404479)
+2026-06-26 12:46:12,702 [INFO] [Lagos] OpenAQ reading: PM2.5=None µg/m³  PM10=None µg/m³
+2026-06-26 12:46:13,633 [INFO] [DB] Inserted openaq-lagos-ng: ✗ NULL (gap recorded)
+2026-06-26 12:46:13,635 [INFO] 
+=======================================================
+2026-06-26 12:46:13,635 [INFO] COLLECTION SUMMARY — OpenAQ v3
+2026-06-26 12:46:13,635 [INFO] =======================================================
+2026-06-26 12:46:13,636 [INFO] City           Stations    PM2.5     PM10
+2026-06-26 12:46:13,636 [INFO] ------------------------------------------
+2026-06-26 12:46:13,636 [INFO] Bremen               11     NULL     NULL
+2026-06-26 12:46:13,637 [INFO] Nairobi              16     NULL     NULL
+2026-06-26 12:46:13,637 [INFO] Lagos                20     NULL     NULL
+2026-06-26 12:46:13,637 [INFO] =======================================================
+2026-06-26 13:05:17,321 [INFO] =======================================================
+2026-06-26 13:05:17,321 [INFO] OpenAQ v3 collection started: 2026-06-26 10:05 UTC
+2026-06-26 13:05:17,321 [INFO] 
+Processing: Bremen (DE) — role: developed_benchmark
+2026-06-26 13:05:17,643 [INFO] [Bremen] OpenAQ stations found: 11
+2026-06-26 13:05:17,644 [INFO] [Bremen] Using station: 'Bremen-Hasenbüren' (id=3155)
+2026-06-26 13:05:18,091 [INFO] [Bremen] OpenAQ: PM2.5=None  PM10=None
+2026-06-26 13:05:19,066 [INFO] [DB] Inserted openaq-bremen-de: ✗ NULL (gap recorded)
+2026-06-26 13:05:19,067 [INFO] 
+Processing: Nairobi (KE) — role: developing_sparse
+2026-06-26 13:05:19,391 [INFO] [Nairobi] OpenAQ stations found: 16
+2026-06-26 13:05:19,392 [INFO] [Nairobi] Using station: 'Nairobi CBD' (id=5994)
+2026-06-26 13:05:19,793 [INFO] [Nairobi] OpenAQ: PM2.5=None  PM10=None
+2026-06-26 13:05:20,889 [INFO] [DB] Inserted openaq-nairobi-ke: ✗ NULL (gap recorded)
+2026-06-26 13:05:20,890 [INFO] 
+Processing: Lagos (NG) — role: developing_sparse
+2026-06-26 13:05:21,128 [INFO] [Lagos] OpenAQ stations found: 20
+2026-06-26 13:05:21,128 [INFO] [Lagos] Using station: 'Lagos' (id=404479)
+2026-06-26 13:05:21,338 [INFO] [Lagos] OpenAQ: PM2.5=None  PM10=None
+2026-06-26 13:05:22,228 [INFO] [DB] Inserted openaq-lagos-ng: ✗ NULL (gap recorded)
+2026-06-26 13:05:22,228 [INFO] 
+=======================================================
+2026-06-26 13:05:22,228 [INFO] COLLECTION SUMMARY — OpenAQ v3
+2026-06-26 13:05:22,228 [INFO] =======================================================
+2026-06-26 13:05:22,228 [INFO] City           Stations    PM2.5     PM10
+2026-06-26 13:05:22,229 [INFO] ------------------------------------------
+2026-06-26 13:05:22,229 [INFO] Bremen               11     NULL     NULL
+2026-06-26 13:05:22,229 [INFO] Nairobi              16     NULL     NULL
+2026-06-26 13:05:22,229 [INFO] Lagos                20     NULL     NULL
+2026-06-26 13:05:22,229 [INFO] =======================================================
+2026-06-26 13:15:02,251 [INFO] =======================================================
+2026-06-26 13:15:02,252 [INFO] OpenAQ v3 collection started: 2026-06-26 10:15 UTC
+2026-06-26 13:15:02,252 [INFO] 
+Processing: Bremen (DE) — role: developed_benchmark
+2026-06-26 13:15:02,896 [INFO] [Bremen] OpenAQ stations found: 11
+2026-06-26 13:15:02,897 [INFO] [Bremen] Using station: 'Bremen-Hasenbüren' (id=3155)
+2026-06-26 13:15:03,149 [INFO] [Bremen] Sensor IDs — PM2.5=6779  PM10=6778
+2026-06-26 13:15:03,455 [INFO] [Bremen] PM2.5 = 21.36 µg/m³
+2026-06-26 13:15:03,968 [INFO] [Bremen] PM10 = 17.21 µg/m³
+2026-06-26 13:15:03,969 [INFO] [Bremen] Final: PM2.5=21.36  PM10=17.21
+2026-06-26 13:15:04,926 [INFO] [DB] Inserted openaq-bremen-de: ✓ real data
+2026-06-26 13:15:04,927 [INFO] 
+Processing: Nairobi (KE) — role: developing_sparse
+2026-06-26 13:15:05,199 [INFO] [Nairobi] OpenAQ stations found: 16
+2026-06-26 13:15:05,200 [INFO] [Nairobi] Using station: 'Nairobi CBD' (id=5994)
+2026-06-26 13:15:05,503 [INFO] [Nairobi] Sensor IDs — PM2.5=16243  PM10=16244
+2026-06-26 13:15:05,813 [INFO] [Nairobi] PM2.5 = 5.2 µg/m³
+2026-06-26 13:15:06,118 [INFO] [Nairobi] PM10 = 8.0 µg/m³
+2026-06-26 13:15:06,119 [INFO] [Nairobi] Final: PM2.5=5.2  PM10=8.0
+2026-06-26 13:15:07,754 [INFO] [DB] Inserted openaq-nairobi-ke: ✓ real data
+2026-06-26 13:15:07,755 [INFO] 
+Processing: Lagos (NG) — role: developing_sparse
+2026-06-26 13:15:08,067 [INFO] [Lagos] OpenAQ stations found: 20
+2026-06-26 13:15:08,068 [INFO] [Lagos] Using station: 'Lagos' (id=404479)
+2026-06-26 13:15:08,370 [INFO] [Lagos] Sensor IDs — PM2.5=2251459  PM10=None
+2026-06-26 13:15:08,632 [INFO] [Lagos] PM2.5 = 32.4 µg/m³
+2026-06-26 13:15:08,633 [INFO] [Lagos] Final: PM2.5=32.4  PM10=None
+2026-06-26 13:15:09,541 [INFO] [DB] Inserted openaq-lagos-ng: ✓ real data
+2026-06-26 13:15:09,542 [INFO] 
+=======================================================
+2026-06-26 13:15:09,550 [INFO] COLLECTION SUMMARY — OpenAQ v3
+2026-06-26 13:15:09,550 [INFO] =======================================================
+2026-06-26 13:15:09,550 [INFO] City           Stations    PM2.5     PM10
+2026-06-26 13:15:09,550 [INFO] ------------------------------------------
+2026-06-26 13:15:09,551 [INFO] Bremen               11     21.4     17.2
+2026-06-26 13:15:09,551 [INFO] Nairobi              16      5.2      8.0
+2026-06-26 13:15:09,551 [INFO] Lagos                20     32.4     NULL
+2026-06-26 13:15:09,551 [INFO] =======================================================
+2026-06-26 13:28:12,150 [INFO] =======================================================
+2026-06-26 13:28:12,150 [INFO] OpenAQ v3 collection started: 2026-06-26 10:28 UTC
+2026-06-26 13:28:12,150 [INFO] 
+Processing: Bremen (DE) — role: developed_benchmark
+2026-06-26 13:28:12,671 [INFO] [Bremen] OpenAQ stations found: 11
+2026-06-26 13:28:12,671 [INFO] [Bremen] Using station: 'Bremen-Hasenbüren' (id=3155)
+2026-06-26 13:28:13,113 [INFO] [Bremen] Sensor IDs — PM2.5=6779  PM10=6778
+2026-06-26 13:28:13,420 [INFO] [Bremen] PM2.5 = 21.36 µg/m³
+2026-06-26 13:28:13,729 [INFO] [Bremen] PM10 = 17.21 µg/m³
+2026-06-26 13:28:13,730 [INFO] [Bremen] Final: PM2.5=21.36  PM10=17.21
+2026-06-26 13:28:14,710 [INFO] [DB] Inserted openaq-bremen-de: ✓ real data
+2026-06-26 13:28:14,711 [INFO] 
+Processing: Nairobi (KE) — role: developing_sparse
+2026-06-26 13:28:15,031 [INFO] [Nairobi] OpenAQ stations found: 16
+2026-06-26 13:28:15,032 [INFO] [Nairobi] Using station: 'Nairobi CBD' (id=5994)
+2026-06-26 13:28:15,366 [INFO] [Nairobi] Sensor IDs — PM2.5=16243  PM10=16244
+2026-06-26 13:28:15,832 [INFO] [Nairobi] PM2.5 = 5.2 µg/m³
+2026-06-26 13:28:16,083 [INFO] [Nairobi] PM10 = 8.0 µg/m³
+2026-06-26 13:28:16,084 [INFO] [Nairobi] Final: PM2.5=5.2  PM10=8.0
+2026-06-26 13:28:17,012 [INFO] [DB] Inserted openaq-nairobi-ke: ✓ real data
+2026-06-26 13:28:17,013 [INFO] 
+Processing: Lagos (NG) — role: developing_sparse
+2026-06-26 13:28:17,318 [INFO] [Lagos] OpenAQ stations found: 20
+2026-06-26 13:28:17,319 [INFO] [Lagos] Using station: 'Lagos' (id=404479)
+2026-06-26 13:28:17,619 [INFO] [Lagos] Sensor IDs — PM2.5=2251459  PM10=None
+2026-06-26 13:28:17,927 [INFO] [Lagos] PM2.5 = 32.4 µg/m³
+2026-06-26 13:28:17,928 [INFO] [Lagos] Final: PM2.5=32.4  PM10=None
+2026-06-26 13:28:19,666 [INFO] [DB] Inserted openaq-lagos-ng: ✓ real data
+2026-06-26 13:28:19,667 [INFO] 
+Processing: Kampala (UG) — role: developing_sparse
+2026-06-26 13:28:19,930 [INFO] [Kampala] OpenAQ stations found: 20
+2026-06-26 13:28:19,931 [INFO] [Kampala] Using station: 'Kampala' (id=8645)
+2026-06-26 13:28:20,153 [INFO] [Kampala] Sensor IDs — PM2.5=25086  PM10=None
+2026-06-26 13:28:20,486 [INFO] [Kampala] PM2.5 = 44.1 µg/m³
+2026-06-26 13:28:20,487 [INFO] [Kampala] Final: PM2.5=44.1  PM10=None
+2026-06-26 13:28:22,127 [INFO] [DB] Inserted openaq-kampala-ug: ✓ real data
+2026-06-26 13:28:22,127 [INFO] 
+Processing: Accra (GH) — role: developing_sparse
+2026-06-26 13:28:22,432 [INFO] [Accra] OpenAQ stations found: 20
+2026-06-26 13:28:22,433 [INFO] [Accra] Using station: 'NMA - Nima' (id=3)
+2026-06-26 13:28:22,740 [INFO] [Accra] Sensor IDs — PM2.5=5  PM10=6
+2026-06-26 13:28:23,046 [WARNING] [Accra] No recent PM2.5 data from sensor 5
+2026-06-26 13:28:23,267 [WARNING] [Accra] No recent PM10 data from sensor 6
+2026-06-26 13:28:23,268 [INFO] [Accra] Final: PM2.5=None  PM10=None
+2026-06-26 13:28:24,269 [INFO] [DB] Inserted openaq-accra-gh: ✗ NULL (gap recorded)
+2026-06-26 13:28:24,270 [INFO] 
+=======================================================
+2026-06-26 13:28:24,270 [INFO] COLLECTION SUMMARY — OpenAQ v3
+2026-06-26 13:28:24,270 [INFO] =======================================================
+2026-06-26 13:28:24,270 [INFO] City           Stations    PM2.5     PM10
+2026-06-26 13:28:24,270 [INFO] ------------------------------------------
+2026-06-26 13:28:24,270 [INFO] Bremen               11     21.4     17.2
+2026-06-26 13:28:24,270 [INFO] Nairobi              16      5.2      8.0
+2026-06-26 13:28:24,270 [INFO] Lagos                20     32.4     NULL
+2026-06-26 13:28:24,271 [INFO] Kampala              20     44.1     NULL
+2026-06-26 13:28:24,271 [INFO] Accra                20     NULL     NULL
+2026-06-26 13:28:24,271 [INFO] =======================================================
+2026-06-26 13:38:02,312 [INFO] =======================================================
+2026-06-26 13:38:02,320 [INFO] OpenAQ v3 collection started: 2026-06-26 10:38 UTC
+2026-06-26 13:38:02,320 [INFO] 
+Processing: Bremen (DE) — role: developed_benchmark
+2026-06-26 13:38:02,840 [INFO] [Bremen] OpenAQ stations found: 11
+2026-06-26 13:38:02,841 [INFO] [Bremen] Trying: 'Bremen-Hasenbüren' (id=3155)
+2026-06-26 13:38:03,146 [INFO] [Bremen] Sensor IDs — PM2.5=6779  PM10=6778
+2026-06-26 13:38:03,657 [INFO] [Bremen] PM2.5 = 21.36 µg/m³
+2026-06-26 13:38:03,963 [INFO] [Bremen] PM10 = 17.21 µg/m³
+2026-06-26 13:38:03,963 [INFO] [Bremen] Final: PM2.5=21.36  PM10=17.21
+2026-06-26 13:38:03,963 [INFO] [Bremen] ✓ Data from 'Bremen-Hasenbüren'
+2026-06-26 13:38:04,936 [INFO] [DB] Inserted openaq-bremen-de: ✓ real data
+2026-06-26 13:38:04,937 [INFO] 
+Processing: Nairobi (KE) — role: developing_sparse
+2026-06-26 13:38:05,307 [INFO] [Nairobi] OpenAQ stations found: 16
+2026-06-26 13:38:05,308 [INFO] [Nairobi] Trying: 'Nairobi CBD' (id=5994)
+2026-06-26 13:38:05,602 [INFO] [Nairobi] Sensor IDs — PM2.5=16243  PM10=16244
+2026-06-26 13:38:05,910 [INFO] [Nairobi] PM2.5 = 5.2 µg/m³
+2026-06-26 13:38:06,142 [INFO] [Nairobi] PM10 = 8.0 µg/m³
+2026-06-26 13:38:06,143 [INFO] [Nairobi] Final: PM2.5=5.2  PM10=8.0
+2026-06-26 13:38:06,144 [INFO] [Nairobi] ✓ Data from 'Nairobi CBD'
+2026-06-26 13:38:07,055 [INFO] [DB] Inserted openaq-nairobi-ke: ✓ real data
+2026-06-26 13:38:07,056 [INFO] 
+Processing: Lagos (NG) — role: developing_sparse
+2026-06-26 13:38:07,326 [INFO] [Lagos] OpenAQ stations found: 20
+2026-06-26 13:38:07,327 [INFO] [Lagos] Trying: 'Lagos' (id=404479)
+2026-06-26 13:38:07,539 [INFO] [Lagos] Sensor IDs — PM2.5=2251459  PM10=None
+2026-06-26 13:38:07,764 [INFO] [Lagos] PM2.5 = 32.4 µg/m³
+2026-06-26 13:38:07,765 [INFO] [Lagos] Final: PM2.5=32.4  PM10=None
+2026-06-26 13:38:07,765 [INFO] [Lagos] ✓ Data from 'Lagos'
+2026-06-26 13:38:09,390 [INFO] [DB] Inserted openaq-lagos-ng: ✓ real data
+2026-06-26 13:38:09,390 [INFO] 
+Processing: Kampala (UG) — role: developing_sparse
+2026-06-26 13:38:09,706 [INFO] [Kampala] OpenAQ stations found: 20
+2026-06-26 13:38:09,713 [INFO] [Kampala] Trying: 'Kampala' (id=8645)
+2026-06-26 13:38:10,006 [INFO] [Kampala] Sensor IDs — PM2.5=25086  PM10=None
+2026-06-26 13:38:10,315 [INFO] [Kampala] PM2.5 = 44.1 µg/m³
+2026-06-26 13:38:10,316 [INFO] [Kampala] Final: PM2.5=44.1  PM10=None
+2026-06-26 13:38:10,316 [INFO] [Kampala] ✓ Data from 'Kampala'
+2026-06-26 13:38:11,240 [INFO] [DB] Inserted openaq-kampala-ug: ✓ real data
+2026-06-26 13:38:11,241 [INFO] 
+Processing: Accra (GH) — role: developing_sparse
+2026-06-26 13:38:11,562 [INFO] [Accra] OpenAQ stations found: 20
+2026-06-26 13:38:11,563 [INFO] [Accra] Trying: 'NMA - Nima' (id=3)
+2026-06-26 13:38:11,852 [INFO] [Accra] Sensor IDs — PM2.5=5  PM10=6
+2026-06-26 13:38:12,158 [WARNING] [Accra] No recent PM2.5 data from sensor 5
+2026-06-26 13:38:12,379 [WARNING] [Accra] No recent PM10 data from sensor 6
+2026-06-26 13:38:12,379 [INFO] [Accra] Final: PM2.5=None  PM10=None
+2026-06-26 13:38:12,380 [WARNING] [Accra] 'NMA - Nima' offline — trying next station
+2026-06-26 13:38:12,380 [INFO] [Accra] Trying: 'NMT - Nima' (id=4)
+2026-06-26 13:38:12,597 [INFO] [Accra] Sensor IDs — PM2.5=8  PM10=7
+2026-06-26 13:38:12,813 [WARNING] [Accra] No recent PM2.5 data from sensor 8
+2026-06-26 13:38:13,051 [WARNING] [Accra] No recent PM10 data from sensor 7
+2026-06-26 13:38:13,051 [INFO] [Accra] Final: PM2.5=None  PM10=None
+2026-06-26 13:38:13,052 [WARNING] [Accra] 'NMT - Nima' offline — trying next station
+2026-06-26 13:38:13,052 [INFO] [Accra] Trying: 'JTA - Jamestown' (id=5)
+2026-06-26 13:38:13,272 [INFO] [Accra] Sensor IDs — PM2.5=9  PM10=10
+2026-06-26 13:38:13,591 [WARNING] [Accra] No recent PM2.5 data from sensor 9
+2026-06-26 13:38:13,847 [WARNING] [Accra] No recent PM10 data from sensor 10
+2026-06-26 13:38:13,848 [INFO] [Accra] Final: PM2.5=None  PM10=None
+2026-06-26 13:38:13,848 [WARNING] [Accra] 'JTA - Jamestown' offline — trying next station
+2026-06-26 13:38:13,849 [INFO] [Accra] Trying: 'ADT - Asylum Down' (id=6)
+2026-06-26 13:38:14,103 [INFO] [Accra] Sensor IDs — PM2.5=12  PM10=11
+2026-06-26 13:38:14,413 [WARNING] [Accra] No recent PM2.5 data from sensor 12
+2026-06-26 13:38:14,716 [WARNING] [Accra] No recent PM10 data from sensor 11
+2026-06-26 13:38:14,717 [INFO] [Accra] Final: PM2.5=None  PM10=None
+2026-06-26 13:38:14,717 [WARNING] [Accra] 'ADT - Asylum Down' offline — trying next station
+2026-06-26 13:38:14,718 [INFO] [Accra] Trying: 'ADEPA - Asylum Down' (id=7)
+2026-06-26 13:38:15,026 [INFO] [Accra] Sensor IDs — PM2.5=13  PM10=14
+2026-06-26 13:38:15,330 [WARNING] [Accra] No recent PM2.5 data from sensor 13
+2026-06-26 13:38:15,559 [WARNING] [Accra] No recent PM10 data from sensor 14
+2026-06-26 13:38:15,559 [INFO] [Accra] Final: PM2.5=None  PM10=None
+2026-06-26 13:38:15,560 [WARNING] [Accra] 'ADEPA - Asylum Down' offline — trying next station
+2026-06-26 13:38:16,490 [INFO] [DB] Inserted openaq-accra-gh: ✗ NULL (gap recorded)
+2026-06-26 13:38:16,491 [INFO] 
+=======================================================
+2026-06-26 13:38:16,491 [INFO] COLLECTION SUMMARY — OpenAQ v3
+2026-06-26 13:38:16,492 [INFO] =======================================================
+2026-06-26 13:38:16,492 [INFO] City           Stations    PM2.5     PM10
+2026-06-26 13:38:16,492 [INFO] ------------------------------------------
+2026-06-26 13:38:16,493 [INFO] Bremen               11     21.4     17.2
+2026-06-26 13:38:16,493 [INFO] Nairobi              16      5.2      8.0
+2026-06-26 13:38:16,493 [INFO] Lagos                20     32.4     NULL
+2026-06-26 13:38:16,493 [INFO] Kampala              20     44.1     NULL
+2026-06-26 13:38:16,494 [INFO] Accra                20     NULL     NULL
+2026-06-26 13:38:16,494 [INFO] =======================================================
+2026-06-26 13:43:28,242 [INFO] =======================================================
+2026-06-26 13:43:28,242 [INFO] OpenAQ v3 collection started: 2026-06-26 10:43 UTC
+2026-06-26 13:43:28,242 [INFO] 
+Processing: Bremen (DE) — role: developed_benchmark
+2026-06-26 13:43:28,782 [INFO] [Bremen] OpenAQ stations found: 11
+2026-06-26 13:43:28,783 [INFO] [Bremen] Trying: 'Bremen-Hasenbüren' (id=3155)
+2026-06-26 13:43:29,289 [INFO] [Bremen] Sensor IDs — PM2.5=6779  PM10=6778
+2026-06-26 13:43:29,809 [INFO] [Bremen] PM2.5 = 21.36 µg/m³
+2026-06-26 13:43:30,111 [INFO] [Bremen] PM10 = 17.21 µg/m³
+2026-06-26 13:43:30,112 [INFO] [Bremen] Final: PM2.5=21.36  PM10=17.21
+2026-06-26 13:43:30,112 [INFO] [Bremen] ✓ Data from 'Bremen-Hasenbüren'
+2026-06-26 13:43:31,044 [INFO] [DB] Inserted openaq-bremen-de: ✓ real data
+2026-06-26 13:43:31,045 [INFO] 
+Processing: Nairobi (KE) — role: developing_sparse
+2026-06-26 13:43:31,443 [INFO] [Nairobi] OpenAQ stations found: 16
+2026-06-26 13:43:31,444 [INFO] [Nairobi] Trying: 'Nairobi CBD' (id=5994)
+2026-06-26 13:43:31,748 [INFO] [Nairobi] Sensor IDs — PM2.5=16243  PM10=16244
+2026-06-26 13:43:32,262 [INFO] [Nairobi] PM2.5 = 5.2 µg/m³
+2026-06-26 13:43:32,544 [INFO] [Nairobi] PM10 = 8.0 µg/m³
+2026-06-26 13:43:32,544 [INFO] [Nairobi] Final: PM2.5=5.2  PM10=8.0
+2026-06-26 13:43:32,545 [INFO] [Nairobi] ✓ Data from 'Nairobi CBD'
+2026-06-26 13:43:33,480 [INFO] [DB] Inserted openaq-nairobi-ke: ✓ real data
+2026-06-26 13:43:33,481 [INFO] 
+Processing: Lagos (NG) — role: developing_sparse
+2026-06-26 13:43:34,010 [INFO] [Lagos] OpenAQ stations found: 20
+2026-06-26 13:43:34,011 [INFO] [Lagos] Trying: 'Lagos' (id=404479)
+2026-06-26 13:43:34,309 [INFO] [Lagos] Sensor IDs — PM2.5=2251459  PM10=None
+2026-06-26 13:43:34,520 [INFO] [Lagos] PM2.5 = 32.4 µg/m³
+2026-06-26 13:43:34,520 [INFO] [Lagos] Final: PM2.5=32.4  PM10=None
+2026-06-26 13:43:34,521 [INFO] [Lagos] ✓ Data from 'Lagos'
+2026-06-26 13:43:36,355 [INFO] [DB] Inserted openaq-lagos-ng: ✓ real data
+2026-06-26 13:43:36,356 [INFO] 
+Processing: Kampala (UG) — role: developing_sparse
+2026-06-26 13:43:36,666 [INFO] [Kampala] OpenAQ stations found: 20
+2026-06-26 13:43:36,667 [INFO] [Kampala] Trying: 'Kampala' (id=8645)
+2026-06-26 13:43:37,177 [INFO] [Kampala] Sensor IDs — PM2.5=25086  PM10=None
+2026-06-26 13:43:37,432 [INFO] [Kampala] PM2.5 = 44.1 µg/m³
+2026-06-26 13:43:37,433 [INFO] [Kampala] Final: PM2.5=44.1  PM10=None
+2026-06-26 13:43:37,433 [INFO] [Kampala] ✓ Data from 'Kampala'
+2026-06-26 13:43:38,554 [INFO] [DB] Inserted openaq-kampala-ug: ✓ real data
+2026-06-26 13:43:38,556 [INFO] 
+Processing: Accra (GH) — role: developing_sparse
+2026-06-26 13:43:39,069 [INFO] [Accra] OpenAQ stations found: 20
+2026-06-26 13:43:39,070 [INFO] [Accra] Trying: 'NMA - Nima' (id=3)
+2026-06-26 13:43:39,327 [INFO] [Accra] Sensor IDs — PM2.5=5  PM10=6
+2026-06-26 13:43:39,736 [WARNING] [Accra] No recent PM2.5 data from sensor 5
+2026-06-26 13:43:40,154 [WARNING] [Accra] No recent PM10 data from sensor 6
+2026-06-26 13:43:40,154 [INFO] [Accra] Final: PM2.5=None  PM10=None
+2026-06-26 13:43:40,155 [WARNING] [Accra] 'NMA - Nima' offline — trying next station
+2026-06-26 13:43:40,155 [INFO] [Accra] Trying: 'NMT - Nima' (id=4)
+2026-06-26 13:43:40,381 [INFO] [Accra] Sensor IDs — PM2.5=8  PM10=7
+2026-06-26 13:43:40,598 [WARNING] [Accra] No recent PM2.5 data from sensor 8
+2026-06-26 13:43:40,862 [WARNING] [Accra] No recent PM10 data from sensor 7
+2026-06-26 13:43:40,863 [INFO] [Accra] Final: PM2.5=None  PM10=None
+2026-06-26 13:43:40,863 [WARNING] [Accra] 'NMT - Nima' offline — trying next station
+2026-06-26 13:43:40,864 [INFO] [Accra] Trying: 'JTA - Jamestown' (id=5)
+2026-06-26 13:43:41,171 [INFO] [Accra] Sensor IDs — PM2.5=9  PM10=10
+2026-06-26 13:43:41,476 [WARNING] [Accra] No recent PM2.5 data from sensor 9
+2026-06-26 13:43:41,784 [WARNING] [Accra] No recent PM10 data from sensor 10
+2026-06-26 13:43:41,784 [INFO] [Accra] Final: PM2.5=None  PM10=None
+2026-06-26 13:43:41,785 [WARNING] [Accra] 'JTA - Jamestown' offline — trying next station
+2026-06-26 13:43:41,785 [INFO] [Accra] Trying: 'ADT - Asylum Down' (id=6)
+2026-06-26 13:43:41,997 [INFO] [Accra] Sensor IDs — PM2.5=12  PM10=11
+2026-06-26 13:43:42,296 [WARNING] [Accra] No recent PM2.5 data from sensor 12
+2026-06-26 13:43:42,511 [WARNING] [Accra] No recent PM10 data from sensor 11
+2026-06-26 13:43:42,511 [INFO] [Accra] Final: PM2.5=None  PM10=None
+2026-06-26 13:43:42,511 [WARNING] [Accra] 'ADT - Asylum Down' offline — trying next station
+2026-06-26 13:43:42,511 [INFO] [Accra] Trying: 'ADEPA - Asylum Down' (id=7)
+2026-06-26 13:43:42,808 [INFO] [Accra] Sensor IDs — PM2.5=13  PM10=14
+2026-06-26 13:43:43,115 [WARNING] [Accra] No recent PM2.5 data from sensor 13
+2026-06-26 13:43:43,422 [WARNING] [Accra] No recent PM10 data from sensor 14
+2026-06-26 13:43:43,423 [INFO] [Accra] Final: PM2.5=None  PM10=None
+2026-06-26 13:43:43,431 [WARNING] [Accra] 'ADEPA - Asylum Down' offline — trying next station
+2026-06-26 13:43:44,359 [INFO] [DB] Inserted openaq-accra-gh: ✗ NULL (gap recorded)
+2026-06-26 13:43:44,360 [INFO] 
+=======================================================
+2026-06-26 13:43:44,361 [INFO] COLLECTION SUMMARY — OpenAQ v3
+2026-06-26 13:43:44,361 [INFO] =======================================================
+2026-06-26 13:43:44,361 [INFO] City           Stations    PM2.5     PM10
+2026-06-26 13:43:44,362 [INFO] ------------------------------------------
+2026-06-26 13:43:44,362 [INFO] Bremen               11     21.4     17.2
+2026-06-26 13:43:44,362 [INFO] Nairobi              16      5.2      8.0
+2026-06-26 13:43:44,362 [INFO] Lagos                20     32.4     NULL
+2026-06-26 13:43:44,363 [INFO] Kampala              20     44.1     NULL
+2026-06-26 13:43:44,363 [INFO] Accra                20     NULL     NULL
+2026-06-26 13:43:44,363 [INFO] =======================================================
