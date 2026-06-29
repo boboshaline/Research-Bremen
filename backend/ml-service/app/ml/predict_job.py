@@ -6,7 +6,7 @@ from db import get_connection, get_latest_device_timestamp
 manager = ModelManager()
 
 def predict_all():
-    print("[PREDICT] Running periodic 1-hour ahead adaptive regional forecasting job...")
+    print("[PREDICT] Running periodic 1-hour ahead adaptive dual-target (PM2.5 & PM10) forecasting job...")
     
     conn = get_connection()
     cur = conn.cursor()
@@ -27,43 +27,52 @@ def predict_all():
             
             current_time_input = [[forecast_epoch]] 
             
-            # 3. Request mean values and uncertainties from the dynamic manager
-            pm25_pred, pm25_std = manager.predict(device, current_time_input, return_std=True)
-            
-            # 4. Filter out any impossible negative mathematical values
-            pm25_pred = max(0.0, float(pm25_pred))
-            pm25_lower = max(0.0, float(pm25_pred - (1.96 * pm25_std)))
-            pm25_upper = float(pm25_pred + (1.96 * pm25_std))
-            
-            pm10_pred = None  # Standing structural placeholder
-            model_used_label = f"GP_Local_{device}"
-            
-            # 5. Connect and commit the values back to your tracking table schema
-            db_conn = get_connection()
-            db_cur = db_conn.cursor()
-            
-            insert_query = """
-                INSERT INTO predictions (
-                    created_at, forecast_time, pm25_predicted, pm25_lower, pm25_upper, pm10_predicted, model_used
-                ) VALUES (NOW(), %s, %s, %s, %s, %s, %s);
-            """
-            
-            db_cur.execute(insert_query, (
-                forecast_timestamp,
-                pm25_pred,
-                pm25_lower,
-                pm25_upper,
-                pm10_pred,
-                model_used_label
-            ))
-            
-            db_conn.commit()
-            db_cur.close()
-            db_conn.close()
-            
-            print(f"[PREDICT] Saved future forecast for {device} targeting time: {forecast_timestamp} (PM2.5: {pm25_pred:.2f})")
-            
-        except FileNotFoundError:
-            print(f"[PREDICT] Skipping {device}: Model binaries not yet compiled. Run train.py first.")
+            # 3. Request predictions for PM2.5 with full uncertainty bounds
+            try:
+                pm25_pred, pm25_std = manager.predict(device, "pm25", current_time_input, return_std=True)
+                pm25_pred = max(0.0, float(pm25_pred))
+                pm25_lower = max(0.0, float(pm25_pred - (1.96 * pm25_std)))
+                pm25_upper = float(pm25_pred + (1.96 * pm25_std))
+            except FileNotFoundError:
+                print(f"[PREDICT] Info: No PM2.5 model variant found for {device}. Skipping PM2.5 parameters.")
+                pm25_pred, pm25_lower, pm25_upper = None, None, None
+
+            # 4. Request predictions for PM10
+            try:
+                pm10_pred, _ = manager.predict(device, "pm10", current_time_input, return_std=False)
+                pm10_pred = max(0.0, float(pm10_pred))
+            except FileNotFoundError:
+                print(f"[PREDICT] Info: No PM10 model variant found for {device}. Skipping PM10 parameters.")
+                pm10_pred = None
+
+            # 5. Connect and commit the combined values back to your tracking table schema
+            if pm25_pred is not None or pm10_pred is not None:
+                model_used_label = f"GP_Local_{device}"
+                
+                db_conn = get_connection()
+                db_cur = db_conn.cursor()
+                
+                insert_query = """
+                    INSERT INTO predictions (
+                        created_at, forecast_time, pm25_predicted, pm25_lower, pm25_upper, pm10_predicted, model_used
+                    ) VALUES (NOW(), %s, %s, %s, %s, %s, %s);
+                """
+                
+                db_cur.execute(insert_query, (
+                    forecast_timestamp,
+                    pm25_pred,
+                    pm25_lower,
+                    pm25_upper,
+                    pm10_pred,
+                    model_used_label
+                ))
+                
+                db_conn.commit()
+                db_cur.close()
+                db_conn.close()
+                print(f"[PREDICT] Successfully committed dual forecast for {device} target time: {forecast_timestamp}")
+            else:
+                print(f"[PREDICT] Skipping DB commit for {device}: No operational models found.")
+                
         except Exception as e:
             print(f"[PREDICT] Failed pipeline calculations for {device}: {e}")

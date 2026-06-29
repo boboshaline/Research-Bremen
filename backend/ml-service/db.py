@@ -24,7 +24,7 @@ def fetch_sensor_data(device_id=None):
         query = """
             SELECT EXTRACT(EPOCH FROM time) as timestamp_epoch, pm25, pm10 
             FROM sensor_data 
-            WHERE device_id = %s AND pm25 IS NOT NULL
+            WHERE device_id = %s AND (pm25 IS NOT NULL OR pm10 IS NOT NULL)
             ORDER BY time ASC
         """
         cur.execute(query, (device_id,))
@@ -46,7 +46,7 @@ def get_latest_device_timestamp(device_id):
     query = """
         SELECT EXTRACT(EPOCH FROM time), time 
         FROM sensor_data 
-        WHERE device_id = %s AND pm25 IS NOT NULL
+        WHERE device_id = %s AND (pm25 IS NOT NULL OR pm10 IS NOT NULL)
         ORDER BY time DESC 
         LIMIT 1;
     """
@@ -55,7 +55,6 @@ def get_latest_device_timestamp(device_id):
     cur.close()
     conn.close()
     
-    # Fallback seamlessly to system time if a specific device has no historical logs
     if not result:
         now = time.time()
         return now, datetime.datetime.fromtimestamp(now, tz=datetime.timezone.utc)

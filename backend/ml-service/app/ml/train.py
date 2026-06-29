@@ -12,7 +12,7 @@ MODEL_DIR = os.path.join(os.path.dirname(__file__), "models")
 os.makedirs(MODEL_DIR, exist_ok=True)
 
 def train_all_local_models():
-    print("[TRAIN] Starting localized training execution loop...")
+    print("[TRAIN] Starting localized training execution loop for PM2.5 and PM10...")
     
     conn = get_connection()
     cur = conn.cursor()
@@ -29,22 +29,52 @@ def train_all_local_models():
             print(f"[TRAIN] Skipping {device}: Insufficient metrics for spatial/temporal fitting.")
             continue
             
-        # Structure X explicitly as a 2D array with 1 single feature (Time)
+        # Common time feature matrix X
         X = np.array([row['timestamp_epoch'] for row in data]).reshape(-1, 1)
+        
+        # 1. Process PM2.5 Targets
         y_pm25 = np.array([row['pm25'] for row in data])
+        valid_pm25_idx = ~np.isnan(y_pm25) & (y_pm25 != None)
         
-        kernel = C(1.0, (1e-3, 1e3)) * RBF(10, (1e-2, 1e2))
-        pm25_pipeline = Pipeline([
-            ('scaler', MinMaxScaler()),
-            ('gp', GaussianProcessRegressor(kernel=kernel, n_restarts_optimizer=9, alpha=0.1, random_state=42))
-        ])
+        if np.sum(valid_pm25_idx) >= 5:
+            X_pm25 = X[valid_pm25_idx]
+            y_pm25_clean = y_pm25[valid_pm25_idx].astype(float)
+            
+            kernel_pm25 = C(1.0, (1e-3, 1e3)) * RBF(10, (1e-2, 1e2))
+            pm25_pipeline = Pipeline([
+                ('scaler', MinMaxScaler()),
+                ('gp', GaussianProcessRegressor(kernel=kernel_pm25, n_restarts_optimizer=9, alpha=0.1, random_state=42))
+            ])
+            print(f"[TRAIN] Training PM2.5 Pipeline for {device}...")
+            pm25_pipeline.fit(X_pm25, y_pm25_clean)
+            
+            model_path_pm25 = os.path.join(MODEL_DIR, f"{device}_pm25.pkl")
+            joblib.dump(pm25_pipeline, model_path_pm25)
+            print(f"[TRAIN] Saved PM2.5 model successfully to {model_path_pm25}")
+        else:
+            print(f"[TRAIN] Skipping PM2.5 for {device}: Insufficient valid target values.")
+
+        # 2. Process PM10 Targets
+        y_pm10 = np.array([row['pm10'] for row in data])
+        valid_pm10_idx = ~np.isnan(y_pm10) & (y_pm10 != None)
         
-        print(f"[TRAIN] Training Gaussian Process Regression Pipeline for {device}...")
-        pm25_pipeline.fit(X, y_pm25)
-        
-        model_path = os.path.join(MODEL_DIR, f"{device}_pm25.pkl")
-        joblib.dump(pm25_pipeline, model_path)
-        print(f"[TRAIN] Saved isolated model successfully to {model_path}")
+        if np.sum(valid_pm10_idx) >= 5:
+            X_pm10 = X[valid_pm10_idx]
+            y_pm10_clean = y_pm10[valid_pm10_idx].astype(float)
+            
+            kernel_pm10 = C(1.0, (1e-3, 1e3)) * RBF(10, (1e-2, 1e2))
+            pm10_pipeline = Pipeline([
+                ('scaler', MinMaxScaler()),
+                ('gp', GaussianProcessRegressor(kernel=kernel_pm10, n_restarts_optimizer=9, alpha=0.1, random_state=42))
+            ])
+            print(f"[TRAIN] Training PM10 Pipeline for {device}...")
+            pm10_pipeline.fit(X_pm10, y_pm10_clean)
+            
+            model_path_pm10 = os.path.join(MODEL_DIR, f"{device}_pm10.pkl")
+            joblib.dump(pm10_pipeline, model_path_pm10)
+            print(f"[TRAIN] Saved PM10 model successfully to {model_path_pm10}")
+        else:
+            print(f"[TRAIN] Skipping PM10 for {device}: Insufficient valid target values.")
 
 if __name__ == "__main__":
     train_all_local_models()
