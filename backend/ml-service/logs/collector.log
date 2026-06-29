@@ -1,0 +1,1383 @@
+2026-06-25 11:52:09,445 [INFO] =======================================================
+2026-06-25 11:52:09,446 [INFO] Collection started: 2026-06-25 08:52 UTC
+2026-06-25 11:52:09,446 [INFO] Collecting: Bremen (DE) @ 53.0793, 8.8017
+2026-06-25 11:52:09,564 [INFO] [Bremen] API call successful
+2026-06-25 11:58:55,812 [INFO] =======================================================
+2026-06-25 11:58:55,812 [INFO] Collection started: 2026-06-25 08:58 UTC
+2026-06-25 11:58:55,812 [INFO] Collecting: Bremen (DE) @ 53.0793, 8.8017
+2026-06-25 11:58:55,919 [INFO] [Bremen] API call successful
+2026-06-25 11:59:43,930 [INFO] =======================================================
+2026-06-25 11:59:43,931 [INFO] Collection started: 2026-06-25 08:59 UTC
+2026-06-25 11:59:43,931 [INFO] Collecting: Bremen (DE) @ 53.0793, 8.8017
+2026-06-25 11:59:44,031 [INFO] [Bremen] API call successful
+2026-06-25 11:59:44,911 [ERROR] [Bremen] Failed to insert row at index 0: relation "sensor_readings" does not exist
+LINE 2:         INSERT INTO sensor_readings
+                            ^
+
+2026-06-25 11:59:45,006 [ERROR] [Bremen] Failed to insert row at index 1: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:45,100 [ERROR] [Bremen] Failed to insert row at index 2: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:45,193 [ERROR] [Bremen] Failed to insert row at index 3: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:45,287 [ERROR] [Bremen] Failed to insert row at index 4: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:45,381 [ERROR] [Bremen] Failed to insert row at index 5: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:45,474 [ERROR] [Bremen] Failed to insert row at index 6: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:45,568 [ERROR] [Bremen] Failed to insert row at index 7: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:45,664 [ERROR] [Bremen] Failed to insert row at index 8: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:45,757 [ERROR] [Bremen] Failed to insert row at index 9: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:45,851 [ERROR] [Bremen] Failed to insert row at index 10: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:45,946 [ERROR] [Bremen] Failed to insert row at index 11: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:46,039 [ERROR] [Bremen] Failed to insert row at index 12: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:46,133 [ERROR] [Bremen] Failed to insert row at index 13: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:46,226 [ERROR] [Bremen] Failed to insert row at index 14: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:46,320 [ERROR] [Bremen] Failed to insert row at index 15: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:46,417 [ERROR] [Bremen] Failed to insert row at index 16: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:46,512 [ERROR] [Bremen] Failed to insert row at index 17: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:46,607 [ERROR] [Bremen] Failed to insert row at index 18: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:46,701 [ERROR] [Bremen] Failed to insert row at index 19: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:46,794 [ERROR] [Bremen] Failed to insert row at index 20: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:46,890 [ERROR] [Bremen] Failed to insert row at index 21: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:46,983 [ERROR] [Bremen] Failed to insert row at index 22: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:47,076 [ERROR] [Bremen] Failed to insert row at index 23: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:47,170 [ERROR] [Bremen] Failed to insert row at index 24: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:47,266 [ERROR] [Bremen] Failed to insert row at index 25: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:47,360 [ERROR] [Bremen] Failed to insert row at index 26: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:47,454 [ERROR] [Bremen] Failed to insert row at index 27: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:47,548 [ERROR] [Bremen] Failed to insert row at index 28: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:47,642 [ERROR] [Bremen] Failed to insert row at index 29: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:47,736 [ERROR] [Bremen] Failed to insert row at index 30: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:47,830 [ERROR] [Bremen] Failed to insert row at index 31: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:47,926 [ERROR] [Bremen] Failed to insert row at index 32: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:48,020 [ERROR] [Bremen] Failed to insert row at index 33: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:48,117 [ERROR] [Bremen] Failed to insert row at index 34: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:48,247 [ERROR] [Bremen] Failed to insert row at index 35: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:48,341 [ERROR] [Bremen] Failed to insert row at index 36: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:48,435 [ERROR] [Bremen] Failed to insert row at index 37: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:48,530 [ERROR] [Bremen] Failed to insert row at index 38: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:48,625 [ERROR] [Bremen] Failed to insert row at index 39: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:48,720 [ERROR] [Bremen] Failed to insert row at index 40: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:48,814 [ERROR] [Bremen] Failed to insert row at index 41: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:48,909 [ERROR] [Bremen] Failed to insert row at index 42: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:49,003 [ERROR] [Bremen] Failed to insert row at index 43: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:49,098 [ERROR] [Bremen] Failed to insert row at index 44: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:49,192 [ERROR] [Bremen] Failed to insert row at index 45: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:49,287 [ERROR] [Bremen] Failed to insert row at index 46: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:49,381 [ERROR] [Bremen] Failed to insert row at index 47: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:49,475 [ERROR] [Bremen] Failed to insert row at index 48: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:49,569 [ERROR] [Bremen] Failed to insert row at index 49: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:49,682 [ERROR] [Bremen] Failed to insert row at index 50: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:49,777 [ERROR] [Bremen] Failed to insert row at index 51: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:49,877 [ERROR] [Bremen] Failed to insert row at index 52: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:49,971 [ERROR] [Bremen] Failed to insert row at index 53: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:50,065 [ERROR] [Bremen] Failed to insert row at index 54: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:50,159 [ERROR] [Bremen] Failed to insert row at index 55: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:50,253 [ERROR] [Bremen] Failed to insert row at index 56: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:50,348 [ERROR] [Bremen] Failed to insert row at index 57: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:50,442 [ERROR] [Bremen] Failed to insert row at index 58: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:50,535 [ERROR] [Bremen] Failed to insert row at index 59: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:50,630 [ERROR] [Bremen] Failed to insert row at index 60: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:50,733 [ERROR] [Bremen] Failed to insert row at index 61: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:50,828 [ERROR] [Bremen] Failed to insert row at index 62: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:50,921 [ERROR] [Bremen] Failed to insert row at index 63: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:51,015 [ERROR] [Bremen] Failed to insert row at index 64: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:51,113 [ERROR] [Bremen] Failed to insert row at index 65: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:51,207 [ERROR] [Bremen] Failed to insert row at index 66: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:51,302 [ERROR] [Bremen] Failed to insert row at index 67: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:51,396 [ERROR] [Bremen] Failed to insert row at index 68: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:51,489 [ERROR] [Bremen] Failed to insert row at index 69: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:51,584 [ERROR] [Bremen] Failed to insert row at index 70: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:51,679 [ERROR] [Bremen] Failed to insert row at index 71: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:51,776 [ERROR] [Bremen] Failed to insert row at index 72: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:51,871 [ERROR] [Bremen] Failed to insert row at index 73: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:51,965 [ERROR] [Bremen] Failed to insert row at index 74: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:52,060 [ERROR] [Bremen] Failed to insert row at index 75: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:52,154 [ERROR] [Bremen] Failed to insert row at index 76: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:52,249 [ERROR] [Bremen] Failed to insert row at index 77: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:52,346 [ERROR] [Bremen] Failed to insert row at index 78: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:52,446 [ERROR] [Bremen] Failed to insert row at index 79: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:52,541 [ERROR] [Bremen] Failed to insert row at index 80: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:52,637 [ERROR] [Bremen] Failed to insert row at index 81: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:52,733 [ERROR] [Bremen] Failed to insert row at index 82: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:52,827 [ERROR] [Bremen] Failed to insert row at index 83: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:52,921 [ERROR] [Bremen] Failed to insert row at index 84: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:53,015 [ERROR] [Bremen] Failed to insert row at index 85: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:53,110 [ERROR] [Bremen] Failed to insert row at index 86: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:53,206 [ERROR] [Bremen] Failed to insert row at index 87: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:53,300 [ERROR] [Bremen] Failed to insert row at index 88: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:53,396 [ERROR] [Bremen] Failed to insert row at index 89: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:53,490 [ERROR] [Bremen] Failed to insert row at index 90: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:53,584 [ERROR] [Bremen] Failed to insert row at index 91: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:53,680 [ERROR] [Bremen] Failed to insert row at index 92: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:53,776 [ERROR] [Bremen] Failed to insert row at index 93: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:53,870 [ERROR] [Bremen] Failed to insert row at index 94: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:53,963 [ERROR] [Bremen] Failed to insert row at index 95: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:54,058 [ERROR] [Bremen] Failed to insert row at index 96: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:54,151 [ERROR] [Bremen] Failed to insert row at index 97: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:54,245 [ERROR] [Bremen] Failed to insert row at index 98: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:54,342 [ERROR] [Bremen] Failed to insert row at index 99: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:54,436 [ERROR] [Bremen] Failed to insert row at index 100: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:54,530 [ERROR] [Bremen] Failed to insert row at index 101: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:54,628 [ERROR] [Bremen] Failed to insert row at index 102: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:54,724 [ERROR] [Bremen] Failed to insert row at index 103: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:54,818 [ERROR] [Bremen] Failed to insert row at index 104: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:54,912 [ERROR] [Bremen] Failed to insert row at index 105: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:55,006 [ERROR] [Bremen] Failed to insert row at index 106: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:55,100 [ERROR] [Bremen] Failed to insert row at index 107: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:55,193 [ERROR] [Bremen] Failed to insert row at index 108: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:55,287 [ERROR] [Bremen] Failed to insert row at index 109: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:55,381 [ERROR] [Bremen] Failed to insert row at index 110: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:55,475 [ERROR] [Bremen] Failed to insert row at index 111: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:55,568 [ERROR] [Bremen] Failed to insert row at index 112: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:55,663 [ERROR] [Bremen] Failed to insert row at index 113: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:55,757 [ERROR] [Bremen] Failed to insert row at index 114: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:55,852 [ERROR] [Bremen] Failed to insert row at index 115: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:55,946 [ERROR] [Bremen] Failed to insert row at index 116: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:56,039 [ERROR] [Bremen] Failed to insert row at index 117: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:56,132 [ERROR] [Bremen] Failed to insert row at index 118: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:56,225 [ERROR] [Bremen] Failed to insert row at index 119: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:56,319 [ERROR] [Bremen] Failed to insert row at index 120: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:56,413 [ERROR] [Bremen] Failed to insert row at index 121: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:56,507 [ERROR] [Bremen] Failed to insert row at index 122: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:56,601 [ERROR] [Bremen] Failed to insert row at index 123: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:56,694 [ERROR] [Bremen] Failed to insert row at index 124: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:56,790 [ERROR] [Bremen] Failed to insert row at index 125: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:56,883 [ERROR] [Bremen] Failed to insert row at index 126: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:56,979 [ERROR] [Bremen] Failed to insert row at index 127: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:57,074 [ERROR] [Bremen] Failed to insert row at index 128: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:57,168 [ERROR] [Bremen] Failed to insert row at index 129: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:57,264 [ERROR] [Bremen] Failed to insert row at index 130: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:57,359 [ERROR] [Bremen] Failed to insert row at index 131: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:57,454 [ERROR] [Bremen] Failed to insert row at index 132: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:57,548 [ERROR] [Bremen] Failed to insert row at index 133: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:57,642 [ERROR] [Bremen] Failed to insert row at index 134: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:57,736 [ERROR] [Bremen] Failed to insert row at index 135: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:57,830 [ERROR] [Bremen] Failed to insert row at index 136: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:57,927 [ERROR] [Bremen] Failed to insert row at index 137: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:58,022 [ERROR] [Bremen] Failed to insert row at index 138: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:58,116 [ERROR] [Bremen] Failed to insert row at index 139: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:58,210 [ERROR] [Bremen] Failed to insert row at index 140: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:58,304 [ERROR] [Bremen] Failed to insert row at index 141: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:58,398 [ERROR] [Bremen] Failed to insert row at index 142: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:58,493 [ERROR] [Bremen] Failed to insert row at index 143: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:58,589 [INFO] [Bremen] Inserted: 0 rows | Skipped: 144 rows
+2026-06-25 11:59:58,589 [INFO] Collecting: Nairobi (KE) @ -1.2921, 36.8219
+2026-06-25 11:59:58,687 [INFO] [Nairobi] API call successful
+2026-06-25 11:59:59,512 [ERROR] [Nairobi] Failed to insert row at index 0: relation "sensor_readings" does not exist
+LINE 2:         INSERT INTO sensor_readings
+                            ^
+
+2026-06-25 11:59:59,612 [ERROR] [Nairobi] Failed to insert row at index 1: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:59,819 [ERROR] [Nairobi] Failed to insert row at index 2: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 11:59:59,919 [ERROR] [Nairobi] Failed to insert row at index 3: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:00,018 [ERROR] [Nairobi] Failed to insert row at index 4: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:00,120 [ERROR] [Nairobi] Failed to insert row at index 5: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:00,227 [ERROR] [Nairobi] Failed to insert row at index 6: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:00,546 [ERROR] [Nairobi] Failed to insert row at index 7: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:00,645 [ERROR] [Nairobi] Failed to insert row at index 8: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:00,807 [ERROR] [Nairobi] Failed to insert row at index 9: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:00,906 [ERROR] [Nairobi] Failed to insert row at index 10: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:01,004 [ERROR] [Nairobi] Failed to insert row at index 11: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:01,102 [ERROR] [Nairobi] Failed to insert row at index 12: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:01,200 [ERROR] [Nairobi] Failed to insert row at index 13: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:01,298 [ERROR] [Nairobi] Failed to insert row at index 14: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:01,396 [ERROR] [Nairobi] Failed to insert row at index 15: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:01,494 [ERROR] [Nairobi] Failed to insert row at index 16: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:01,593 [ERROR] [Nairobi] Failed to insert row at index 17: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:01,691 [ERROR] [Nairobi] Failed to insert row at index 18: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:01,789 [ERROR] [Nairobi] Failed to insert row at index 19: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:01,889 [ERROR] [Nairobi] Failed to insert row at index 20: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:01,986 [ERROR] [Nairobi] Failed to insert row at index 21: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:02,084 [ERROR] [Nairobi] Failed to insert row at index 22: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:02,183 [ERROR] [Nairobi] Failed to insert row at index 23: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:02,379 [ERROR] [Nairobi] Failed to insert row at index 24: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:02,586 [ERROR] [Nairobi] Failed to insert row at index 25: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:02,731 [ERROR] [Nairobi] Failed to insert row at index 26: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:02,830 [ERROR] [Nairobi] Failed to insert row at index 27: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:02,931 [ERROR] [Nairobi] Failed to insert row at index 28: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:03,029 [ERROR] [Nairobi] Failed to insert row at index 29: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:03,129 [ERROR] [Nairobi] Failed to insert row at index 30: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:03,228 [ERROR] [Nairobi] Failed to insert row at index 31: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:03,325 [ERROR] [Nairobi] Failed to insert row at index 32: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:03,426 [ERROR] [Nairobi] Failed to insert row at index 33: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:03,524 [ERROR] [Nairobi] Failed to insert row at index 34: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:03,622 [ERROR] [Nairobi] Failed to insert row at index 35: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:03,720 [ERROR] [Nairobi] Failed to insert row at index 36: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:03,818 [ERROR] [Nairobi] Failed to insert row at index 37: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:03,916 [ERROR] [Nairobi] Failed to insert row at index 38: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:04,022 [ERROR] [Nairobi] Failed to insert row at index 39: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:04,120 [ERROR] [Nairobi] Failed to insert row at index 40: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:04,220 [ERROR] [Nairobi] Failed to insert row at index 41: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:04,319 [ERROR] [Nairobi] Failed to insert row at index 42: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:04,421 [ERROR] [Nairobi] Failed to insert row at index 43: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:04,518 [ERROR] [Nairobi] Failed to insert row at index 44: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:04,734 [ERROR] [Nairobi] Failed to insert row at index 45: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:04,834 [ERROR] [Nairobi] Failed to insert row at index 46: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:05,043 [ERROR] [Nairobi] Failed to insert row at index 47: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:05,143 [ERROR] [Nairobi] Failed to insert row at index 48: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:05,248 [ERROR] [Nairobi] Failed to insert row at index 49: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:05,347 [ERROR] [Nairobi] Failed to insert row at index 50: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:05,448 [ERROR] [Nairobi] Failed to insert row at index 51: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:05,551 [ERROR] [Nairobi] Failed to insert row at index 52: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:05,653 [ERROR] [Nairobi] Failed to insert row at index 53: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:05,752 [ERROR] [Nairobi] Failed to insert row at index 54: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:05,853 [ERROR] [Nairobi] Failed to insert row at index 55: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:05,954 [ERROR] [Nairobi] Failed to insert row at index 56: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:06,052 [ERROR] [Nairobi] Failed to insert row at index 57: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:06,149 [ERROR] [Nairobi] Failed to insert row at index 58: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:06,247 [ERROR] [Nairobi] Failed to insert row at index 59: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:06,345 [ERROR] [Nairobi] Failed to insert row at index 60: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:06,442 [ERROR] [Nairobi] Failed to insert row at index 61: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:06,544 [ERROR] [Nairobi] Failed to insert row at index 62: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:06,642 [ERROR] [Nairobi] Failed to insert row at index 63: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:06,739 [ERROR] [Nairobi] Failed to insert row at index 64: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:06,838 [ERROR] [Nairobi] Failed to insert row at index 65: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:06,937 [ERROR] [Nairobi] Failed to insert row at index 66: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:07,034 [ERROR] [Nairobi] Failed to insert row at index 67: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:07,192 [ERROR] [Nairobi] Failed to insert row at index 68: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:07,292 [ERROR] [Nairobi] Failed to insert row at index 69: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:07,391 [ERROR] [Nairobi] Failed to insert row at index 70: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:07,497 [ERROR] [Nairobi] Failed to insert row at index 71: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:07,704 [ERROR] [Nairobi] Failed to insert row at index 72: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:07,804 [ERROR] [Nairobi] Failed to insert row at index 73: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:07,902 [ERROR] [Nairobi] Failed to insert row at index 74: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:08,000 [ERROR] [Nairobi] Failed to insert row at index 75: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:08,100 [ERROR] [Nairobi] Failed to insert row at index 76: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:08,198 [ERROR] [Nairobi] Failed to insert row at index 77: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:08,296 [ERROR] [Nairobi] Failed to insert row at index 78: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:08,395 [ERROR] [Nairobi] Failed to insert row at index 79: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:08,495 [ERROR] [Nairobi] Failed to insert row at index 80: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:08,594 [ERROR] [Nairobi] Failed to insert row at index 81: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:08,693 [ERROR] [Nairobi] Failed to insert row at index 82: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:08,792 [ERROR] [Nairobi] Failed to insert row at index 83: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:08,891 [ERROR] [Nairobi] Failed to insert row at index 84: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:08,988 [ERROR] [Nairobi] Failed to insert row at index 85: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:09,087 [ERROR] [Nairobi] Failed to insert row at index 86: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:09,185 [ERROR] [Nairobi] Failed to insert row at index 87: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:09,283 [ERROR] [Nairobi] Failed to insert row at index 88: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:09,381 [ERROR] [Nairobi] Failed to insert row at index 89: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:09,479 [ERROR] [Nairobi] Failed to insert row at index 90: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:09,578 [ERROR] [Nairobi] Failed to insert row at index 91: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:09,681 [ERROR] [Nairobi] Failed to insert row at index 92: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:09,780 [ERROR] [Nairobi] Failed to insert row at index 93: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:09,878 [ERROR] [Nairobi] Failed to insert row at index 94: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:09,978 [ERROR] [Nairobi] Failed to insert row at index 95: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:10,076 [ERROR] [Nairobi] Failed to insert row at index 96: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:10,173 [ERROR] [Nairobi] Failed to insert row at index 97: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:10,270 [ERROR] [Nairobi] Failed to insert row at index 98: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:10,368 [ERROR] [Nairobi] Failed to insert row at index 99: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:10,470 [ERROR] [Nairobi] Failed to insert row at index 100: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:10,569 [ERROR] [Nairobi] Failed to insert row at index 101: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:10,666 [ERROR] [Nairobi] Failed to insert row at index 102: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:10,764 [ERROR] [Nairobi] Failed to insert row at index 103: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:10,862 [ERROR] [Nairobi] Failed to insert row at index 104: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:10,960 [ERROR] [Nairobi] Failed to insert row at index 105: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:11,058 [ERROR] [Nairobi] Failed to insert row at index 106: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:11,157 [ERROR] [Nairobi] Failed to insert row at index 107: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:00:11,255 [ERROR] [Nairobi] Failed to insert row at index 108: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:29,639 [INFO] =======================================================
+2026-06-25 12:16:29,640 [INFO] Collection started: 2026-06-25 09:16 UTC
+2026-06-25 12:16:29,640 [INFO] Collecting: Bremen (DE) @ 53.0793, 8.8017
+2026-06-25 12:16:29,751 [INFO] [Bremen] API call successful
+2026-06-25 12:16:30,608 [ERROR] [Bremen] Failed to insert row at index 0: relation "sensor_readings" does not exist
+LINE 2:         INSERT INTO sensor_readings
+                            ^
+
+2026-06-25 12:16:30,707 [ERROR] [Bremen] Failed to insert row at index 1: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:30,804 [ERROR] [Bremen] Failed to insert row at index 2: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:30,902 [ERROR] [Bremen] Failed to insert row at index 3: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:31,001 [ERROR] [Bremen] Failed to insert row at index 4: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:31,098 [ERROR] [Bremen] Failed to insert row at index 5: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:31,197 [ERROR] [Bremen] Failed to insert row at index 6: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:31,296 [ERROR] [Bremen] Failed to insert row at index 7: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:31,396 [ERROR] [Bremen] Failed to insert row at index 8: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:31,501 [ERROR] [Bremen] Failed to insert row at index 9: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:31,603 [ERROR] [Bremen] Failed to insert row at index 10: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:31,707 [ERROR] [Bremen] Failed to insert row at index 11: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:31,914 [ERROR] [Bremen] Failed to insert row at index 12: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:32,013 [ERROR] [Bremen] Failed to insert row at index 13: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:32,112 [ERROR] [Bremen] Failed to insert row at index 14: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:32,214 [ERROR] [Bremen] Failed to insert row at index 15: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:32,312 [ERROR] [Bremen] Failed to insert row at index 16: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:32,410 [ERROR] [Bremen] Failed to insert row at index 17: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:32,507 [ERROR] [Bremen] Failed to insert row at index 18: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:32,607 [ERROR] [Bremen] Failed to insert row at index 19: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:32,709 [ERROR] [Bremen] Failed to insert row at index 20: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:32,811 [ERROR] [Bremen] Failed to insert row at index 21: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:32,914 [ERROR] [Bremen] Failed to insert row at index 22: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:33,016 [ERROR] [Bremen] Failed to insert row at index 23: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:33,116 [ERROR] [Bremen] Failed to insert row at index 24: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:33,215 [ERROR] [Bremen] Failed to insert row at index 25: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:33,313 [ERROR] [Bremen] Failed to insert row at index 26: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:33,412 [ERROR] [Bremen] Failed to insert row at index 27: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:33,510 [ERROR] [Bremen] Failed to insert row at index 28: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:33,609 [ERROR] [Bremen] Failed to insert row at index 29: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:33,706 [ERROR] [Bremen] Failed to insert row at index 30: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:33,804 [ERROR] [Bremen] Failed to insert row at index 31: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:33,901 [ERROR] [Bremen] Failed to insert row at index 32: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:34,001 [ERROR] [Bremen] Failed to insert row at index 33: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:34,101 [ERROR] [Bremen] Failed to insert row at index 34: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:34,199 [ERROR] [Bremen] Failed to insert row at index 35: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:34,298 [ERROR] [Bremen] Failed to insert row at index 36: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:34,395 [ERROR] [Bremen] Failed to insert row at index 37: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:34,495 [ERROR] [Bremen] Failed to insert row at index 38: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:34,592 [ERROR] [Bremen] Failed to insert row at index 39: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:34,690 [ERROR] [Bremen] Failed to insert row at index 40: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:34,787 [ERROR] [Bremen] Failed to insert row at index 41: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:34,886 [ERROR] [Bremen] Failed to insert row at index 42: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:34,984 [ERROR] [Bremen] Failed to insert row at index 43: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:35,085 [ERROR] [Bremen] Failed to insert row at index 44: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:35,188 [ERROR] [Bremen] Failed to insert row at index 45: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:35,290 [ERROR] [Bremen] Failed to insert row at index 46: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:35,389 [ERROR] [Bremen] Failed to insert row at index 47: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:35,492 [ERROR] [Bremen] Failed to insert row at index 48: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:35,593 [ERROR] [Bremen] Failed to insert row at index 49: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:35,692 [ERROR] [Bremen] Failed to insert row at index 50: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:35,789 [ERROR] [Bremen] Failed to insert row at index 51: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:35,887 [ERROR] [Bremen] Failed to insert row at index 52: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:35,986 [ERROR] [Bremen] Failed to insert row at index 53: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:36,088 [ERROR] [Bremen] Failed to insert row at index 54: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:36,186 [ERROR] [Bremen] Failed to insert row at index 55: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:36,285 [ERROR] [Bremen] Failed to insert row at index 56: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:36,385 [ERROR] [Bremen] Failed to insert row at index 57: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:36,483 [ERROR] [Bremen] Failed to insert row at index 58: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:36,582 [ERROR] [Bremen] Failed to insert row at index 59: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:36,682 [ERROR] [Bremen] Failed to insert row at index 60: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:36,782 [ERROR] [Bremen] Failed to insert row at index 61: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:36,880 [ERROR] [Bremen] Failed to insert row at index 62: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:36,979 [ERROR] [Bremen] Failed to insert row at index 63: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:37,077 [ERROR] [Bremen] Failed to insert row at index 64: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:37,176 [ERROR] [Bremen] Failed to insert row at index 65: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:37,275 [ERROR] [Bremen] Failed to insert row at index 66: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:37,373 [ERROR] [Bremen] Failed to insert row at index 67: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:37,470 [ERROR] [Bremen] Failed to insert row at index 68: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:37,569 [ERROR] [Bremen] Failed to insert row at index 69: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:37,668 [ERROR] [Bremen] Failed to insert row at index 70: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:37,766 [ERROR] [Bremen] Failed to insert row at index 71: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:37,864 [ERROR] [Bremen] Failed to insert row at index 72: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:37,962 [ERROR] [Bremen] Failed to insert row at index 73: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:38,060 [ERROR] [Bremen] Failed to insert row at index 74: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:38,160 [ERROR] [Bremen] Failed to insert row at index 75: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:38,260 [ERROR] [Bremen] Failed to insert row at index 76: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:38,362 [ERROR] [Bremen] Failed to insert row at index 77: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:38,461 [ERROR] [Bremen] Failed to insert row at index 78: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:38,564 [ERROR] [Bremen] Failed to insert row at index 79: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:38,666 [ERROR] [Bremen] Failed to insert row at index 80: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:38,773 [ERROR] [Bremen] Failed to insert row at index 81: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:38,874 [ERROR] [Bremen] Failed to insert row at index 82: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:38,977 [ERROR] [Bremen] Failed to insert row at index 83: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:39,080 [ERROR] [Bremen] Failed to insert row at index 84: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:39,178 [ERROR] [Bremen] Failed to insert row at index 85: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:39,456 [ERROR] [Bremen] Failed to insert row at index 86: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:16:39,554 [ERROR] [Bremen] Failed to insert row at index 87: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:19:56,354 [INFO] =======================================================
+2026-06-25 12:19:56,354 [INFO] Collection started: 2026-06-25 09:19 UTC
+2026-06-25 12:19:56,354 [INFO] Collecting: Bremen (DE) @ 53.0793, 8.8017
+2026-06-25 12:19:56,461 [INFO] [Bremen] API call successful
+2026-06-25 12:19:57,292 [ERROR] [Bremen] Failed to insert row at index 0: relation "sensor_readings" does not exist
+LINE 2:         INSERT INTO sensor_readings
+                            ^
+
+2026-06-25 12:19:57,391 [ERROR] [Bremen] Failed to insert row at index 1: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:19:57,489 [ERROR] [Bremen] Failed to insert row at index 2: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:19:57,587 [ERROR] [Bremen] Failed to insert row at index 3: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:19:57,685 [ERROR] [Bremen] Failed to insert row at index 4: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:19:57,783 [ERROR] [Bremen] Failed to insert row at index 5: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:19:57,881 [ERROR] [Bremen] Failed to insert row at index 6: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:19:57,979 [ERROR] [Bremen] Failed to insert row at index 7: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:19:58,077 [ERROR] [Bremen] Failed to insert row at index 8: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:19:58,175 [ERROR] [Bremen] Failed to insert row at index 9: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:19:58,275 [ERROR] [Bremen] Failed to insert row at index 10: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:19:58,372 [ERROR] [Bremen] Failed to insert row at index 11: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:19:58,470 [ERROR] [Bremen] Failed to insert row at index 12: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:20:36,978 [INFO] =======================================================
+2026-06-25 12:20:36,979 [INFO] Collection started: 2026-06-25 09:20 UTC
+2026-06-25 12:20:36,979 [INFO] Collecting: Bremen (DE) @ 53.0793, 8.8017
+2026-06-25 12:20:37,071 [INFO] [Bremen] API call successful
+2026-06-25 12:20:37,865 [ERROR] [Bremen] Failed to insert row at index 0: relation "sensor_readings" does not exist
+LINE 2:         INSERT INTO sensor_readings
+                            ^
+
+2026-06-25 12:20:37,961 [ERROR] [Bremen] Failed to insert row at index 1: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:20:38,058 [ERROR] [Bremen] Failed to insert row at index 2: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:20:38,153 [ERROR] [Bremen] Failed to insert row at index 3: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:20:38,249 [ERROR] [Bremen] Failed to insert row at index 4: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:20:38,344 [ERROR] [Bremen] Failed to insert row at index 5: current transaction is aborted, commands ignored until end of transaction block
+
+2026-06-25 12:23:27,386 [INFO] =======================================================
+2026-06-25 12:23:27,386 [INFO] Collection started: 2026-06-25 09:23 UTC
+2026-06-25 12:23:27,386 [INFO] Collecting: Bremen (DE) @ 53.0793, 8.8017
+2026-06-25 12:23:27,497 [INFO] [Bremen] API call successful
+2026-06-25 12:23:28,145 [ERROR] [Bremen] Failed to insert row at index 0: not all arguments converted during string formatting
+2026-06-25 12:23:28,145 [ERROR] [Bremen] Failed to insert row at index 1: not all arguments converted during string formatting
+2026-06-25 12:23:28,145 [ERROR] [Bremen] Failed to insert row at index 2: not all arguments converted during string formatting
+2026-06-25 12:23:28,145 [ERROR] [Bremen] Failed to insert row at index 3: not all arguments converted during string formatting
+2026-06-25 12:23:28,146 [ERROR] [Bremen] Failed to insert row at index 4: not all arguments converted during string formatting
+2026-06-25 12:23:28,146 [ERROR] [Bremen] Failed to insert row at index 5: not all arguments converted during string formatting
+2026-06-25 12:23:28,146 [ERROR] [Bremen] Failed to insert row at index 6: not all arguments converted during string formatting
+2026-06-25 12:23:28,146 [ERROR] [Bremen] Failed to insert row at index 7: not all arguments converted during string formatting
+2026-06-25 12:23:28,146 [ERROR] [Bremen] Failed to insert row at index 8: not all arguments converted during string formatting
+2026-06-25 12:23:28,146 [ERROR] [Bremen] Failed to insert row at index 9: not all arguments converted during string formatting
+2026-06-25 12:23:28,146 [ERROR] [Bremen] Failed to insert row at index 10: not all arguments converted during string formatting
+2026-06-25 12:23:28,147 [ERROR] [Bremen] Failed to insert row at index 11: not all arguments converted during string formatting
+2026-06-25 12:23:28,147 [ERROR] [Bremen] Failed to insert row at index 12: not all arguments converted during string formatting
+2026-06-25 12:23:28,147 [ERROR] [Bremen] Failed to insert row at index 13: not all arguments converted during string formatting
+2026-06-25 12:23:28,147 [ERROR] [Bremen] Failed to insert row at index 14: not all arguments converted during string formatting
+2026-06-25 12:23:28,147 [ERROR] [Bremen] Failed to insert row at index 15: not all arguments converted during string formatting
+2026-06-25 12:23:28,148 [ERROR] [Bremen] Failed to insert row at index 16: not all arguments converted during string formatting
+2026-06-25 12:23:28,148 [ERROR] [Bremen] Failed to insert row at index 17: not all arguments converted during string formatting
+2026-06-25 12:23:28,148 [ERROR] [Bremen] Failed to insert row at index 18: not all arguments converted during string formatting
+2026-06-25 12:23:28,148 [ERROR] [Bremen] Failed to insert row at index 19: not all arguments converted during string formatting
+2026-06-25 12:23:28,148 [ERROR] [Bremen] Failed to insert row at index 20: not all arguments converted during string formatting
+2026-06-25 12:23:28,148 [ERROR] [Bremen] Failed to insert row at index 21: not all arguments converted during string formatting
+2026-06-25 12:23:28,148 [ERROR] [Bremen] Failed to insert row at index 22: not all arguments converted during string formatting
+2026-06-25 12:23:28,149 [ERROR] [Bremen] Failed to insert row at index 23: not all arguments converted during string formatting
+2026-06-25 12:23:28,149 [ERROR] [Bremen] Failed to insert row at index 24: not all arguments converted during string formatting
+2026-06-25 12:23:28,149 [ERROR] [Bremen] Failed to insert row at index 25: not all arguments converted during string formatting
+2026-06-25 12:23:28,149 [ERROR] [Bremen] Failed to insert row at index 26: not all arguments converted during string formatting
+2026-06-25 12:23:28,149 [ERROR] [Bremen] Failed to insert row at index 27: not all arguments converted during string formatting
+2026-06-25 12:23:28,149 [ERROR] [Bremen] Failed to insert row at index 28: not all arguments converted during string formatting
+2026-06-25 12:23:28,149 [ERROR] [Bremen] Failed to insert row at index 29: not all arguments converted during string formatting
+2026-06-25 12:23:28,150 [ERROR] [Bremen] Failed to insert row at index 30: not all arguments converted during string formatting
+2026-06-25 12:23:28,150 [ERROR] [Bremen] Failed to insert row at index 31: not all arguments converted during string formatting
+2026-06-25 12:23:28,150 [ERROR] [Bremen] Failed to insert row at index 32: not all arguments converted during string formatting
+2026-06-25 12:23:28,150 [ERROR] [Bremen] Failed to insert row at index 33: not all arguments converted during string formatting
+2026-06-25 12:23:28,150 [ERROR] [Bremen] Failed to insert row at index 34: not all arguments converted during string formatting
+2026-06-25 12:23:28,150 [ERROR] [Bremen] Failed to insert row at index 35: not all arguments converted during string formatting
+2026-06-25 12:23:28,150 [ERROR] [Bremen] Failed to insert row at index 36: not all arguments converted during string formatting
+2026-06-25 12:23:28,151 [ERROR] [Bremen] Failed to insert row at index 37: not all arguments converted during string formatting
+2026-06-25 12:23:28,151 [ERROR] [Bremen] Failed to insert row at index 38: not all arguments converted during string formatting
+2026-06-25 12:23:28,151 [ERROR] [Bremen] Failed to insert row at index 39: not all arguments converted during string formatting
+2026-06-25 12:23:28,151 [ERROR] [Bremen] Failed to insert row at index 40: not all arguments converted during string formatting
+2026-06-25 12:23:28,151 [ERROR] [Bremen] Failed to insert row at index 41: not all arguments converted during string formatting
+2026-06-25 12:23:28,151 [ERROR] [Bremen] Failed to insert row at index 42: not all arguments converted during string formatting
+2026-06-25 12:23:28,151 [ERROR] [Bremen] Failed to insert row at index 43: not all arguments converted during string formatting
+2026-06-25 12:23:28,152 [ERROR] [Bremen] Failed to insert row at index 44: not all arguments converted during string formatting
+2026-06-25 12:23:28,152 [ERROR] [Bremen] Failed to insert row at index 45: not all arguments converted during string formatting
+2026-06-25 12:23:28,152 [ERROR] [Bremen] Failed to insert row at index 46: not all arguments converted during string formatting
+2026-06-25 12:23:28,152 [ERROR] [Bremen] Failed to insert row at index 47: not all arguments converted during string formatting
+2026-06-25 12:23:28,152 [ERROR] [Bremen] Failed to insert row at index 48: not all arguments converted during string formatting
+2026-06-25 12:23:28,152 [ERROR] [Bremen] Failed to insert row at index 49: not all arguments converted during string formatting
+2026-06-25 12:23:28,152 [ERROR] [Bremen] Failed to insert row at index 50: not all arguments converted during string formatting
+2026-06-25 12:23:28,152 [ERROR] [Bremen] Failed to insert row at index 51: not all arguments converted during string formatting
+2026-06-25 12:23:28,153 [ERROR] [Bremen] Failed to insert row at index 52: not all arguments converted during string formatting
+2026-06-25 12:23:28,153 [ERROR] [Bremen] Failed to insert row at index 53: not all arguments converted during string formatting
+2026-06-25 12:23:28,153 [ERROR] [Bremen] Failed to insert row at index 54: not all arguments converted during string formatting
+2026-06-25 12:23:28,153 [ERROR] [Bremen] Failed to insert row at index 55: not all arguments converted during string formatting
+2026-06-25 12:23:28,153 [ERROR] [Bremen] Failed to insert row at index 56: not all arguments converted during string formatting
+2026-06-25 12:23:28,153 [ERROR] [Bremen] Failed to insert row at index 57: not all arguments converted during string formatting
+2026-06-25 12:23:28,153 [ERROR] [Bremen] Failed to insert row at index 58: not all arguments converted during string formatting
+2026-06-25 12:23:28,153 [ERROR] [Bremen] Failed to insert row at index 59: not all arguments converted during string formatting
+2026-06-25 12:23:28,153 [ERROR] [Bremen] Failed to insert row at index 60: not all arguments converted during string formatting
+2026-06-25 12:23:28,154 [ERROR] [Bremen] Failed to insert row at index 61: not all arguments converted during string formatting
+2026-06-25 12:23:28,154 [ERROR] [Bremen] Failed to insert row at index 62: not all arguments converted during string formatting
+2026-06-25 12:23:28,154 [ERROR] [Bremen] Failed to insert row at index 63: not all arguments converted during string formatting
+2026-06-25 12:23:28,154 [ERROR] [Bremen] Failed to insert row at index 64: not all arguments converted during string formatting
+2026-06-25 12:23:28,154 [ERROR] [Bremen] Failed to insert row at index 65: not all arguments converted during string formatting
+2026-06-25 12:23:28,154 [ERROR] [Bremen] Failed to insert row at index 66: not all arguments converted during string formatting
+2026-06-25 12:23:28,155 [ERROR] [Bremen] Failed to insert row at index 67: not all arguments converted during string formatting
+2026-06-25 12:23:28,155 [ERROR] [Bremen] Failed to insert row at index 68: not all arguments converted during string formatting
+2026-06-25 12:23:28,155 [ERROR] [Bremen] Failed to insert row at index 69: not all arguments converted during string formatting
+2026-06-25 12:23:28,155 [ERROR] [Bremen] Failed to insert row at index 70: not all arguments converted during string formatting
+2026-06-25 12:23:28,155 [ERROR] [Bremen] Failed to insert row at index 71: not all arguments converted during string formatting
+2026-06-25 12:23:28,155 [ERROR] [Bremen] Failed to insert row at index 72: not all arguments converted during string formatting
+2026-06-25 12:23:28,156 [ERROR] [Bremen] Failed to insert row at index 73: not all arguments converted during string formatting
+2026-06-25 12:23:28,156 [ERROR] [Bremen] Failed to insert row at index 74: not all arguments converted during string formatting
+2026-06-25 12:23:28,156 [ERROR] [Bremen] Failed to insert row at index 75: not all arguments converted during string formatting
+2026-06-25 12:23:28,156 [ERROR] [Bremen] Failed to insert row at index 76: not all arguments converted during string formatting
+2026-06-25 12:23:28,156 [ERROR] [Bremen] Failed to insert row at index 77: not all arguments converted during string formatting
+2026-06-25 12:23:28,156 [ERROR] [Bremen] Failed to insert row at index 78: not all arguments converted during string formatting
+2026-06-25 12:23:28,156 [ERROR] [Bremen] Failed to insert row at index 79: not all arguments converted during string formatting
+2026-06-25 12:23:28,157 [ERROR] [Bremen] Failed to insert row at index 80: not all arguments converted during string formatting
+2026-06-25 12:23:28,157 [ERROR] [Bremen] Failed to insert row at index 81: not all arguments converted during string formatting
+2026-06-25 12:23:28,157 [ERROR] [Bremen] Failed to insert row at index 82: not all arguments converted during string formatting
+2026-06-25 12:23:28,157 [ERROR] [Bremen] Failed to insert row at index 83: not all arguments converted during string formatting
+2026-06-25 12:23:28,157 [ERROR] [Bremen] Failed to insert row at index 84: not all arguments converted during string formatting
+2026-06-25 12:23:28,157 [ERROR] [Bremen] Failed to insert row at index 85: not all arguments converted during string formatting
+2026-06-25 12:23:28,158 [ERROR] [Bremen] Failed to insert row at index 86: not all arguments converted during string formatting
+2026-06-25 12:23:28,158 [ERROR] [Bremen] Failed to insert row at index 87: not all arguments converted during string formatting
+2026-06-25 12:23:28,158 [ERROR] [Bremen] Failed to insert row at index 88: not all arguments converted during string formatting
+2026-06-25 12:23:28,158 [ERROR] [Bremen] Failed to insert row at index 89: not all arguments converted during string formatting
+2026-06-25 12:23:28,158 [ERROR] [Bremen] Failed to insert row at index 90: not all arguments converted during string formatting
+2026-06-25 12:23:28,158 [ERROR] [Bremen] Failed to insert row at index 91: not all arguments converted during string formatting
+2026-06-25 12:23:28,159 [ERROR] [Bremen] Failed to insert row at index 92: not all arguments converted during string formatting
+2026-06-25 12:23:28,159 [ERROR] [Bremen] Failed to insert row at index 93: not all arguments converted during string formatting
+2026-06-25 12:23:28,159 [ERROR] [Bremen] Failed to insert row at index 94: not all arguments converted during string formatting
+2026-06-25 12:23:28,159 [ERROR] [Bremen] Failed to insert row at index 95: not all arguments converted during string formatting
+2026-06-25 12:23:28,159 [ERROR] [Bremen] Failed to insert row at index 96: not all arguments converted during string formatting
+2026-06-25 12:23:28,159 [ERROR] [Bremen] Failed to insert row at index 97: not all arguments converted during string formatting
+2026-06-25 12:23:28,159 [ERROR] [Bremen] Failed to insert row at index 98: not all arguments converted during string formatting
+2026-06-25 12:23:28,159 [ERROR] [Bremen] Failed to insert row at index 99: not all arguments converted during string formatting
+2026-06-25 12:23:28,159 [ERROR] [Bremen] Failed to insert row at index 100: not all arguments converted during string formatting
+2026-06-25 12:23:28,160 [ERROR] [Bremen] Failed to insert row at index 101: not all arguments converted during string formatting
+2026-06-25 12:23:28,160 [ERROR] [Bremen] Failed to insert row at index 102: not all arguments converted during string formatting
+2026-06-25 12:23:28,160 [ERROR] [Bremen] Failed to insert row at index 103: not all arguments converted during string formatting
+2026-06-25 12:23:28,160 [ERROR] [Bremen] Failed to insert row at index 104: not all arguments converted during string formatting
+2026-06-25 12:23:28,160 [ERROR] [Bremen] Failed to insert row at index 105: not all arguments converted during string formatting
+2026-06-25 12:23:28,160 [ERROR] [Bremen] Failed to insert row at index 106: not all arguments converted during string formatting
+2026-06-25 12:23:28,160 [ERROR] [Bremen] Failed to insert row at index 107: not all arguments converted during string formatting
+2026-06-25 12:23:28,160 [ERROR] [Bremen] Failed to insert row at index 108: not all arguments converted during string formatting
+2026-06-25 12:23:28,160 [ERROR] [Bremen] Failed to insert row at index 109: not all arguments converted during string formatting
+2026-06-25 12:23:28,161 [ERROR] [Bremen] Failed to insert row at index 110: not all arguments converted during string formatting
+2026-06-25 12:23:28,161 [ERROR] [Bremen] Failed to insert row at index 111: not all arguments converted during string formatting
+2026-06-25 12:23:28,161 [ERROR] [Bremen] Failed to insert row at index 112: not all arguments converted during string formatting
+2026-06-25 12:23:28,161 [ERROR] [Bremen] Failed to insert row at index 113: not all arguments converted during string formatting
+2026-06-25 12:23:28,161 [ERROR] [Bremen] Failed to insert row at index 114: not all arguments converted during string formatting
+2026-06-25 12:23:28,162 [ERROR] [Bremen] Failed to insert row at index 115: not all arguments converted during string formatting
+2026-06-25 12:23:28,162 [ERROR] [Bremen] Failed to insert row at index 116: not all arguments converted during string formatting
+2026-06-25 12:23:28,162 [ERROR] [Bremen] Failed to insert row at index 117: not all arguments converted during string formatting
+2026-06-25 12:23:28,162 [ERROR] [Bremen] Failed to insert row at index 118: not all arguments converted during string formatting
+2026-06-25 12:23:28,162 [ERROR] [Bremen] Failed to insert row at index 119: not all arguments converted during string formatting
+2026-06-25 12:23:28,163 [ERROR] [Bremen] Failed to insert row at index 120: not all arguments converted during string formatting
+2026-06-25 12:23:28,163 [ERROR] [Bremen] Failed to insert row at index 121: not all arguments converted during string formatting
+2026-06-25 12:23:28,163 [ERROR] [Bremen] Failed to insert row at index 122: not all arguments converted during string formatting
+2026-06-25 12:23:28,164 [ERROR] [Bremen] Failed to insert row at index 123: not all arguments converted during string formatting
+2026-06-25 12:23:28,164 [ERROR] [Bremen] Failed to insert row at index 124: not all arguments converted during string formatting
+2026-06-25 12:23:28,164 [ERROR] [Bremen] Failed to insert row at index 125: not all arguments converted during string formatting
+2026-06-25 12:23:28,164 [ERROR] [Bremen] Failed to insert row at index 126: not all arguments converted during string formatting
+2026-06-25 12:23:28,164 [ERROR] [Bremen] Failed to insert row at index 127: not all arguments converted during string formatting
+2026-06-25 12:23:28,164 [ERROR] [Bremen] Failed to insert row at index 128: not all arguments converted during string formatting
+2026-06-25 12:23:28,164 [ERROR] [Bremen] Failed to insert row at index 129: not all arguments converted during string formatting
+2026-06-25 12:23:28,165 [ERROR] [Bremen] Failed to insert row at index 130: not all arguments converted during string formatting
+2026-06-25 12:23:28,165 [ERROR] [Bremen] Failed to insert row at index 131: not all arguments converted during string formatting
+2026-06-25 12:23:28,165 [ERROR] [Bremen] Failed to insert row at index 132: not all arguments converted during string formatting
+2026-06-25 12:23:28,165 [ERROR] [Bremen] Failed to insert row at index 133: not all arguments converted during string formatting
+2026-06-25 12:23:28,165 [ERROR] [Bremen] Failed to insert row at index 134: not all arguments converted during string formatting
+2026-06-25 12:23:28,166 [ERROR] [Bremen] Failed to insert row at index 135: not all arguments converted during string formatting
+2026-06-25 12:23:28,166 [ERROR] [Bremen] Failed to insert row at index 136: not all arguments converted during string formatting
+2026-06-25 12:23:28,167 [ERROR] [Bremen] Failed to insert row at index 137: not all arguments converted during string formatting
+2026-06-25 12:23:28,168 [ERROR] [Bremen] Failed to insert row at index 138: not all arguments converted during string formatting
+2026-06-25 12:23:28,168 [ERROR] [Bremen] Failed to insert row at index 139: not all arguments converted during string formatting
+2026-06-25 12:23:28,168 [ERROR] [Bremen] Failed to insert row at index 140: not all arguments converted during string formatting
+2026-06-25 12:23:28,168 [ERROR] [Bremen] Failed to insert row at index 141: not all arguments converted during string formatting
+2026-06-25 12:23:28,168 [ERROR] [Bremen] Failed to insert row at index 142: not all arguments converted during string formatting
+2026-06-25 12:23:28,169 [ERROR] [Bremen] Failed to insert row at index 143: not all arguments converted during string formatting
+2026-06-25 12:23:28,169 [INFO] [Bremen] Inserted: 0 rows | Skipped: 144 rows
+2026-06-25 12:23:28,169 [INFO] Collecting: Nairobi (KE) @ -1.2921, 36.8219
+2026-06-25 12:23:28,258 [INFO] [Nairobi] API call successful
+2026-06-25 12:23:28,876 [ERROR] [Nairobi] Failed to insert row at index 0: not all arguments converted during string formatting
+2026-06-25 12:23:28,876 [ERROR] [Nairobi] Failed to insert row at index 1: not all arguments converted during string formatting
+2026-06-25 12:23:28,876 [ERROR] [Nairobi] Failed to insert row at index 2: not all arguments converted during string formatting
+2026-06-25 12:23:28,876 [ERROR] [Nairobi] Failed to insert row at index 3: not all arguments converted during string formatting
+2026-06-25 12:23:28,877 [ERROR] [Nairobi] Failed to insert row at index 4: not all arguments converted during string formatting
+2026-06-25 12:23:28,877 [ERROR] [Nairobi] Failed to insert row at index 5: not all arguments converted during string formatting
+2026-06-25 12:23:28,877 [ERROR] [Nairobi] Failed to insert row at index 6: not all arguments converted during string formatting
+2026-06-25 12:23:28,877 [ERROR] [Nairobi] Failed to insert row at index 7: not all arguments converted during string formatting
+2026-06-25 12:23:28,877 [ERROR] [Nairobi] Failed to insert row at index 8: not all arguments converted during string formatting
+2026-06-25 12:23:28,877 [ERROR] [Nairobi] Failed to insert row at index 9: not all arguments converted during string formatting
+2026-06-25 12:23:28,877 [ERROR] [Nairobi] Failed to insert row at index 10: not all arguments converted during string formatting
+2026-06-25 12:23:28,877 [ERROR] [Nairobi] Failed to insert row at index 11: not all arguments converted during string formatting
+2026-06-25 12:23:28,877 [ERROR] [Nairobi] Failed to insert row at index 12: not all arguments converted during string formatting
+2026-06-25 12:23:28,878 [ERROR] [Nairobi] Failed to insert row at index 13: not all arguments converted during string formatting
+2026-06-25 12:23:28,878 [ERROR] [Nairobi] Failed to insert row at index 14: not all arguments converted during string formatting
+2026-06-25 12:23:28,878 [ERROR] [Nairobi] Failed to insert row at index 15: not all arguments converted during string formatting
+2026-06-25 12:23:28,878 [ERROR] [Nairobi] Failed to insert row at index 16: not all arguments converted during string formatting
+2026-06-25 12:23:28,878 [ERROR] [Nairobi] Failed to insert row at index 17: not all arguments converted during string formatting
+2026-06-25 12:23:28,878 [ERROR] [Nairobi] Failed to insert row at index 18: not all arguments converted during string formatting
+2026-06-25 12:23:28,878 [ERROR] [Nairobi] Failed to insert row at index 19: not all arguments converted during string formatting
+2026-06-25 12:23:28,879 [ERROR] [Nairobi] Failed to insert row at index 20: not all arguments converted during string formatting
+2026-06-25 12:23:28,879 [ERROR] [Nairobi] Failed to insert row at index 21: not all arguments converted during string formatting
+2026-06-25 12:23:28,879 [ERROR] [Nairobi] Failed to insert row at index 22: not all arguments converted during string formatting
+2026-06-25 12:23:28,879 [ERROR] [Nairobi] Failed to insert row at index 23: not all arguments converted during string formatting
+2026-06-25 12:23:28,879 [ERROR] [Nairobi] Failed to insert row at index 24: not all arguments converted during string formatting
+2026-06-25 12:23:28,880 [ERROR] [Nairobi] Failed to insert row at index 25: not all arguments converted during string formatting
+2026-06-25 12:23:28,880 [ERROR] [Nairobi] Failed to insert row at index 26: not all arguments converted during string formatting
+2026-06-25 12:23:28,880 [ERROR] [Nairobi] Failed to insert row at index 27: not all arguments converted during string formatting
+2026-06-25 12:23:28,880 [ERROR] [Nairobi] Failed to insert row at index 28: not all arguments converted during string formatting
+2026-06-25 12:23:28,881 [ERROR] [Nairobi] Failed to insert row at index 29: not all arguments converted during string formatting
+2026-06-25 12:23:28,881 [ERROR] [Nairobi] Failed to insert row at index 30: not all arguments converted during string formatting
+2026-06-25 12:23:28,881 [ERROR] [Nairobi] Failed to insert row at index 31: not all arguments converted during string formatting
+2026-06-25 12:23:28,882 [ERROR] [Nairobi] Failed to insert row at index 32: not all arguments converted during string formatting
+2026-06-25 12:23:28,882 [ERROR] [Nairobi] Failed to insert row at index 33: not all arguments converted during string formatting
+2026-06-25 12:23:28,882 [ERROR] [Nairobi] Failed to insert row at index 34: not all arguments converted during string formatting
+2026-06-25 12:23:28,882 [ERROR] [Nairobi] Failed to insert row at index 35: not all arguments converted during string formatting
+2026-06-25 12:23:28,883 [ERROR] [Nairobi] Failed to insert row at index 36: not all arguments converted during string formatting
+2026-06-25 12:23:28,883 [ERROR] [Nairobi] Failed to insert row at index 37: not all arguments converted during string formatting
+2026-06-25 12:23:28,883 [ERROR] [Nairobi] Failed to insert row at index 38: not all arguments converted during string formatting
+2026-06-25 12:23:28,883 [ERROR] [Nairobi] Failed to insert row at index 39: not all arguments converted during string formatting
+2026-06-25 12:23:28,883 [ERROR] [Nairobi] Failed to insert row at index 40: not all arguments converted during string formatting
+2026-06-25 12:23:28,883 [ERROR] [Nairobi] Failed to insert row at index 41: not all arguments converted during string formatting
+2026-06-25 12:23:28,884 [ERROR] [Nairobi] Failed to insert row at index 42: not all arguments converted during string formatting
+2026-06-25 12:23:28,884 [ERROR] [Nairobi] Failed to insert row at index 43: not all arguments converted during string formatting
+2026-06-25 12:23:28,884 [ERROR] [Nairobi] Failed to insert row at index 44: not all arguments converted during string formatting
+2026-06-25 12:23:28,884 [ERROR] [Nairobi] Failed to insert row at index 45: not all arguments converted during string formatting
+2026-06-25 12:23:28,884 [ERROR] [Nairobi] Failed to insert row at index 46: not all arguments converted during string formatting
+2026-06-25 12:23:28,885 [ERROR] [Nairobi] Failed to insert row at index 47: not all arguments converted during string formatting
+2026-06-25 12:23:28,885 [ERROR] [Nairobi] Failed to insert row at index 48: not all arguments converted during string formatting
+2026-06-25 12:23:28,885 [ERROR] [Nairobi] Failed to insert row at index 49: not all arguments converted during string formatting
+2026-06-25 12:23:28,885 [ERROR] [Nairobi] Failed to insert row at index 50: not all arguments converted during string formatting
+2026-06-25 12:23:28,885 [ERROR] [Nairobi] Failed to insert row at index 51: not all arguments converted during string formatting
+2026-06-25 12:23:28,885 [ERROR] [Nairobi] Failed to insert row at index 52: not all arguments converted during string formatting
+2026-06-25 12:23:28,885 [ERROR] [Nairobi] Failed to insert row at index 53: not all arguments converted during string formatting
+2026-06-25 12:23:28,885 [ERROR] [Nairobi] Failed to insert row at index 54: not all arguments converted during string formatting
+2026-06-25 12:23:28,886 [ERROR] [Nairobi] Failed to insert row at index 55: not all arguments converted during string formatting
+2026-06-25 12:23:28,886 [ERROR] [Nairobi] Failed to insert row at index 56: not all arguments converted during string formatting
+2026-06-25 12:23:28,886 [ERROR] [Nairobi] Failed to insert row at index 57: not all arguments converted during string formatting
+2026-06-25 12:23:28,886 [ERROR] [Nairobi] Failed to insert row at index 58: not all arguments converted during string formatting
+2026-06-25 12:23:28,886 [ERROR] [Nairobi] Failed to insert row at index 59: not all arguments converted during string formatting
+2026-06-25 12:23:28,887 [ERROR] [Nairobi] Failed to insert row at index 60: not all arguments converted during string formatting
+2026-06-25 12:23:28,887 [ERROR] [Nairobi] Failed to insert row at index 61: not all arguments converted during string formatting
+2026-06-25 12:23:28,887 [ERROR] [Nairobi] Failed to insert row at index 62: not all arguments converted during string formatting
+2026-06-25 12:23:28,887 [ERROR] [Nairobi] Failed to insert row at index 63: not all arguments converted during string formatting
+2026-06-25 12:23:28,887 [ERROR] [Nairobi] Failed to insert row at index 64: not all arguments converted during string formatting
+2026-06-25 12:23:28,887 [ERROR] [Nairobi] Failed to insert row at index 65: not all arguments converted during string formatting
+2026-06-25 12:23:28,888 [ERROR] [Nairobi] Failed to insert row at index 66: not all arguments converted during string formatting
+2026-06-25 12:23:28,888 [ERROR] [Nairobi] Failed to insert row at index 67: not all arguments converted during string formatting
+2026-06-25 12:23:28,888 [ERROR] [Nairobi] Failed to insert row at index 68: not all arguments converted during string formatting
+2026-06-25 12:23:28,888 [ERROR] [Nairobi] Failed to insert row at index 69: not all arguments converted during string formatting
+2026-06-25 12:23:28,888 [ERROR] [Nairobi] Failed to insert row at index 70: not all arguments converted during string formatting
+2026-06-25 12:23:28,888 [ERROR] [Nairobi] Failed to insert row at index 71: not all arguments converted during string formatting
+2026-06-25 12:23:28,888 [ERROR] [Nairobi] Failed to insert row at index 72: not all arguments converted during string formatting
+2026-06-25 12:23:28,888 [ERROR] [Nairobi] Failed to insert row at index 73: not all arguments converted during string formatting
+2026-06-25 12:23:28,889 [ERROR] [Nairobi] Failed to insert row at index 74: not all arguments converted during string formatting
+2026-06-25 12:23:28,889 [ERROR] [Nairobi] Failed to insert row at index 75: not all arguments converted during string formatting
+2026-06-25 12:23:28,889 [ERROR] [Nairobi] Failed to insert row at index 76: not all arguments converted during string formatting
+2026-06-25 12:23:28,889 [ERROR] [Nairobi] Failed to insert row at index 77: not all arguments converted during string formatting
+2026-06-25 12:23:28,889 [ERROR] [Nairobi] Failed to insert row at index 78: not all arguments converted during string formatting
+2026-06-25 12:23:28,889 [ERROR] [Nairobi] Failed to insert row at index 79: not all arguments converted during string formatting
+2026-06-25 12:23:28,889 [ERROR] [Nairobi] Failed to insert row at index 80: not all arguments converted during string formatting
+2026-06-25 12:23:28,889 [ERROR] [Nairobi] Failed to insert row at index 81: not all arguments converted during string formatting
+2026-06-25 12:23:28,890 [ERROR] [Nairobi] Failed to insert row at index 82: not all arguments converted during string formatting
+2026-06-25 12:23:28,890 [ERROR] [Nairobi] Failed to insert row at index 83: not all arguments converted during string formatting
+2026-06-25 12:23:28,890 [ERROR] [Nairobi] Failed to insert row at index 84: not all arguments converted during string formatting
+2026-06-25 12:23:28,890 [ERROR] [Nairobi] Failed to insert row at index 85: not all arguments converted during string formatting
+2026-06-25 12:23:28,890 [ERROR] [Nairobi] Failed to insert row at index 86: not all arguments converted during string formatting
+2026-06-25 12:23:28,890 [ERROR] [Nairobi] Failed to insert row at index 87: not all arguments converted during string formatting
+2026-06-25 12:23:28,890 [ERROR] [Nairobi] Failed to insert row at index 88: not all arguments converted during string formatting
+2026-06-25 12:23:28,890 [ERROR] [Nairobi] Failed to insert row at index 89: not all arguments converted during string formatting
+2026-06-25 12:23:28,890 [ERROR] [Nairobi] Failed to insert row at index 90: not all arguments converted during string formatting
+2026-06-25 12:23:28,891 [ERROR] [Nairobi] Failed to insert row at index 91: not all arguments converted during string formatting
+2026-06-25 12:23:28,891 [ERROR] [Nairobi] Failed to insert row at index 92: not all arguments converted during string formatting
+2026-06-25 12:23:28,891 [ERROR] [Nairobi] Failed to insert row at index 93: not all arguments converted during string formatting
+2026-06-25 12:23:28,891 [ERROR] [Nairobi] Failed to insert row at index 94: not all arguments converted during string formatting
+2026-06-25 12:23:28,891 [ERROR] [Nairobi] Failed to insert row at index 95: not all arguments converted during string formatting
+2026-06-25 12:23:28,891 [ERROR] [Nairobi] Failed to insert row at index 96: not all arguments converted during string formatting
+2026-06-25 12:23:28,891 [ERROR] [Nairobi] Failed to insert row at index 97: not all arguments converted during string formatting
+2026-06-25 12:23:28,891 [ERROR] [Nairobi] Failed to insert row at index 98: not all arguments converted during string formatting
+2026-06-25 12:23:28,891 [ERROR] [Nairobi] Failed to insert row at index 99: not all arguments converted during string formatting
+2026-06-25 12:23:28,892 [ERROR] [Nairobi] Failed to insert row at index 100: not all arguments converted during string formatting
+2026-06-25 12:23:28,892 [ERROR] [Nairobi] Failed to insert row at index 101: not all arguments converted during string formatting
+2026-06-25 12:23:28,892 [ERROR] [Nairobi] Failed to insert row at index 102: not all arguments converted during string formatting
+2026-06-25 12:23:28,892 [ERROR] [Nairobi] Failed to insert row at index 103: not all arguments converted during string formatting
+2026-06-25 12:23:28,892 [ERROR] [Nairobi] Failed to insert row at index 104: not all arguments converted during string formatting
+2026-06-25 12:23:28,892 [ERROR] [Nairobi] Failed to insert row at index 105: not all arguments converted during string formatting
+2026-06-25 12:23:28,892 [ERROR] [Nairobi] Failed to insert row at index 106: not all arguments converted during string formatting
+2026-06-25 12:23:28,893 [ERROR] [Nairobi] Failed to insert row at index 107: not all arguments converted during string formatting
+2026-06-25 12:23:28,893 [ERROR] [Nairobi] Failed to insert row at index 108: not all arguments converted during string formatting
+2026-06-25 12:23:28,893 [ERROR] [Nairobi] Failed to insert row at index 109: not all arguments converted during string formatting
+2026-06-25 12:23:28,893 [ERROR] [Nairobi] Failed to insert row at index 110: not all arguments converted during string formatting
+2026-06-25 12:23:28,893 [ERROR] [Nairobi] Failed to insert row at index 111: not all arguments converted during string formatting
+2026-06-25 12:23:28,893 [ERROR] [Nairobi] Failed to insert row at index 112: not all arguments converted during string formatting
+2026-06-25 12:23:28,893 [ERROR] [Nairobi] Failed to insert row at index 113: not all arguments converted during string formatting
+2026-06-25 12:23:28,894 [ERROR] [Nairobi] Failed to insert row at index 114: not all arguments converted during string formatting
+2026-06-25 12:23:28,894 [ERROR] [Nairobi] Failed to insert row at index 115: not all arguments converted during string formatting
+2026-06-25 12:23:28,894 [ERROR] [Nairobi] Failed to insert row at index 116: not all arguments converted during string formatting
+2026-06-25 12:23:28,894 [ERROR] [Nairobi] Failed to insert row at index 117: not all arguments converted during string formatting
+2026-06-25 12:23:28,894 [ERROR] [Nairobi] Failed to insert row at index 118: not all arguments converted during string formatting
+2026-06-25 12:23:28,894 [ERROR] [Nairobi] Failed to insert row at index 119: not all arguments converted during string formatting
+2026-06-25 12:23:28,894 [ERROR] [Nairobi] Failed to insert row at index 120: not all arguments converted during string formatting
+2026-06-25 12:23:28,894 [ERROR] [Nairobi] Failed to insert row at index 121: not all arguments converted during string formatting
+2026-06-25 12:23:28,895 [ERROR] [Nairobi] Failed to insert row at index 122: not all arguments converted during string formatting
+2026-06-25 12:23:28,895 [ERROR] [Nairobi] Failed to insert row at index 123: not all arguments converted during string formatting
+2026-06-25 12:23:28,896 [ERROR] [Nairobi] Failed to insert row at index 124: not all arguments converted during string formatting
+2026-06-25 12:23:28,896 [ERROR] [Nairobi] Failed to insert row at index 125: not all arguments converted during string formatting
+2026-06-25 12:23:28,896 [ERROR] [Nairobi] Failed to insert row at index 126: not all arguments converted during string formatting
+2026-06-25 12:23:28,896 [ERROR] [Nairobi] Failed to insert row at index 127: not all arguments converted during string formatting
+2026-06-25 12:23:28,896 [ERROR] [Nairobi] Failed to insert row at index 128: not all arguments converted during string formatting
+2026-06-25 12:23:28,896 [ERROR] [Nairobi] Failed to insert row at index 129: not all arguments converted during string formatting
+2026-06-25 12:23:28,896 [ERROR] [Nairobi] Failed to insert row at index 130: not all arguments converted during string formatting
+2026-06-25 12:23:28,897 [ERROR] [Nairobi] Failed to insert row at index 131: not all arguments converted during string formatting
+2026-06-25 12:23:28,897 [ERROR] [Nairobi] Failed to insert row at index 132: not all arguments converted during string formatting
+2026-06-25 12:23:28,897 [ERROR] [Nairobi] Failed to insert row at index 133: not all arguments converted during string formatting
+2026-06-25 12:23:28,897 [ERROR] [Nairobi] Failed to insert row at index 134: not all arguments converted during string formatting
+2026-06-25 12:23:28,897 [ERROR] [Nairobi] Failed to insert row at index 135: not all arguments converted during string formatting
+2026-06-25 12:23:28,897 [ERROR] [Nairobi] Failed to insert row at index 136: not all arguments converted during string formatting
+2026-06-25 12:23:28,897 [ERROR] [Nairobi] Failed to insert row at index 137: not all arguments converted during string formatting
+2026-06-25 12:23:28,897 [ERROR] [Nairobi] Failed to insert row at index 138: not all arguments converted during string formatting
+2026-06-25 12:23:28,897 [ERROR] [Nairobi] Failed to insert row at index 139: not all arguments converted during string formatting
+2026-06-25 12:23:28,898 [ERROR] [Nairobi] Failed to insert row at index 140: not all arguments converted during string formatting
+2026-06-25 12:23:28,898 [ERROR] [Nairobi] Failed to insert row at index 141: not all arguments converted during string formatting
+2026-06-25 12:23:28,898 [ERROR] [Nairobi] Failed to insert row at index 142: not all arguments converted during string formatting
+2026-06-25 12:23:28,898 [ERROR] [Nairobi] Failed to insert row at index 143: not all arguments converted during string formatting
+2026-06-25 12:23:28,898 [INFO] [Nairobi] Inserted: 0 rows | Skipped: 144 rows
+2026-06-25 12:23:28,899 [INFO] Collecting: Lagos (NG) @ 6.5244, 3.3792
+2026-06-25 12:23:29,004 [INFO] [Lagos] API call successful
+2026-06-25 12:23:30,133 [ERROR] [Lagos] Failed to insert row at index 0: not all arguments converted during string formatting
+2026-06-25 12:23:30,133 [ERROR] [Lagos] Failed to insert row at index 1: not all arguments converted during string formatting
+2026-06-25 12:23:30,134 [ERROR] [Lagos] Failed to insert row at index 2: not all arguments converted during string formatting
+2026-06-25 12:23:30,134 [ERROR] [Lagos] Failed to insert row at index 3: not all arguments converted during string formatting
+2026-06-25 12:23:30,134 [ERROR] [Lagos] Failed to insert row at index 4: not all arguments converted during string formatting
+2026-06-25 12:23:30,134 [ERROR] [Lagos] Failed to insert row at index 5: not all arguments converted during string formatting
+2026-06-25 12:23:30,134 [ERROR] [Lagos] Failed to insert row at index 6: not all arguments converted during string formatting
+2026-06-25 12:23:30,134 [ERROR] [Lagos] Failed to insert row at index 7: not all arguments converted during string formatting
+2026-06-25 12:23:30,135 [ERROR] [Lagos] Failed to insert row at index 8: not all arguments converted during string formatting
+2026-06-25 12:23:30,135 [ERROR] [Lagos] Failed to insert row at index 9: not all arguments converted during string formatting
+2026-06-25 12:23:30,135 [ERROR] [Lagos] Failed to insert row at index 10: not all arguments converted during string formatting
+2026-06-25 12:23:30,135 [ERROR] [Lagos] Failed to insert row at index 11: not all arguments converted during string formatting
+2026-06-25 12:23:30,135 [ERROR] [Lagos] Failed to insert row at index 12: not all arguments converted during string formatting
+2026-06-25 12:23:30,135 [ERROR] [Lagos] Failed to insert row at index 13: not all arguments converted during string formatting
+2026-06-25 12:23:30,135 [ERROR] [Lagos] Failed to insert row at index 14: not all arguments converted during string formatting
+2026-06-25 12:23:30,135 [ERROR] [Lagos] Failed to insert row at index 15: not all arguments converted during string formatting
+2026-06-25 12:23:30,136 [ERROR] [Lagos] Failed to insert row at index 16: not all arguments converted during string formatting
+2026-06-25 12:23:30,136 [ERROR] [Lagos] Failed to insert row at index 17: not all arguments converted during string formatting
+2026-06-25 12:23:30,136 [ERROR] [Lagos] Failed to insert row at index 18: not all arguments converted during string formatting
+2026-06-25 12:23:30,136 [ERROR] [Lagos] Failed to insert row at index 19: not all arguments converted during string formatting
+2026-06-25 12:23:30,136 [ERROR] [Lagos] Failed to insert row at index 20: not all arguments converted during string formatting
+2026-06-25 12:23:30,137 [ERROR] [Lagos] Failed to insert row at index 21: not all arguments converted during string formatting
+2026-06-25 12:23:30,137 [ERROR] [Lagos] Failed to insert row at index 22: not all arguments converted during string formatting
+2026-06-25 12:23:30,137 [ERROR] [Lagos] Failed to insert row at index 23: not all arguments converted during string formatting
+2026-06-25 12:23:30,137 [ERROR] [Lagos] Failed to insert row at index 24: not all arguments converted during string formatting
+2026-06-25 12:23:30,137 [ERROR] [Lagos] Failed to insert row at index 25: not all arguments converted during string formatting
+2026-06-25 12:23:30,137 [ERROR] [Lagos] Failed to insert row at index 26: not all arguments converted during string formatting
+2026-06-25 12:23:30,137 [ERROR] [Lagos] Failed to insert row at index 27: not all arguments converted during string formatting
+2026-06-25 12:23:30,138 [ERROR] [Lagos] Failed to insert row at index 28: not all arguments converted during string formatting
+2026-06-25 12:23:30,138 [ERROR] [Lagos] Failed to insert row at index 29: not all arguments converted during string formatting
+2026-06-25 12:23:30,138 [ERROR] [Lagos] Failed to insert row at index 30: not all arguments converted during string formatting
+2026-06-25 12:23:30,138 [ERROR] [Lagos] Failed to insert row at index 31: not all arguments converted during string formatting
+2026-06-25 12:23:30,138 [ERROR] [Lagos] Failed to insert row at index 32: not all arguments converted during string formatting
+2026-06-25 12:23:30,138 [ERROR] [Lagos] Failed to insert row at index 33: not all arguments converted during string formatting
+2026-06-25 12:23:30,138 [ERROR] [Lagos] Failed to insert row at index 34: not all arguments converted during string formatting
+2026-06-25 12:23:30,139 [ERROR] [Lagos] Failed to insert row at index 35: not all arguments converted during string formatting
+2026-06-25 12:23:30,139 [ERROR] [Lagos] Failed to insert row at index 36: not all arguments converted during string formatting
+2026-06-25 12:23:30,139 [ERROR] [Lagos] Failed to insert row at index 37: not all arguments converted during string formatting
+2026-06-25 12:23:30,139 [ERROR] [Lagos] Failed to insert row at index 38: not all arguments converted during string formatting
+2026-06-25 12:23:30,139 [ERROR] [Lagos] Failed to insert row at index 39: not all arguments converted during string formatting
+2026-06-25 12:23:30,140 [ERROR] [Lagos] Failed to insert row at index 40: not all arguments converted during string formatting
+2026-06-25 12:23:30,140 [ERROR] [Lagos] Failed to insert row at index 41: not all arguments converted during string formatting
+2026-06-25 12:23:30,140 [ERROR] [Lagos] Failed to insert row at index 42: not all arguments converted during string formatting
+2026-06-25 12:23:30,140 [ERROR] [Lagos] Failed to insert row at index 43: not all arguments converted during string formatting
+2026-06-25 12:23:30,141 [ERROR] [Lagos] Failed to insert row at index 44: not all arguments converted during string formatting
+2026-06-25 12:23:30,141 [ERROR] [Lagos] Failed to insert row at index 45: not all arguments converted during string formatting
+2026-06-25 12:23:30,141 [ERROR] [Lagos] Failed to insert row at index 46: not all arguments converted during string formatting
+2026-06-25 12:23:30,141 [ERROR] [Lagos] Failed to insert row at index 47: not all arguments converted during string formatting
+2026-06-25 12:23:30,142 [ERROR] [Lagos] Failed to insert row at index 48: not all arguments converted during string formatting
+2026-06-25 12:23:30,142 [ERROR] [Lagos] Failed to insert row at index 49: not all arguments converted during string formatting
+2026-06-25 12:23:30,142 [ERROR] [Lagos] Failed to insert row at index 50: not all arguments converted during string formatting
+2026-06-25 12:23:30,142 [ERROR] [Lagos] Failed to insert row at index 51: not all arguments converted during string formatting
+2026-06-25 12:23:30,142 [ERROR] [Lagos] Failed to insert row at index 52: not all arguments converted during string formatting
+2026-06-25 12:23:30,143 [ERROR] [Lagos] Failed to insert row at index 53: not all arguments converted during string formatting
+2026-06-25 12:23:30,143 [ERROR] [Lagos] Failed to insert row at index 54: not all arguments converted during string formatting
+2026-06-25 12:23:30,143 [ERROR] [Lagos] Failed to insert row at index 55: not all arguments converted during string formatting
+2026-06-25 12:23:30,143 [ERROR] [Lagos] Failed to insert row at index 56: not all arguments converted during string formatting
+2026-06-25 12:23:30,143 [ERROR] [Lagos] Failed to insert row at index 57: not all arguments converted during string formatting
+2026-06-25 12:23:30,143 [ERROR] [Lagos] Failed to insert row at index 58: not all arguments converted during string formatting
+2026-06-25 12:23:30,143 [ERROR] [Lagos] Failed to insert row at index 59: not all arguments converted during string formatting
+2026-06-25 12:23:30,144 [ERROR] [Lagos] Failed to insert row at index 60: not all arguments converted during string formatting
+2026-06-25 12:23:30,144 [ERROR] [Lagos] Failed to insert row at index 61: not all arguments converted during string formatting
+2026-06-25 12:23:30,144 [ERROR] [Lagos] Failed to insert row at index 62: not all arguments converted during string formatting
+2026-06-25 12:23:30,144 [ERROR] [Lagos] Failed to insert row at index 63: not all arguments converted during string formatting
+2026-06-25 12:23:30,144 [ERROR] [Lagos] Failed to insert row at index 64: not all arguments converted during string formatting
+2026-06-25 12:23:30,145 [ERROR] [Lagos] Failed to insert row at index 65: not all arguments converted during string formatting
+2026-06-25 12:23:30,145 [ERROR] [Lagos] Failed to insert row at index 66: not all arguments converted during string formatting
+2026-06-25 12:23:30,145 [ERROR] [Lagos] Failed to insert row at index 67: not all arguments converted during string formatting
+2026-06-25 12:23:30,145 [ERROR] [Lagos] Failed to insert row at index 68: not all arguments converted during string formatting
+2026-06-25 12:23:30,145 [ERROR] [Lagos] Failed to insert row at index 69: not all arguments converted during string formatting
+2026-06-25 12:23:30,145 [ERROR] [Lagos] Failed to insert row at index 70: not all arguments converted during string formatting
+2026-06-25 12:23:30,145 [ERROR] [Lagos] Failed to insert row at index 71: not all arguments converted during string formatting
+2026-06-25 12:23:30,146 [ERROR] [Lagos] Failed to insert row at index 72: not all arguments converted during string formatting
+2026-06-25 12:23:30,146 [ERROR] [Lagos] Failed to insert row at index 73: not all arguments converted during string formatting
+2026-06-25 12:23:30,146 [ERROR] [Lagos] Failed to insert row at index 74: not all arguments converted during string formatting
+2026-06-25 12:23:30,146 [ERROR] [Lagos] Failed to insert row at index 75: not all arguments converted during string formatting
+2026-06-25 12:23:30,146 [ERROR] [Lagos] Failed to insert row at index 76: not all arguments converted during string formatting
+2026-06-25 12:23:30,146 [ERROR] [Lagos] Failed to insert row at index 77: not all arguments converted during string formatting
+2026-06-25 12:23:30,146 [ERROR] [Lagos] Failed to insert row at index 78: not all arguments converted during string formatting
+2026-06-25 12:23:30,147 [ERROR] [Lagos] Failed to insert row at index 79: not all arguments converted during string formatting
+2026-06-25 12:23:30,147 [ERROR] [Lagos] Failed to insert row at index 80: not all arguments converted during string formatting
+2026-06-25 12:23:30,147 [ERROR] [Lagos] Failed to insert row at index 81: not all arguments converted during string formatting
+2026-06-25 12:23:30,147 [ERROR] [Lagos] Failed to insert row at index 82: not all arguments converted during string formatting
+2026-06-25 12:23:30,147 [ERROR] [Lagos] Failed to insert row at index 83: not all arguments converted during string formatting
+2026-06-25 12:23:30,147 [ERROR] [Lagos] Failed to insert row at index 84: not all arguments converted during string formatting
+2026-06-25 12:23:30,147 [ERROR] [Lagos] Failed to insert row at index 85: not all arguments converted during string formatting
+2026-06-25 12:23:30,148 [ERROR] [Lagos] Failed to insert row at index 86: not all arguments converted during string formatting
+2026-06-25 12:23:30,148 [ERROR] [Lagos] Failed to insert row at index 87: not all arguments converted during string formatting
+2026-06-25 12:23:30,148 [ERROR] [Lagos] Failed to insert row at index 88: not all arguments converted during string formatting
+2026-06-25 12:23:30,148 [ERROR] [Lagos] Failed to insert row at index 89: not all arguments converted during string formatting
+2026-06-25 12:23:30,148 [ERROR] [Lagos] Failed to insert row at index 90: not all arguments converted during string formatting
+2026-06-25 12:23:30,148 [ERROR] [Lagos] Failed to insert row at index 91: not all arguments converted during string formatting
+2026-06-25 12:23:30,149 [ERROR] [Lagos] Failed to insert row at index 92: not all arguments converted during string formatting
+2026-06-25 12:23:30,149 [ERROR] [Lagos] Failed to insert row at index 93: not all arguments converted during string formatting
+2026-06-25 12:23:30,149 [ERROR] [Lagos] Failed to insert row at index 94: not all arguments converted during string formatting
+2026-06-25 12:23:30,149 [ERROR] [Lagos] Failed to insert row at index 95: not all arguments converted during string formatting
+2026-06-25 12:23:30,149 [ERROR] [Lagos] Failed to insert row at index 96: not all arguments converted during string formatting
+2026-06-25 12:23:30,149 [ERROR] [Lagos] Failed to insert row at index 97: not all arguments converted during string formatting
+2026-06-25 12:23:30,149 [ERROR] [Lagos] Failed to insert row at index 98: not all arguments converted during string formatting
+2026-06-25 12:23:30,149 [ERROR] [Lagos] Failed to insert row at index 99: not all arguments converted during string formatting
+2026-06-25 12:23:30,150 [ERROR] [Lagos] Failed to insert row at index 100: not all arguments converted during string formatting
+2026-06-25 12:23:30,150 [ERROR] [Lagos] Failed to insert row at index 101: not all arguments converted during string formatting
+2026-06-25 12:23:30,150 [ERROR] [Lagos] Failed to insert row at index 102: not all arguments converted during string formatting
+2026-06-25 12:23:30,150 [ERROR] [Lagos] Failed to insert row at index 103: not all arguments converted during string formatting
+2026-06-25 12:23:30,150 [ERROR] [Lagos] Failed to insert row at index 104: not all arguments converted during string formatting
+2026-06-25 12:23:30,150 [ERROR] [Lagos] Failed to insert row at index 105: not all arguments converted during string formatting
+2026-06-25 12:23:30,150 [ERROR] [Lagos] Failed to insert row at index 106: not all arguments converted during string formatting
+2026-06-25 12:23:30,151 [ERROR] [Lagos] Failed to insert row at index 107: not all arguments converted during string formatting
+2026-06-25 12:23:30,151 [ERROR] [Lagos] Failed to insert row at index 108: not all arguments converted during string formatting
+2026-06-25 12:23:30,151 [ERROR] [Lagos] Failed to insert row at index 109: not all arguments converted during string formatting
+2026-06-25 12:23:30,151 [ERROR] [Lagos] Failed to insert row at index 110: not all arguments converted during string formatting
+2026-06-25 12:23:30,151 [ERROR] [Lagos] Failed to insert row at index 111: not all arguments converted during string formatting
+2026-06-25 12:23:30,151 [ERROR] [Lagos] Failed to insert row at index 112: not all arguments converted during string formatting
+2026-06-25 12:23:30,151 [ERROR] [Lagos] Failed to insert row at index 113: not all arguments converted during string formatting
+2026-06-25 12:23:30,152 [ERROR] [Lagos] Failed to insert row at index 114: not all arguments converted during string formatting
+2026-06-25 12:23:30,152 [ERROR] [Lagos] Failed to insert row at index 115: not all arguments converted during string formatting
+2026-06-25 12:23:30,152 [ERROR] [Lagos] Failed to insert row at index 116: not all arguments converted during string formatting
+2026-06-25 12:23:30,152 [ERROR] [Lagos] Failed to insert row at index 117: not all arguments converted during string formatting
+2026-06-25 12:23:30,152 [ERROR] [Lagos] Failed to insert row at index 118: not all arguments converted during string formatting
+2026-06-25 12:23:30,152 [ERROR] [Lagos] Failed to insert row at index 119: not all arguments converted during string formatting
+2026-06-25 12:23:30,152 [ERROR] [Lagos] Failed to insert row at index 120: not all arguments converted during string formatting
+2026-06-25 12:23:30,152 [ERROR] [Lagos] Failed to insert row at index 121: not all arguments converted during string formatting
+2026-06-25 12:23:30,153 [ERROR] [Lagos] Failed to insert row at index 122: not all arguments converted during string formatting
+2026-06-25 12:23:30,153 [ERROR] [Lagos] Failed to insert row at index 123: not all arguments converted during string formatting
+2026-06-25 12:23:30,154 [ERROR] [Lagos] Failed to insert row at index 124: not all arguments converted during string formatting
+2026-06-25 12:23:30,154 [ERROR] [Lagos] Failed to insert row at index 125: not all arguments converted during string formatting
+2026-06-25 12:23:30,154 [ERROR] [Lagos] Failed to insert row at index 126: not all arguments converted during string formatting
+2026-06-25 12:23:30,154 [ERROR] [Lagos] Failed to insert row at index 127: not all arguments converted during string formatting
+2026-06-25 12:23:30,154 [ERROR] [Lagos] Failed to insert row at index 128: not all arguments converted during string formatting
+2026-06-25 12:23:30,155 [ERROR] [Lagos] Failed to insert row at index 129: not all arguments converted during string formatting
+2026-06-25 12:23:30,155 [ERROR] [Lagos] Failed to insert row at index 130: not all arguments converted during string formatting
+2026-06-25 12:23:30,155 [ERROR] [Lagos] Failed to insert row at index 131: not all arguments converted during string formatting
+2026-06-25 12:23:30,155 [ERROR] [Lagos] Failed to insert row at index 132: not all arguments converted during string formatting
+2026-06-25 12:23:30,155 [ERROR] [Lagos] Failed to insert row at index 133: not all arguments converted during string formatting
+2026-06-25 12:23:30,155 [ERROR] [Lagos] Failed to insert row at index 134: not all arguments converted during string formatting
+2026-06-25 12:23:30,155 [ERROR] [Lagos] Failed to insert row at index 135: not all arguments converted during string formatting
+2026-06-25 12:23:30,155 [ERROR] [Lagos] Failed to insert row at index 136: not all arguments converted during string formatting
+2026-06-25 12:23:30,156 [ERROR] [Lagos] Failed to insert row at index 137: not all arguments converted during string formatting
+2026-06-25 12:23:30,156 [ERROR] [Lagos] Failed to insert row at index 138: not all arguments converted during string formatting
+2026-06-25 12:23:30,156 [ERROR] [Lagos] Failed to insert row at index 139: not all arguments converted during string formatting
+2026-06-25 12:23:30,156 [ERROR] [Lagos] Failed to insert row at index 140: not all arguments converted during string formatting
+2026-06-25 12:23:30,156 [ERROR] [Lagos] Failed to insert row at index 141: not all arguments converted during string formatting
+2026-06-25 12:23:30,156 [ERROR] [Lagos] Failed to insert row at index 142: not all arguments converted during string formatting
+2026-06-25 12:23:30,156 [ERROR] [Lagos] Failed to insert row at index 143: not all arguments converted during string formatting
+2026-06-25 12:23:30,157 [INFO] [Lagos] Inserted: 0 rows | Skipped: 144 rows
+2026-06-25 12:23:30,157 [INFO] Collection complete — total rows inserted: 0
+2026-06-25 12:23:30,157 [INFO] =======================================================
+2026-06-25 12:23:42,053 [INFO] =======================================================
+2026-06-25 12:23:42,053 [INFO] Collection started: 2026-06-25 09:23 UTC
+2026-06-25 12:23:42,053 [INFO] Collecting: Bremen (DE) @ 53.0793, 8.8017
+2026-06-25 12:23:42,144 [INFO] [Bremen] API call successful
+2026-06-25 12:24:04,315 [INFO] =======================================================
+2026-06-25 12:24:04,315 [INFO] Collection started: 2026-06-25 09:24 UTC
+2026-06-25 12:24:04,315 [INFO] Collecting: Bremen (DE) @ 53.0793, 8.8017
+2026-06-25 12:24:04,407 [INFO] [Bremen] API call successful
+2026-06-25 12:24:05,029 [ERROR] [Bremen] Failed to insert row at index 0: not all arguments converted during string formatting
+2026-06-25 12:24:05,029 [ERROR] [Bremen] Failed to insert row at index 1: not all arguments converted during string formatting
+2026-06-25 12:24:05,029 [ERROR] [Bremen] Failed to insert row at index 2: not all arguments converted during string formatting
+2026-06-25 12:24:05,029 [ERROR] [Bremen] Failed to insert row at index 3: not all arguments converted during string formatting
+2026-06-25 12:24:05,029 [ERROR] [Bremen] Failed to insert row at index 4: not all arguments converted during string formatting
+2026-06-25 12:24:05,030 [ERROR] [Bremen] Failed to insert row at index 5: not all arguments converted during string formatting
+2026-06-25 12:24:05,030 [ERROR] [Bremen] Failed to insert row at index 6: not all arguments converted during string formatting
+2026-06-25 12:24:05,030 [ERROR] [Bremen] Failed to insert row at index 7: not all arguments converted during string formatting
+2026-06-25 12:24:05,030 [ERROR] [Bremen] Failed to insert row at index 8: not all arguments converted during string formatting
+2026-06-25 12:24:05,030 [ERROR] [Bremen] Failed to insert row at index 9: not all arguments converted during string formatting
+2026-06-25 12:24:05,030 [ERROR] [Bremen] Failed to insert row at index 10: not all arguments converted during string formatting
+2026-06-25 12:24:05,030 [ERROR] [Bremen] Failed to insert row at index 11: not all arguments converted during string formatting
+2026-06-25 12:24:05,031 [ERROR] [Bremen] Failed to insert row at index 12: not all arguments converted during string formatting
+2026-06-25 12:24:05,031 [ERROR] [Bremen] Failed to insert row at index 13: not all arguments converted during string formatting
+2026-06-25 12:24:05,031 [ERROR] [Bremen] Failed to insert row at index 14: not all arguments converted during string formatting
+2026-06-25 12:24:05,031 [ERROR] [Bremen] Failed to insert row at index 15: not all arguments converted during string formatting
+2026-06-25 12:24:05,031 [ERROR] [Bremen] Failed to insert row at index 16: not all arguments converted during string formatting
+2026-06-25 12:24:05,031 [ERROR] [Bremen] Failed to insert row at index 17: not all arguments converted during string formatting
+2026-06-25 12:24:05,032 [ERROR] [Bremen] Failed to insert row at index 18: not all arguments converted during string formatting
+2026-06-25 12:24:05,032 [ERROR] [Bremen] Failed to insert row at index 19: not all arguments converted during string formatting
+2026-06-25 12:24:05,032 [ERROR] [Bremen] Failed to insert row at index 20: not all arguments converted during string formatting
+2026-06-25 12:24:05,032 [ERROR] [Bremen] Failed to insert row at index 21: not all arguments converted during string formatting
+2026-06-25 12:24:05,032 [ERROR] [Bremen] Failed to insert row at index 22: not all arguments converted during string formatting
+2026-06-25 12:24:05,032 [ERROR] [Bremen] Failed to insert row at index 23: not all arguments converted during string formatting
+2026-06-25 12:24:05,032 [ERROR] [Bremen] Failed to insert row at index 24: not all arguments converted during string formatting
+2026-06-25 12:24:05,033 [ERROR] [Bremen] Failed to insert row at index 25: not all arguments converted during string formatting
+2026-06-25 12:24:05,033 [ERROR] [Bremen] Failed to insert row at index 26: not all arguments converted during string formatting
+2026-06-25 12:24:05,033 [ERROR] [Bremen] Failed to insert row at index 27: not all arguments converted during string formatting
+2026-06-25 12:24:05,033 [ERROR] [Bremen] Failed to insert row at index 28: not all arguments converted during string formatting
+2026-06-25 12:24:05,033 [ERROR] [Bremen] Failed to insert row at index 29: not all arguments converted during string formatting
+2026-06-25 12:24:05,033 [ERROR] [Bremen] Failed to insert row at index 30: not all arguments converted during string formatting
+2026-06-25 12:24:05,033 [ERROR] [Bremen] Failed to insert row at index 31: not all arguments converted during string formatting
+2026-06-25 12:24:05,033 [ERROR] [Bremen] Failed to insert row at index 32: not all arguments converted during string formatting
+2026-06-25 12:24:05,034 [ERROR] [Bremen] Failed to insert row at index 33: not all arguments converted during string formatting
+2026-06-25 12:24:05,034 [ERROR] [Bremen] Failed to insert row at index 34: not all arguments converted during string formatting
+2026-06-25 12:24:05,034 [ERROR] [Bremen] Failed to insert row at index 35: not all arguments converted during string formatting
+2026-06-25 12:24:05,034 [ERROR] [Bremen] Failed to insert row at index 36: not all arguments converted during string formatting
+2026-06-25 12:24:05,034 [ERROR] [Bremen] Failed to insert row at index 37: not all arguments converted during string formatting
+2026-06-25 12:24:05,035 [ERROR] [Bremen] Failed to insert row at index 38: not all arguments converted during string formatting
+2026-06-25 12:24:05,035 [ERROR] [Bremen] Failed to insert row at index 39: not all arguments converted during string formatting
+2026-06-25 12:24:05,035 [ERROR] [Bremen] Failed to insert row at index 40: not all arguments converted during string formatting
+2026-06-25 12:24:05,035 [ERROR] [Bremen] Failed to insert row at index 41: not all arguments converted during string formatting
+2026-06-25 12:24:05,035 [ERROR] [Bremen] Failed to insert row at index 42: not all arguments converted during string formatting
+2026-06-25 12:24:05,036 [ERROR] [Bremen] Failed to insert row at index 43: not all arguments converted during string formatting
+2026-06-25 12:24:05,036 [ERROR] [Bremen] Failed to insert row at index 44: not all arguments converted during string formatting
+2026-06-25 12:24:05,036 [ERROR] [Bremen] Failed to insert row at index 45: not all arguments converted during string formatting
+2026-06-25 12:24:05,037 [ERROR] [Bremen] Failed to insert row at index 46: not all arguments converted during string formatting
+2026-06-25 12:24:05,037 [ERROR] [Bremen] Failed to insert row at index 47: not all arguments converted during string formatting
+2026-06-25 12:24:05,037 [ERROR] [Bremen] Failed to insert row at index 48: not all arguments converted during string formatting
+2026-06-25 12:24:05,037 [ERROR] [Bremen] Failed to insert row at index 49: not all arguments converted during string formatting
+2026-06-25 12:24:05,037 [ERROR] [Bremen] Failed to insert row at index 50: not all arguments converted during string formatting
+2026-06-25 12:24:05,037 [ERROR] [Bremen] Failed to insert row at index 51: not all arguments converted during string formatting
+2026-06-25 12:24:05,037 [ERROR] [Bremen] Failed to insert row at index 52: not all arguments converted during string formatting
+2026-06-25 12:24:05,037 [ERROR] [Bremen] Failed to insert row at index 53: not all arguments converted during string formatting
+2026-06-25 12:24:05,037 [ERROR] [Bremen] Failed to insert row at index 54: not all arguments converted during string formatting
+2026-06-25 12:24:05,037 [ERROR] [Bremen] Failed to insert row at index 55: not all arguments converted during string formatting
+2026-06-25 12:24:05,038 [ERROR] [Bremen] Failed to insert row at index 56: not all arguments converted during string formatting
+2026-06-25 12:24:05,038 [ERROR] [Bremen] Failed to insert row at index 57: not all arguments converted during string formatting
+2026-06-25 12:24:05,038 [ERROR] [Bremen] Failed to insert row at index 58: not all arguments converted during string formatting
+2026-06-25 12:24:05,038 [ERROR] [Bremen] Failed to insert row at index 59: not all arguments converted during string formatting
+2026-06-25 12:24:05,038 [ERROR] [Bremen] Failed to insert row at index 60: not all arguments converted during string formatting
+2026-06-25 12:24:05,039 [ERROR] [Bremen] Failed to insert row at index 61: not all arguments converted during string formatting
+2026-06-25 12:24:05,039 [ERROR] [Bremen] Failed to insert row at index 62: not all arguments converted during string formatting
+2026-06-25 12:24:05,039 [ERROR] [Bremen] Failed to insert row at index 63: not all arguments converted during string formatting
+2026-06-25 12:24:05,039 [ERROR] [Bremen] Failed to insert row at index 64: not all arguments converted during string formatting
+2026-06-25 12:24:05,039 [ERROR] [Bremen] Failed to insert row at index 65: not all arguments converted during string formatting
+2026-06-25 12:24:05,039 [ERROR] [Bremen] Failed to insert row at index 66: not all arguments converted during string formatting
+2026-06-25 12:24:05,039 [ERROR] [Bremen] Failed to insert row at index 67: not all arguments converted during string formatting
+2026-06-25 12:24:05,039 [ERROR] [Bremen] Failed to insert row at index 68: not all arguments converted during string formatting
+2026-06-25 12:24:05,040 [ERROR] [Bremen] Failed to insert row at index 69: not all arguments converted during string formatting
+2026-06-25 12:24:05,040 [ERROR] [Bremen] Failed to insert row at index 70: not all arguments converted during string formatting
+2026-06-25 12:24:05,040 [ERROR] [Bremen] Failed to insert row at index 71: not all arguments converted during string formatting
+2026-06-25 12:24:05,040 [ERROR] [Bremen] Failed to insert row at index 72: not all arguments converted during string formatting
+2026-06-25 12:24:05,040 [ERROR] [Bremen] Failed to insert row at index 73: not all arguments converted during string formatting
+2026-06-25 12:24:05,040 [ERROR] [Bremen] Failed to insert row at index 74: not all arguments converted during string formatting
+2026-06-25 12:24:05,041 [ERROR] [Bremen] Failed to insert row at index 75: not all arguments converted during string formatting
+2026-06-25 12:24:05,041 [ERROR] [Bremen] Failed to insert row at index 76: not all arguments converted during string formatting
+2026-06-25 12:24:05,041 [ERROR] [Bremen] Failed to insert row at index 77: not all arguments converted during string formatting
+2026-06-25 12:24:05,041 [ERROR] [Bremen] Failed to insert row at index 78: not all arguments converted during string formatting
+2026-06-25 12:24:05,041 [ERROR] [Bremen] Failed to insert row at index 79: not all arguments converted during string formatting
+2026-06-25 12:24:05,041 [ERROR] [Bremen] Failed to insert row at index 80: not all arguments converted during string formatting
+2026-06-25 12:24:05,042 [ERROR] [Bremen] Failed to insert row at index 81: not all arguments converted during string formatting
+2026-06-25 12:24:05,042 [ERROR] [Bremen] Failed to insert row at index 82: not all arguments converted during string formatting
+2026-06-25 12:24:05,042 [ERROR] [Bremen] Failed to insert row at index 83: not all arguments converted during string formatting
+2026-06-25 12:24:05,042 [ERROR] [Bremen] Failed to insert row at index 84: not all arguments converted during string formatting
+2026-06-25 12:24:05,043 [ERROR] [Bremen] Failed to insert row at index 85: not all arguments converted during string formatting
+2026-06-25 12:24:05,043 [ERROR] [Bremen] Failed to insert row at index 86: not all arguments converted during string formatting
+2026-06-25 12:24:05,043 [ERROR] [Bremen] Failed to insert row at index 87: not all arguments converted during string formatting
+2026-06-25 12:24:05,043 [ERROR] [Bremen] Failed to insert row at index 88: not all arguments converted during string formatting
+2026-06-25 12:24:05,044 [ERROR] [Bremen] Failed to insert row at index 89: not all arguments converted during string formatting
+2026-06-25 12:24:05,044 [ERROR] [Bremen] Failed to insert row at index 90: not all arguments converted during string formatting
+2026-06-25 12:24:05,044 [ERROR] [Bremen] Failed to insert row at index 91: not all arguments converted during string formatting
+2026-06-25 12:24:05,044 [ERROR] [Bremen] Failed to insert row at index 92: not all arguments converted during string formatting
+2026-06-25 12:24:05,044 [ERROR] [Bremen] Failed to insert row at index 93: not all arguments converted during string formatting
+2026-06-25 12:24:05,044 [ERROR] [Bremen] Failed to insert row at index 94: not all arguments converted during string formatting
+2026-06-25 12:24:05,045 [ERROR] [Bremen] Failed to insert row at index 95: not all arguments converted during string formatting
+2026-06-25 12:24:05,045 [ERROR] [Bremen] Failed to insert row at index 96: not all arguments converted during string formatting
+2026-06-25 12:24:05,045 [ERROR] [Bremen] Failed to insert row at index 97: not all arguments converted during string formatting
+2026-06-25 12:24:05,045 [ERROR] [Bremen] Failed to insert row at index 98: not all arguments converted during string formatting
+2026-06-25 12:24:05,045 [ERROR] [Bremen] Failed to insert row at index 99: not all arguments converted during string formatting
+2026-06-25 12:24:05,045 [ERROR] [Bremen] Failed to insert row at index 100: not all arguments converted during string formatting
+2026-06-25 12:24:05,046 [ERROR] [Bremen] Failed to insert row at index 101: not all arguments converted during string formatting
+2026-06-25 12:24:05,046 [ERROR] [Bremen] Failed to insert row at index 102: not all arguments converted during string formatting
+2026-06-25 12:24:05,046 [ERROR] [Bremen] Failed to insert row at index 103: not all arguments converted during string formatting
+2026-06-25 12:24:05,046 [ERROR] [Bremen] Failed to insert row at index 104: not all arguments converted during string formatting
+2026-06-25 12:24:05,046 [ERROR] [Bremen] Failed to insert row at index 105: not all arguments converted during string formatting
+2026-06-25 12:24:05,046 [ERROR] [Bremen] Failed to insert row at index 106: not all arguments converted during string formatting
+2026-06-25 12:24:05,047 [ERROR] [Bremen] Failed to insert row at index 107: not all arguments converted during string formatting
+2026-06-25 12:24:05,047 [ERROR] [Bremen] Failed to insert row at index 108: not all arguments converted during string formatting
+2026-06-25 12:24:05,047 [ERROR] [Bremen] Failed to insert row at index 109: not all arguments converted during string formatting
+2026-06-25 12:24:05,047 [ERROR] [Bremen] Failed to insert row at index 110: not all arguments converted during string formatting
+2026-06-25 12:24:05,047 [ERROR] [Bremen] Failed to insert row at index 111: not all arguments converted during string formatting
+2026-06-25 12:24:05,047 [ERROR] [Bremen] Failed to insert row at index 112: not all arguments converted during string formatting
+2026-06-25 12:24:05,048 [ERROR] [Bremen] Failed to insert row at index 113: not all arguments converted during string formatting
+2026-06-25 12:24:05,048 [ERROR] [Bremen] Failed to insert row at index 114: not all arguments converted during string formatting
+2026-06-25 12:24:05,048 [ERROR] [Bremen] Failed to insert row at index 115: not all arguments converted during string formatting
+2026-06-25 12:24:05,048 [ERROR] [Bremen] Failed to insert row at index 116: not all arguments converted during string formatting
+2026-06-25 12:24:05,048 [ERROR] [Bremen] Failed to insert row at index 117: not all arguments converted during string formatting
+2026-06-25 12:24:05,048 [ERROR] [Bremen] Failed to insert row at index 118: not all arguments converted during string formatting
+2026-06-25 12:24:05,048 [ERROR] [Bremen] Failed to insert row at index 119: not all arguments converted during string formatting
+2026-06-25 12:24:05,049 [ERROR] [Bremen] Failed to insert row at index 120: not all arguments converted during string formatting
+2026-06-25 12:24:05,049 [ERROR] [Bremen] Failed to insert row at index 121: not all arguments converted during string formatting
+2026-06-25 12:24:05,049 [ERROR] [Bremen] Failed to insert row at index 122: not all arguments converted during string formatting
+2026-06-25 12:24:05,049 [ERROR] [Bremen] Failed to insert row at index 123: not all arguments converted during string formatting
+2026-06-25 12:24:05,049 [ERROR] [Bremen] Failed to insert row at index 124: not all arguments converted during string formatting
+2026-06-25 12:24:05,049 [ERROR] [Bremen] Failed to insert row at index 125: not all arguments converted during string formatting
+2026-06-25 12:24:05,049 [ERROR] [Bremen] Failed to insert row at index 126: not all arguments converted during string formatting
+2026-06-25 12:24:05,050 [ERROR] [Bremen] Failed to insert row at index 127: not all arguments converted during string formatting
+2026-06-25 12:24:05,050 [ERROR] [Bremen] Failed to insert row at index 128: not all arguments converted during string formatting
+2026-06-25 12:24:05,050 [ERROR] [Bremen] Failed to insert row at index 129: not all arguments converted during string formatting
+2026-06-25 12:24:05,050 [ERROR] [Bremen] Failed to insert row at index 130: not all arguments converted during string formatting
+2026-06-25 12:24:05,050 [ERROR] [Bremen] Failed to insert row at index 131: not all arguments converted during string formatting
+2026-06-25 12:24:05,050 [ERROR] [Bremen] Failed to insert row at index 132: not all arguments converted during string formatting
+2026-06-25 12:24:05,050 [ERROR] [Bremen] Failed to insert row at index 133: not all arguments converted during string formatting
+2026-06-25 12:24:05,050 [ERROR] [Bremen] Failed to insert row at index 134: not all arguments converted during string formatting
+2026-06-25 12:24:05,050 [ERROR] [Bremen] Failed to insert row at index 135: not all arguments converted during string formatting
+2026-06-25 12:24:05,051 [ERROR] [Bremen] Failed to insert row at index 136: not all arguments converted during string formatting
+2026-06-25 12:24:05,051 [ERROR] [Bremen] Failed to insert row at index 137: not all arguments converted during string formatting
+2026-06-25 12:24:05,051 [ERROR] [Bremen] Failed to insert row at index 138: not all arguments converted during string formatting
+2026-06-25 12:24:05,051 [ERROR] [Bremen] Failed to insert row at index 139: not all arguments converted during string formatting
+2026-06-25 12:24:05,051 [ERROR] [Bremen] Failed to insert row at index 140: not all arguments converted during string formatting
+2026-06-25 12:24:05,052 [ERROR] [Bremen] Failed to insert row at index 141: not all arguments converted during string formatting
+2026-06-25 12:24:05,052 [ERROR] [Bremen] Failed to insert row at index 142: not all arguments converted during string formatting
+2026-06-25 12:24:05,052 [ERROR] [Bremen] Failed to insert row at index 143: not all arguments converted during string formatting
+2026-06-25 12:24:05,052 [INFO] [Bremen] Inserted: 0 rows | Skipped: 144 rows
+2026-06-25 12:24:05,052 [INFO] Collecting: Nairobi (KE) @ -1.2921, 36.8219
+2026-06-25 12:24:05,142 [INFO] [Nairobi] API call successful
+2026-06-25 12:26:42,244 [INFO] =======================================================
+2026-06-25 12:26:42,244 [INFO] Collection started: 2026-06-25 09:26 UTC
+2026-06-25 12:26:42,244 [INFO] Collecting: Bremen (DE) @ 53.0793, 8.8017
+2026-06-25 12:26:42,341 [INFO] [Bremen] API call successful
+2026-06-25 12:27:08,259 [INFO] [Bremen] Inserted: 144 rows | Skipped: 0 rows
+2026-06-25 12:27:08,260 [INFO] Collecting: Nairobi (KE) @ -1.2921, 36.8219
+2026-06-25 12:27:08,348 [INFO] [Nairobi] API call successful
+2026-06-25 12:27:34,419 [INFO] [Nairobi] Inserted: 144 rows | Skipped: 0 rows
+2026-06-25 12:27:34,420 [INFO] Collecting: Lagos (NG) @ 6.5244, 3.3792
+2026-06-25 12:27:34,519 [INFO] [Lagos] API call successful
+2026-06-25 12:27:58,740 [INFO] [Lagos] Inserted: 144 rows | Skipped: 0 rows
+2026-06-25 12:27:58,740 [INFO] Collection complete — total rows inserted: 432
+2026-06-25 12:27:58,741 [INFO] =======================================================
+2026-06-25 13:18:03,012 [INFO] =======================================================
+2026-06-25 13:18:03,012 [INFO] Collection started: 2026-06-25 10:18 UTC
+2026-06-25 13:18:03,012 [INFO] Collecting: Bremen (DE) @ 53.0793, 8.8017
+2026-06-25 13:18:03,114 [INFO] [Bremen] API call successful
+2026-06-25 13:18:20,051 [INFO] [Bremen] Inserted: 144 rows | Skipped: 0 rows
+2026-06-25 13:18:20,052 [INFO] Collecting: Nairobi (KE) @ -1.2921, 36.8219
+2026-06-25 13:18:20,164 [INFO] [Nairobi] API call successful
+2026-06-25 13:18:46,887 [INFO] [Nairobi] Inserted: 144 rows | Skipped: 0 rows
+2026-06-25 13:18:46,887 [INFO] Collecting: Lagos (NG) @ 6.5244, 3.3792
+2026-06-25 13:18:46,982 [INFO] [Lagos] API call successful
+2026-06-25 13:19:06,036 [INFO] [Lagos] Inserted: 144 rows | Skipped: 0 rows
+2026-06-25 13:19:06,036 [INFO] Collection complete — total rows inserted: 432
+2026-06-25 13:19:06,037 [INFO] =======================================================

@@ -1,0 +1,280 @@
+2026-06-25 13:17:25,003 [INFO] =======================================================
+2026-06-25 13:17:25,004 [INFO] AirQo collection started
+2026-06-25 13:17:25,004 [INFO] Processing: Nairobi
+2026-06-25 13:17:25,343 [ERROR] [AirQo] Authentication failed — check your AIRQO_API_KEY in .env
+2026-06-25 13:17:25,345 [WARNING] [AirQo Nairobi] No devices found
+2026-06-25 13:17:27,013 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✗ NULL gap
+2026-06-25 13:17:27,014 [INFO] Processing: Lagos
+2026-06-25 13:17:27,084 [ERROR] [AirQo] Authentication failed — check your AIRQO_API_KEY in .env
+2026-06-25 13:17:27,085 [WARNING] [AirQo Lagos] No devices found
+2026-06-25 13:17:28,549 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✗ NULL gap
+2026-06-25 13:17:28,550 [INFO] AirQo collection complete
+2026-06-25 13:17:28,551 [INFO] =======================================================
+2026-06-25 14:14:06,688 [INFO] =======================================================
+2026-06-25 14:14:06,689 [INFO] AirQo collection started
+2026-06-25 14:14:06,689 [INFO] Processing: Nairobi
+2026-06-25 14:14:06,764 [ERROR] [AirQo] Authentication failed — check your AIRQO_API_KEY in .env
+2026-06-25 14:14:06,765 [WARNING] [AirQo Nairobi] No devices found
+2026-06-25 14:14:08,163 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✗ NULL gap
+2026-06-25 14:14:08,163 [INFO] Processing: Lagos
+2026-06-25 14:14:08,226 [ERROR] [AirQo] Authentication failed — check your AIRQO_API_KEY in .env
+2026-06-25 14:14:08,226 [WARNING] [AirQo Lagos] No devices found
+2026-06-25 14:14:09,877 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✗ NULL gap
+2026-06-25 14:14:09,878 [INFO] AirQo collection complete
+2026-06-25 14:14:09,879 [INFO] =======================================================
+2026-06-25 14:15:14,251 [INFO] =======================================================
+2026-06-25 14:15:14,251 [INFO] AirQo collection started
+2026-06-25 14:15:14,251 [INFO] Processing: Nairobi
+2026-06-25 14:15:14,326 [ERROR] [AirQo] Authentication failed — check your AIRQO_API_KEY in .env
+2026-06-25 14:15:14,326 [WARNING] [AirQo Nairobi] No devices found
+2026-06-25 14:15:15,825 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✗ NULL gap
+2026-06-25 14:15:15,826 [INFO] Processing: Lagos
+2026-06-25 14:15:15,898 [ERROR] [AirQo] Authentication failed — check your AIRQO_API_KEY in .env
+2026-06-25 14:15:15,898 [WARNING] [AirQo Lagos] No devices found
+2026-06-25 14:15:16,824 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✗ NULL gap
+2026-06-25 14:15:16,824 [INFO] AirQo collection complete
+2026-06-25 14:15:16,825 [INFO] =======================================================
+2026-06-25 14:18:40,215 [INFO] =======================================================
+2026-06-25 14:18:40,216 [INFO] AirQo collection started
+2026-06-25 14:18:40,216 [INFO] Processing: Nairobi
+2026-06-25 14:18:40,491 [ERROR] [AirQo] Authentication failed — check your AIRQO_API_KEY in .env
+2026-06-25 14:18:40,492 [WARNING] [AirQo Nairobi] No devices found
+2026-06-25 14:18:41,963 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✗ NULL gap
+2026-06-25 14:18:41,964 [INFO] Processing: Lagos
+2026-06-25 14:18:42,038 [ERROR] [AirQo] Authentication failed — check your AIRQO_API_KEY in .env
+2026-06-25 14:18:42,039 [WARNING] [AirQo Lagos] No devices found
+2026-06-25 14:18:43,179 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✗ NULL gap
+2026-06-25 14:18:43,180 [INFO] AirQo collection complete
+2026-06-25 14:18:43,180 [INFO] =======================================================
+2026-06-25 14:28:40,464 [INFO] =======================================================
+2026-06-25 14:28:40,465 [INFO] AirQo collection started
+2026-06-25 14:28:40,465 [INFO] Processing: Nairobi
+2026-06-25 14:28:40,540 [ERROR] [AirQo] Authentication failed — check your AIRQO_API_KEY in .env
+2026-06-25 14:28:40,541 [WARNING] [AirQo Nairobi] No devices found
+2026-06-25 14:28:41,950 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✗ NULL gap
+2026-06-25 14:28:41,952 [INFO] Processing: Lagos
+2026-06-25 14:28:42,024 [ERROR] [AirQo] Authentication failed — check your AIRQO_API_KEY in .env
+2026-06-25 14:28:42,024 [WARNING] [AirQo Lagos] No devices found
+2026-06-25 14:28:43,165 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✗ NULL gap
+2026-06-25 14:28:43,165 [INFO] AirQo collection complete
+2026-06-25 14:28:43,165 [INFO] =======================================================
+2026-06-25 14:29:47,242 [INFO] =======================================================
+2026-06-25 14:29:47,243 [INFO] AirQo collection started
+2026-06-25 14:29:47,243 [INFO] Processing: Nairobi
+2026-06-25 14:29:47,319 [ERROR] [AirQo] Authentication failed — check your AIRQO_API_KEY in .env
+2026-06-25 14:29:47,320 [WARNING] [AirQo Nairobi] No devices found
+2026-06-25 14:29:48,254 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✗ NULL gap
+2026-06-25 14:29:48,255 [INFO] Processing: Lagos
+2026-06-25 14:29:48,322 [ERROR] [AirQo] Authentication failed — check your AIRQO_API_KEY in .env
+2026-06-25 14:29:48,323 [WARNING] [AirQo Lagos] No devices found
+2026-06-25 14:29:49,631 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✗ NULL gap
+2026-06-25 14:29:49,632 [INFO] AirQo collection complete
+2026-06-25 14:29:49,633 [INFO] =======================================================
+2026-06-25 14:39:07,839 [INFO] =======================================================
+2026-06-25 14:39:07,839 [INFO] AirQo collection started
+2026-06-25 14:39:07,839 [INFO] Processing: Nairobi
+2026-06-25 14:39:08,268 [INFO] [AirQo Nairobi] Found 30 active devices
+2026-06-25 14:39:08,330 [ERROR] [AirQo Nairobi] Measurement fetch failed: 404 Client Error: Not Found for url: https://api.airqo.net/api/v2/measurements/devices/6a05c0d0d34d3000133bc3fa/recent?token=KTDAFD271A1UBUFN
+2026-06-25 14:39:09,305 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✗ NULL gap
+2026-06-25 14:39:09,306 [INFO] Processing: Lagos
+2026-06-25 14:39:09,640 [INFO] [AirQo Lagos] Found 30 active devices
+2026-06-25 14:39:09,701 [ERROR] [AirQo Lagos] Measurement fetch failed: 404 Client Error: Not Found for url: https://api.airqo.net/api/v2/measurements/devices/6a05c0d0d34d3000133bc3fa/recent?token=KTDAFD271A1UBUFN
+2026-06-25 14:39:11,829 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✗ NULL gap
+2026-06-25 14:39:11,830 [INFO] AirQo collection complete
+2026-06-25 14:39:11,830 [INFO] =======================================================
+2026-06-25 14:47:01,844 [INFO] =======================================================
+2026-06-25 14:47:01,845 [INFO] AirQo collection started
+2026-06-25 14:47:01,845 [INFO] Processing: Nairobi
+2026-06-25 14:47:02,803 [INFO] [AirQo Nairobi] Found 30 active devices
+2026-06-25 14:47:03,403 [ERROR] [AirQo Nairobi] Measurement fetch failed: 400 Client Error: Bad Request for url: https://api.airqo.net/api/v2/devices/measurements/grids/6a05c0d0d34d3000133bc3fa/recent?token=KTDAFD271A1UBUFN
+2026-06-25 14:47:05,040 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✗ NULL gap
+2026-06-25 14:47:05,052 [INFO] Processing: Lagos
+2026-06-25 14:47:06,072 [INFO] [AirQo Lagos] Found 30 active devices
+2026-06-25 14:47:06,586 [ERROR] [AirQo Lagos] Measurement fetch failed: 400 Client Error: Bad Request for url: https://api.airqo.net/api/v2/devices/measurements/grids/6a05c0d0d34d3000133bc3fa/recent?token=KTDAFD271A1UBUFN
+2026-06-25 14:47:08,010 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✗ NULL gap
+2026-06-25 14:47:08,011 [INFO] AirQo collection complete
+2026-06-25 14:47:08,012 [INFO] =======================================================
+2026-06-25 14:52:25,144 [INFO] =======================================================
+2026-06-25 14:52:25,145 [INFO] AirQo collection started
+2026-06-25 14:52:25,145 [INFO] Processing: Nairobi
+2026-06-25 14:52:25,495 [INFO] [AirQo Nairobi] Found 30 active devices
+2026-06-25 14:52:25,560 [ERROR] [AirQo Nairobi] Measurement fetch failed: 404 Client Error: Not Found for url: https://api.airqo.net/api/v2/grids/6a05c0d0d34d3000133bc3fa/recent?token=KTDAFD271A1UBUFN
+2026-06-25 14:52:27,113 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✗ NULL gap
+2026-06-25 14:52:27,114 [INFO] Processing: Lagos
+2026-06-25 14:52:27,516 [INFO] [AirQo Lagos] Found 30 active devices
+2026-06-25 14:52:27,573 [ERROR] [AirQo Lagos] Measurement fetch failed: 404 Client Error: Not Found for url: https://api.airqo.net/api/v2/grids/6a05c0d0d34d3000133bc3fa/recent?token=KTDAFD271A1UBUFN
+2026-06-25 14:52:28,942 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✗ NULL gap
+2026-06-25 14:52:28,943 [INFO] AirQo collection complete
+2026-06-25 14:52:28,944 [INFO] =======================================================
+2026-06-25 14:56:03,376 [INFO] =======================================================
+2026-06-25 14:56:03,377 [INFO] AirQo collection started
+2026-06-25 14:56:03,377 [INFO] Processing: Nairobi
+2026-06-25 14:56:03,796 [INFO] [AirQo Nairobi] Found 30 active devices
+2026-06-25 14:56:04,271 [ERROR] [AirQo Nairobi] Measurement fetch failed: 404 Client Error: Not Found for url: https://api.airqo.net/api/v2/devices/6a05c0d0d34d3000133bc3fa/recent?token=KTDAFD271A1UBUFN
+2026-06-25 14:56:05,525 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✗ NULL gap
+2026-06-25 14:56:05,526 [INFO] Processing: Lagos
+2026-06-25 14:56:05,945 [INFO] [AirQo Lagos] Found 30 active devices
+2026-06-25 14:56:06,362 [ERROR] [AirQo Lagos] Measurement fetch failed: 404 Client Error: Not Found for url: https://api.airqo.net/api/v2/devices/6a05c0d0d34d3000133bc3fa/recent?token=KTDAFD271A1UBUFN
+2026-06-25 14:56:07,275 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✗ NULL gap
+2026-06-25 14:56:07,276 [INFO] AirQo collection complete
+2026-06-25 14:56:07,276 [INFO] =======================================================
+2026-06-25 14:57:35,748 [INFO] =======================================================
+2026-06-25 14:57:35,748 [INFO] AirQo collection started
+2026-06-25 14:57:35,749 [INFO] Processing: Nairobi
+2026-06-25 14:57:36,164 [INFO] [AirQo Nairobi] Found 30 active devices
+2026-06-25 14:57:36,769 [INFO] [AirQo Nairobi] PM2.5=None PM10=None
+2026-06-25 14:57:38,133 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✗ NULL gap
+2026-06-25 14:57:38,134 [INFO] Processing: Lagos
+2026-06-25 14:57:38,512 [INFO] [AirQo Lagos] Found 30 active devices
+2026-06-25 14:57:38,616 [INFO] [AirQo Lagos] PM2.5=None PM10=None
+2026-06-25 14:57:39,524 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✗ NULL gap
+2026-06-25 14:57:39,524 [INFO] AirQo collection complete
+2026-06-25 14:57:39,525 [INFO] =======================================================
+2026-06-25 18:20:54,708 [INFO] =======================================================
+2026-06-25 18:20:54,709 [INFO] AirQo collection started
+2026-06-25 18:20:54,709 [INFO] Processing: Nairobi
+2026-06-25 18:20:55,091 [INFO] [AirQo Nairobi] Found 30 total devices
+2026-06-25 18:20:55,091 [INFO] [AirQo Nairobi] 24 devices are online and fresh
+2026-06-25 18:20:55,731 [INFO] [AirQo Nairobi] Device 6a05c0980c37890013723f61 → PM2.5=22.8  PM10=25.5
+2026-06-25 18:20:57,223 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✓ real data
+2026-06-25 18:20:57,224 [INFO] Processing: Lagos
+2026-06-25 18:20:57,646 [INFO] [AirQo Lagos] Found 30 total devices
+2026-06-25 18:20:57,646 [INFO] [AirQo Lagos] 24 devices are online and fresh
+2026-06-25 18:20:57,731 [INFO] [AirQo Lagos] Device 6a05c0980c37890013723f61 → PM2.5=22.8  PM10=25.5
+2026-06-25 18:20:58,867 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✓ real data
+2026-06-25 18:20:58,868 [INFO] AirQo collection complete
+2026-06-25 18:20:58,869 [INFO] =======================================================
+2026-06-25 18:28:12,977 [INFO] =======================================================
+2026-06-25 18:28:12,977 [INFO] AirQo collection started
+2026-06-25 18:28:12,977 [INFO] Processing: Nairobi
+2026-06-25 18:28:13,377 [INFO] [AirQo Nairobi] Found 30 total devices from API
+2026-06-25 18:28:13,378 [WARNING] [AirQo Nairobi] No fresh devices in country=KE — 24 fresh device(s) found but all in other countries. Skipping.
+2026-06-25 18:28:13,379 [INFO] [AirQo Nairobi] 0 fresh device(s) in KE
+2026-06-25 18:28:13,379 [WARNING] [AirQo Nairobi] No usable devices found
+2026-06-25 18:28:13,380 [INFO] [AirQo Nairobi] Falling back to city-level measurements
+2026-06-25 18:28:13,492 [ERROR] [AirQo Nairobi] City-level fetch failed: 400 Client Error: Bad Request for url: https://api.airqo.net/api/v2/devices/measurements?city=Nairobi&token=KTDAFD271A1UBUFN
+2026-06-25 18:28:14,498 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✗ NULL gap
+2026-06-25 18:28:14,499 [INFO] Processing: Lagos
+2026-06-25 18:28:14,912 [INFO] [AirQo Lagos] Found 30 total devices from API
+2026-06-25 18:28:14,912 [WARNING] [AirQo Lagos] No fresh devices in country=NG — 24 fresh device(s) found but all in other countries. Skipping.
+2026-06-25 18:28:14,913 [INFO] [AirQo Lagos] 0 fresh device(s) in NG
+2026-06-25 18:28:14,913 [WARNING] [AirQo Lagos] No usable devices found
+2026-06-25 18:28:14,914 [INFO] [AirQo Lagos] Falling back to city-level measurements
+2026-06-25 18:28:14,993 [ERROR] [AirQo Lagos] City-level fetch failed: 400 Client Error: Bad Request for url: https://api.airqo.net/api/v2/devices/measurements?city=Lagos&token=KTDAFD271A1UBUFN
+2026-06-25 18:28:16,542 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✗ NULL gap
+2026-06-25 18:28:16,543 [INFO] AirQo collection complete
+2026-06-25 18:28:16,543 [INFO] =======================================================
+2026-06-25 18:30:13,905 [INFO] =======================================================
+2026-06-25 18:30:13,905 [INFO] AirQo collection started
+2026-06-25 18:30:13,905 [INFO] Processing: Nairobi
+2026-06-25 18:30:28,969 [ERROR] [AirQo Nairobi] Request failed: HTTPSConnectionPool(host='api.airqo.net', port=443): Read timed out. (read timeout=15)
+2026-06-25 18:30:28,970 [INFO] [AirQo Nairobi] Falling back to city-level measurements
+2026-06-25 18:30:29,074 [ERROR] [AirQo Nairobi] City-level fetch failed: 400 Client Error: Bad Request for url: https://api.airqo.net/api/v2/devices/measurements?network=airqo&token=KTDAFD271A1UBUFN
+2026-06-25 18:30:30,387 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✗ NULL gap
+2026-06-25 18:30:30,388 [INFO] Processing: Lagos
+2026-06-25 18:30:45,451 [ERROR] [AirQo Lagos] Request failed: HTTPSConnectionPool(host='api.airqo.net', port=443): Read timed out. (read timeout=15)
+2026-06-25 18:30:45,451 [INFO] [AirQo Lagos] Falling back to city-level measurements
+2026-06-25 18:30:45,550 [ERROR] [AirQo Lagos] City-level fetch failed: 400 Client Error: Bad Request for url: https://api.airqo.net/api/v2/devices/measurements?network=airqo&token=KTDAFD271A1UBUFN
+2026-06-25 18:30:46,950 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✗ NULL gap
+2026-06-25 18:30:46,950 [INFO] AirQo collection complete
+2026-06-25 18:30:46,950 [INFO] =======================================================
+2026-06-25 18:42:10,735 [INFO] =======================================================
+2026-06-25 18:42:10,735 [INFO] AirQo collection started
+2026-06-25 18:42:10,735 [INFO] Processing: Nairobi
+2026-06-25 18:42:10,735 [INFO] [AirQo Nairobi] No grid_id cached — discovering via metadata...
+2026-06-25 18:42:10,919 [INFO] [AirQo] Grid summary returned 30 grids
+2026-06-25 18:42:10,920 [WARNING] [AirQo] No grid matched 'nairobi'. Available grids (first 20): ['malindi_municipality', 'gauteng', 'zambia', 'yaounde_city', 'banjul', 'mbarara_city', 'kampala_city', 'greater_kampala', 'gambia', 'rubaga', 'kampala_central', 'nakawa', 'fort_portal', 'ethiopia', 'gulu_city', 'bujumbura', 'madagascar', 'maroansetra', 'wouri', 'burundi']
+2026-06-25 18:42:10,921 [WARNING] [AirQo Nairobi] Could not find grid. Inserting NULL gap.
+2026-06-25 18:42:12,150 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✗ NULL gap
+2026-06-25 18:42:12,151 [INFO] Processing: Lagos
+2026-06-25 18:42:12,151 [INFO] [AirQo Lagos] No grid_id cached — discovering via metadata...
+2026-06-25 18:42:12,300 [INFO] [AirQo] Grid summary returned 30 grids
+2026-06-25 18:42:12,300 [INFO] [AirQo] Matched grid 'lagos' → id=64d635f18f492b0013406c46
+2026-06-25 18:42:12,409 [INFO] [AirQo Lagos] Grid avg over 30 sensor(s): PM2.5=23.81  PM10=31.31
+2026-06-25 18:42:14,077 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✓ real data
+2026-06-25 18:42:14,079 [INFO] AirQo collection complete
+2026-06-25 18:42:14,079 [INFO] =======================================================
+2026-06-25 18:53:07,940 [INFO] =======================================================
+2026-06-25 18:53:07,950 [INFO] AirQo collection started
+2026-06-25 18:53:07,951 [INFO] Processing: Nairobi
+2026-06-25 18:53:07,951 [INFO] [AirQo Nairobi] No grid_id cached — discovering via metadata...
+2026-06-25 18:53:08,138 [INFO] [AirQo] Grid summary returned 30 grids
+2026-06-25 18:53:08,138 [WARNING] [AirQo] No grid matched 'nairobi'. Available grids (first 20): ['malindi_municipality', 'gauteng', 'zambia', 'yaounde_city', 'banjul', 'mbarara_city', 'kampala_city', 'greater_kampala', 'gambia', 'rubaga', 'kampala_central', 'nakawa', 'fort_portal', 'ethiopia', 'gulu_city', 'bujumbura', 'madagascar', 'maroansetra', 'wouri', 'burundi']
+2026-06-25 18:53:08,139 [WARNING] [AirQo Nairobi] Could not find grid. Inserting NULL gap.
+2026-06-25 18:53:09,726 [INFO] [DB] AirQo inserted airqo-nairobi-ke: ✗ NULL gap
+2026-06-25 18:53:09,727 [INFO] Processing: Lagos
+2026-06-25 18:53:09,727 [INFO] [AirQo Lagos] No grid_id cached — discovering via metadata...
+2026-06-25 18:53:09,873 [INFO] [AirQo] Grid summary returned 30 grids
+2026-06-25 18:53:09,873 [INFO] [AirQo] Matched grid 'lagos' → id=64d635f18f492b0013406c46
+2026-06-25 18:53:09,983 [INFO] [AirQo Lagos] Grid avg over 30 sensor(s): PM2.5=23.81  PM10=31.31
+2026-06-25 18:53:11,472 [INFO] [DB] AirQo inserted airqo-lagos-ng: ✓ real data
+2026-06-25 18:53:11,472 [INFO] AirQo collection complete
+2026-06-25 18:53:11,472 [INFO] =======================================================
+2026-06-26 11:47:58,271 [INFO] =======================================================
+2026-06-26 11:47:58,271 [INFO] AirQo collection started
+2026-06-26 11:47:58,565 [INFO] [AirQo] Found 30 public grids
+2026-06-26 11:47:58,566 [INFO] Processing: Nairobi
+2026-06-26 11:47:58,567 [WARNING] [AirQo] No grid matched 'nairobi'.
+Available grids: ['malindi_municipality', 'gauteng', 'zambia', 'yaounde_city', 'banjul', 'mbarara_city', 'kampala_city', 'greater_kampala', 'gambia', 'rubaga', 'kampala_central', 'nakawa', 'fort_portal', 'ethiopia', 'gulu_city', 'bujumbura', 'madagascar', 'maroansetra', 'wouri', 'burundi', 'accra', 'abuja', 'mozambique', 'kigali', 'rwanda', 'city_of_tshwane', 'south_africa', 'lagos', 'nigeria', 'democratic_republic_of_the_congo']
+2026-06-26 11:47:58,567 [WARNING] [AirQo Nairobi] Grid not found — inserting NULL
+2026-06-26 11:47:59,568 [INFO] [DB] airqo-nairobi-ke: ✗ NULL gap
+2026-06-26 11:47:59,569 [INFO] Processing: Lagos
+2026-06-26 11:47:59,569 [INFO] [AirQo] 'lagos' → grid 'lagos' id=64d635f18f492b0013406c46
+2026-06-26 11:47:59,680 [INFO] [AirQo Lagos] 30 sensors → PM2.5=44.83  PM10=55.52
+2026-06-26 11:48:00,776 [INFO] [DB] airqo-lagos-ng: ✓ real data
+2026-06-26 11:48:00,777 [INFO] AirQo collection complete
+2026-06-26 11:48:00,777 [INFO] =======================================================
+2026-06-26 12:26:55,419 [INFO] =======================================================
+2026-06-26 12:26:55,419 [INFO] AirQo collection started
+2026-06-26 12:26:55,590 [INFO] [AirQo] Found 30 public grids
+2026-06-26 12:26:55,590 [INFO] Processing: Kenya-Malindi
+2026-06-26 12:26:55,590 [INFO] [AirQo] 'malindi_municipality' → grid 'malindi_municipality' id=6943b73309357b00130b6711
+2026-06-26 12:26:55,675 [INFO] [AirQo Kenya-Malindi] 2 sensors → PM2.5=20.62  PM10=26.42
+2026-06-26 12:26:57,361 [INFO] [DB] airqo-nairobi-ke: ✓ real data
+2026-06-26 12:26:57,362 [INFO] Processing: Lagos
+2026-06-26 12:26:57,480 [INFO] [AirQo Lagos] 30 sensors → PM2.5=37.2  PM10=47.38
+2026-06-26 12:26:58,405 [INFO] [DB] airqo-lagos-ng: ✓ real data
+2026-06-26 12:26:58,406 [INFO] Processing: Uganda-Kampala-Central
+2026-06-26 12:27:00,335 [ERROR] [AirQo Uganda-Kampala-Central] Measurements failed: 400 Client Error: Bad Request for url: https://api.airqo.net/api/v2/devices/measurements/grids/None/recent?token=KTDAFD271A1UBUFN
+2026-06-26 12:27:01,256 [INFO] [DB] airqo-uganda-ug: ✗ NULL gap
+2026-06-26 12:27:01,257 [INFO] Processing: Accra
+2026-06-26 12:27:01,348 [ERROR] [AirQo Accra] Measurements failed: 400 Client Error: Bad Request for url: https://api.airqo.net/api/v2/devices/measurements/grids/None/recent?token=KTDAFD271A1UBUFN
+2026-06-26 12:27:02,283 [INFO] [DB] airqo-accra-gh: ✗ NULL gap
+2026-06-26 12:27:02,284 [INFO] AirQo collection complete
+2026-06-26 12:27:02,284 [INFO] =======================================================
+2026-06-26 12:30:21,583 [INFO] =======================================================
+2026-06-26 12:30:21,583 [INFO] AirQo collection started
+2026-06-26 12:30:24,184 [INFO] [AirQo] Found 30 public grids
+2026-06-26 12:30:24,185 [INFO] Processing: Kenya-Malindi
+2026-06-26 12:30:24,831 [INFO] [AirQo Kenya-Malindi] 2 sensors → PM2.5=20.62  PM10=26.42
+2026-06-26 12:30:26,012 [INFO] [DB] airqo-nairobi-ke: ✓ real data
+2026-06-26 12:30:26,013 [INFO] Processing: Lagos
+2026-06-26 12:30:27,187 [INFO] [AirQo Lagos] 30 sensors → PM2.5=37.2  PM10=47.38
+2026-06-26 12:30:28,432 [INFO] [DB] airqo-lagos-ng: ✓ real data
+2026-06-26 12:30:28,433 [INFO] Processing: Uganda-Kampala-Central
+2026-06-26 12:30:28,433 [INFO] [AirQo] 'kampala_central' → grid 'kampala_central' id=66e4bc6598c2a9001332991d
+2026-06-26 12:30:28,562 [INFO] [AirQo Uganda-Kampala-Central] 18 sensors → PM2.5=38.32  PM10=45.02
+2026-06-26 12:30:29,473 [INFO] [DB] airqo-uganda-ug: ✓ real data
+2026-06-26 12:30:29,474 [INFO] Processing: Accra
+2026-06-26 12:30:29,474 [INFO] [AirQo] 'accra' → grid 'accra' id=654229088f9ef500139a24d8
+2026-06-26 12:30:41,526 [INFO] [AirQo Accra] 12 sensors → PM2.5=23.48  PM10=31.14
+2026-06-26 12:30:42,958 [INFO] [DB] airqo-accra-gh: ✓ real data
+2026-06-26 12:30:42,958 [INFO] AirQo collection complete
+2026-06-26 12:30:42,958 [INFO] =======================================================
+2026-06-26 12:35:16,442 [INFO] =======================================================
+2026-06-26 12:35:16,443 [INFO] AirQo collection started
+2026-06-26 12:35:16,664 [INFO] [AirQo] Found 30 public grids
+2026-06-26 12:35:16,665 [INFO] Processing: Kenya-Malindi
+2026-06-26 12:35:16,772 [INFO] [AirQo Kenya-Malindi] 2 sensors → PM2.5=20.62  PM10=26.42
+2026-06-26 12:35:18,193 [INFO] [DB] airqo-nairobi-ke: ✓ real data
+2026-06-26 12:35:18,194 [INFO] Processing: Lagos
+2026-06-26 12:35:18,301 [INFO] [AirQo Lagos] 30 sensors → PM2.5=37.2  PM10=47.38
+2026-06-26 12:35:19,233 [INFO] [DB] airqo-lagos-ng: ✓ real data
+2026-06-26 12:35:19,234 [INFO] Processing: Uganda-Kampala-Central
+2026-06-26 12:35:19,337 [INFO] [AirQo Uganda-Kampala-Central] 18 sensors → PM2.5=38.32  PM10=45.02
+2026-06-26 12:35:20,559 [INFO] [DB] airqo-uganda-ug: ✓ real data
+2026-06-26 12:35:20,560 [INFO] Processing: Accra
+2026-06-26 12:35:20,652 [INFO] [AirQo Accra] 12 sensors → PM2.5=23.48  PM10=31.14
+2026-06-26 12:35:21,580 [INFO] [DB] airqo-accra-gh: ✓ real data
+2026-06-26 12:35:21,581 [INFO] AirQo collection complete
+2026-06-26 12:35:21,582 [INFO] =======================================================

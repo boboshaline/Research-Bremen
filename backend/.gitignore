@@ -1,9 +1,36 @@
-node_modules
-# Keep environment variables out of version control
+# ── Node ──────────────────────────────────────────────────────
+node_modules/
+dist/
+build/
+
+# ── Environment variables — NEVER commit these ────────────────
 .env
+.env.local
+.env.production
 
+# ── Prisma generated files ────────────────────────────────────
 /generated/prisma
 
-/generated/prisma
-app/ml/models/
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+
+# ── Trained GP model files — too large for git ────────────────
 *.pkl
+*.joblib
+
+# ── Logs — generated at runtime, not source code ──────────────
+logs/
+*.log
+
+# ── OS files ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Database compiled files ───────────────────────────────────
+*.pyc
+db_connection.pyc
