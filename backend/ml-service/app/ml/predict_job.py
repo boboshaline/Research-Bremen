@@ -1,5 +1,6 @@
 # ml/predict_job.py
 import datetime
+import math
 from app.ml.model_manager import ModelManager
 from db import get_connection, get_latest_device_timestamp
 
@@ -46,6 +47,12 @@ def predict_all():
                 pm10_pred = None
 
             # 5. Connect and commit the combined values back to your tracking table schema
+            if pm25_pred is not None and math.isnan(pm25_pred):
+                pm25_pred, pm25_lower, pm25_upper = None, None, None
+            if pm10_pred is not None and math.isnan(pm10_pred):
+                pm10_pred = None
+
+
             if pm25_pred is not None or pm10_pred is not None:
                 model_used_label = f"GP_Local_{device}"
                 

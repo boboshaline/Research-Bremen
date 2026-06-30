@@ -25,7 +25,7 @@ def train_all_local_models():
         print(f"[TRAIN] Fetching timeline series records for {device}...")
         data = fetch_sensor_data(device_id=device)
         
-        if len(data) < 5:
+        if len(data) < 3:
             print(f"[TRAIN] Skipping {device}: Insufficient metrics for spatial/temporal fitting.")
             continue
             
@@ -33,8 +33,10 @@ def train_all_local_models():
         X = np.array([row['timestamp_epoch'] for row in data]).reshape(-1, 1)
         
         # 1. Process PM2.5 Targets
-        y_pm25 = np.array([row['pm25'] for row in data])
-        valid_pm25_idx = ~np.isnan(y_pm25) & (y_pm25 != None)
+        # y_pm25 = np.array([row['pm25'] for row in data])
+        y_pm25 = np.array([row['pm25'] if row['pm25'] is not None else np.nan for row in data], dtype=float)
+        # valid_pm25_idx = ~np.isnan(y_pm25) & (y_pm25 != None)
+        valid_pm25_idx = ~np.isnan(y_pm25)
         
         if np.sum(valid_pm25_idx) >= 5:
             X_pm25 = X[valid_pm25_idx]
@@ -55,8 +57,11 @@ def train_all_local_models():
             print(f"[TRAIN] Skipping PM2.5 for {device}: Insufficient valid target values.")
 
         # 2. Process PM10 Targets
-        y_pm10 = np.array([row['pm10'] for row in data])
-        valid_pm10_idx = ~np.isnan(y_pm10) & (y_pm10 != None)
+        # y_pm10 = np.array([row['pm10'] for row in data])
+        # valid_pm10_idx = ~np.isnan(y_pm10) & (y_pm10 != None)
+        y_pm10 = np.array([row['pm10'] if row['pm10'] is not None else np.nan for row in data], dtype=float)
+        valid_pm10_idx = ~np.isnan(y_pm10)
+        
         
         if np.sum(valid_pm10_idx) >= 5:
             X_pm10 = X[valid_pm10_idx]
